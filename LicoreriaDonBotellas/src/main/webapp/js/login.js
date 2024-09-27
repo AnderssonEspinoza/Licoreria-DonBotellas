@@ -1,5 +1,8 @@
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Evita que el formulario se envíe de la manera tradicional
+    
+
+
 
     const username = document.getElementById('NombreUsario').value;
     const password = document.getElementById('Contrasena').value;
