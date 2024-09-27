@@ -4,17 +4,23 @@
  */
 package controlador;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
-import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import modelo.dao.UsuariosDAO;
 import modelo.dto.Usuarios;
-import org.slf4j.LoggerFactory;
+
+
+
+
+
+
 
 /**
  *
@@ -22,7 +28,7 @@ import org.slf4j.LoggerFactory;
  */
 public class LoginController extends HttpServlet {
 
-    private static final Logger logger = (Logger) LoggerFactory.getLogger(LoginController.class);
+    private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
     private UsuariosDAO usuariosDAO;
     
     @Override
@@ -34,7 +40,7 @@ public class LoginController extends HttpServlet {
         }
     }
 
-    
+   
    
    
 
@@ -46,9 +52,9 @@ public class LoginController extends HttpServlet {
         String username = request.getParameter("NombreUsuario");
         String password = request.getParameter("Contrasena");
 
-        Usuarios usuario = usuariosDAO.getUsuarioByUsername(NombreUsuario);
+        Usuarios usuario = usuariosDAO.getUsuarioByUsername(username);
 
-        if (usuario != null && usuario.getPassword().equals(password) && "administrador".equals(usuario.getRol())) {
+        if (usuario != null && usuario.getPassword().equals(password) && "Administrador".equals(usuario.getRol())) {
             response.getWriter().write("{\"success\": true}");
         } else {
             response.getWriter().write("{\"success\": false}");
