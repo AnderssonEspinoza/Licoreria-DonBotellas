@@ -10,28 +10,27 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import modelo.dto.Productos;
+import modelo.dto.Promociones;
 import servicios.ConectorDB;
 
 /**
  *
  * @author Zephyr
  */
-
-public class ProductosDAO {
+public class PromocionesDAO {
     private final  Connection cnx;
     
-    public ProductosDAO() throws SQLException{
+    public PromocionesDAO() throws SQLException{
         cnx = new ConectorDB().getConexion();
     }
     
     
-    // Metodo para capturar los datos de los productos en una lista
-    public List<Productos> getList(){
-        List<Productos> lista = new ArrayList<>();
+    // Metodo para capturar los datos de las promociones en una lista
+    public List<Promociones> getList(){
+        List<Promociones> lista = new ArrayList<>();
         PreparedStatement ps;
         ResultSet rs;
-        String cadSQL = "select producto_id, nombre, descripcion, precio, stock, categoria_id, fecha_caducidad from productos";
+        String cadSQL = "select promocion_id, nombre, descripcion, descuento, fecha_inicio, fecha_fin from promociones";
         
         
         try{
@@ -40,16 +39,15 @@ public class ProductosDAO {
             lista = new ArrayList<>();
             
             while (rs.next()){
-                Productos p = new Productos(
-                        rs.getInt("producto_id"),                       
+                Promociones pro = new Promociones(
+                        rs.getInt("promocion_id"),                       
                         rs.getString("nombre"),
                         rs.getString("descripcion"),
-                        rs.getDouble("precio"),
-                        rs.getInt("stock"),
-                        rs.getInt("categoria_id"),
-                        rs.getString("fecha_caducidad")
+                        rs.getDouble("descuento"),
+                        rs.getString("fecha_inicio"),
+                        rs.getString("fecha_fin")
                 );
-                lista.add(p);                
+                lista.add(pro);                
             }
             rs.close();
         }catch(SQLException ex){
@@ -61,30 +59,30 @@ public class ProductosDAO {
     
     
     
-    // MÃ©todo para capturar un producto usando como argumento su nombre
-    public Productos getProductoByUsername(String username) {
-        Productos producto = null;
-        String consulSql = "SELECT * FROM productos WHERE nombre = ?";
+    // MÃ©todo para capturar una promocion usando como argumento su nombre
+    public Promociones getPromocionByUsername(String username) {
+        Promociones promocion = null;
+        String consulSql = "SELECT * FROM promociones WHERE nombre = ?";
 
         try (PreparedStatement ps = cnx.prepareStatement(consulSql)) {
             ps.setString(1, username);
             try (ResultSet rs = ps.executeQuery()) {
                 if (rs.next()) {
-                    producto = new Productos(
-                            rs.getInt("producto_id"),                       
+                    promocion = new Promociones(
+                            rs.getInt("promocion_id"),                       
                             rs.getString("nombre"),
                             rs.getString("descripcion"),
-                            rs.getDouble("precio"),
-                            rs.getInt("stock"),
-                            rs.getInt("categoria_id"),
-                            rs.getString("fecha_caducidad")
+                            rs.getDouble("descuento"),
+                            rs.getString("fecha_inicio"),
+                            rs.getString("fecha_fin")
                     );
                 }
             }
         } catch (SQLException ex) {
         }
 
-        return producto;
+        return promocion;
     }
 
 }
+
