@@ -61,7 +61,7 @@ public class ProductosDAO {
     
     
     
-    // MÃ©todo para capturar un producto usando como argumento su nombre
+    // Metodo para capturar un producto usando como argumento su nombre
     public Productos getProductoByUsername(String username) {
         Productos producto = null;
         String consulSql = "SELECT * FROM productos WHERE nombre = ?";
@@ -88,3 +88,6 @@ public class ProductosDAO {
     }
 
 }
+
+
+// Si se llega a observar algun error por favor avisar o corregir si pueden

@@ -57,7 +57,7 @@ public class CategoriasDAO {
     
     
     
-    // MÃ©todo para capturar una categoria usando como argumento su nombre
+    // Metodo para capturar una categoria usando como argumento su nombre
     public Categorias getCategoriaByUsername(String username) {
         Categorias categoria = null;
         String consulSql = "SELECT * FROM categorias WHERE nombre = ?";
@@ -80,3 +80,5 @@ public class CategoriasDAO {
     }
 
 }
+
+// Si se llega a observar algun error por favor avisar o corregir si pueden

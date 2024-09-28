@@ -57,7 +57,7 @@ public class CarritoDAO {
     
     
     
-    // MÃ©todo para capturar un carrito usando como argumento su id del carrito
+    // Metodo para capturar un carrito usando como argumento su id del carrito
     public Carrito getCarritoByUsername(String username) {
         Carrito carrit = null;
         String consulSql = "SELECT * FROM carrito WHERE cart_id = ?";
@@ -81,3 +81,4 @@ public class CarritoDAO {
 
 }
 
+// Si se llega a observar algun error por favor avisar o corregir si pueden

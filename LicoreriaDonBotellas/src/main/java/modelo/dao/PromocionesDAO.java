@@ -59,7 +59,7 @@ public class PromocionesDAO {
     
     
     
-    // MÃ©todo para capturar una promocion usando como argumento su nombre
+    // Metodo para capturar una promocion usando como argumento su nombre
     public Promociones getPromocionByUsername(String username) {
         Promociones promocion = null;
         String consulSql = "SELECT * FROM promociones WHERE nombre = ?";
@@ -86,3 +86,4 @@ public class PromocionesDAO {
 
 }
 
+// Si se llega a observar algun error por favor avisar o corregir si pueden

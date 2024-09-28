@@ -59,7 +59,7 @@ public class PedidosDAO {
     
     
     
-    // MÃ©todo para capturar un pedido usando como argumento el id de un usuario
+    // Metodo para capturar un pedido usando como argumento el id de un usuario
     public Pedidos getProductoByUsername(String userid) {
         Pedidos pedido = null;
         String consulSql = "SELECT * FROM pedidos WHERE user_id = ?";
@@ -84,3 +84,5 @@ public class PedidosDAO {
     }
 
 }
+
+// Si se llega a observar algun error por favor avisar o corregir si pueden
