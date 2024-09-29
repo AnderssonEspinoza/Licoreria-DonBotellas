@@ -16,16 +16,6 @@ import javax.servlet.http.HttpServletResponse;
 import modelo.dao.UsuariosDAO;
 import modelo.dto.Usuarios;
 
-
-
-
-
-
-
-/**
- *
- * @author esola
- */
 public class LoginController extends HttpServlet {
 
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
@@ -40,8 +30,6 @@ public class LoginController extends HttpServlet {
         }
     }
 
-   
-   
    
 
     
