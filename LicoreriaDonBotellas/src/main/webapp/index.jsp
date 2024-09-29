@@ -94,7 +94,6 @@
     </svg>  
 
     
-    
     <header id="header" class="site-header header-scrolled position-fixed text-black bg-black">
       <nav id="header-nav" class="navbar navbar-expand-lg px-3 mb-3">
 
