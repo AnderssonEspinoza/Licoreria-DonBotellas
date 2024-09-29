@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     // ACTUALIZAR PRECIO MÁXIMO
     $('#filtro-precio').on('input', function () {
         $('#precio-actual').text($(this).val()); // Actualizar el valor del precio máximo visualmente
@@ -15,5 +14,10 @@ $(document).ready(function () {
             }
         });
     });
-
+});
+document.addEventListener('DOMContentLoaded', function () {
+    var offcanvasElementList = [].slice.call(document.querySelectorAll('.offcanvas'));
+    var offcanvasList = offcanvasElementList.map(function (offcanvasEl) {
+        return new bootstrap.Offcanvas(offcanvasEl);
+    });
 });

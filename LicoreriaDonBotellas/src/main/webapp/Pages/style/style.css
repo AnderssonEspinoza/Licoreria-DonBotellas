@@ -1,0 +1,220 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Nunito';
+}
+
+/* Cuerpo */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+.offcanvas-body .nav-item {
+    margin-bottom: 1rem;
+}
+.navbar-nav .nav-link {
+    color: white;
+    padding: 10px 15px;
+}
+
+.main-header {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    z-index: 100;
+}
+.main-header .container-fluid{
+    background-color: black;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.main-header.nav-item a {
+    color: white;
+}
+.nav-item .nav-link {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    transition: color 0.3s ease;
+	color: white;
+}
+.nav-item .nav-link:hover {
+    color:gold;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu ul a{
+    border: none;
+    color:white;
+}
+.text-bg-dark{
+	background-color: black;
+}
+/* Main layout */
+/*GIF de filtro*/
+.gif{
+	width: 80%;
+}
+
+/* Filtro por precio */
+.category_list {
+	word-wrap: break-word;
+    border: 1px solid #ddd; /* Color del borde y grosor */
+    padding: 15px; /* Espaciado interno para que no esté muy pegado al borde */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo para hacer que se vea bien */
+}
+/* Ajuste en el filtro */
+
+.productos .offcanvas .category_list .gif {
+    width: 50%;
+}
+.category_list .price-filter {
+    padding: 1px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.category_list input[type="range"] {
+	width: 100%;
+}
+.category_list p {
+	font-size: 14px;
+	margin-top: 15px;
+	color: #666;
+	margin-bottom: 15px;
+}
+.category_list h5 {
+    font-size: 18px;
+    font-weight: bold;
+	margin-bottom: 10px;
+    text-transform: uppercase
+}
+.category_list .price-filter, .category_list .list-group {
+    margin-bottom: 20px; /* Espacio para separar las secciones */
+}
+
+/* Productos */
+.productos {
+    display: flex;
+    flex-wrap: nowrap; /* No permite que se apilen verticalmente */
+    justify-content: flex-start; /* Mantiene el filtro a la izquierda */
+	margin-top: 150px;
+}
+.products-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.list-group a{
+	text-decoration: none;
+	color: black;
+}
+.offcanvas .list-group a:hover {
+    color:gold;
+}
+.products-list .product-item { 
+	align-items: center;
+	margin-left: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+.products-list .product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+.products-list .product-item img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	width: 100px;
+	padding: 0;
+}
+.products-list .product-item p {
+    margin:0;
+    text-align: center;
+    text-decoration: none;
+	font-size: 15px;
+}
+.products-list .product-item .card-body a {
+    padding: 5px 10px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+	font-size: 15px;
+}
+.products-list .product-item a:hover {
+    background: #1c2938;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+footer .widget-title {
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: gold;
+}
+.footer-top-area .footer-menu p, 
+.footer-top-area .footer-menu ul li a {
+    color: white;
+}
+.footer-menu .social-links a {
+    color: white;
+}
+
+.carrito{
+    padding-top: 120px;
+}
+/* Responsividad */
+@media (max-width: 993px) {
+	.productos {
+		flex-wrap: wrap; /* Permite que el filtro y productos se apilen en pantallas pequeñas */
+	}
+}
+@media (max-width: 768px) {
+	.navbar-toggler {
+        display: block; /* Asegura que el botón sea visible */
+    }
+	.productos {
+        display: flex;
+        flex-direction: column; /* Permite que el filtro se apile encima de los productos */
+        align-items: flex-start;
+    }
+    .category_list {
+        width: 100%; /* Hacer que el filtro ocupe todo el ancho de la pantalla */
+    }
+
+    /* Ajuste del rango y la disposición del filtro */
+    .category_list .price-filter, .category_list .list-group {
+        margin-bottom: 20px;
+        width: 100%; /* Asegura que los filtros ocupen todo el ancho disponible */
+    }
+}
+@media (max-width: 576px) {
+	.products-list {
+	  flex-direction: column;
+	  align-items: center;
+	}
+	.product-item {
+	  width: 90%; /* Take up more width on smaller screens */
+	}
+  }
