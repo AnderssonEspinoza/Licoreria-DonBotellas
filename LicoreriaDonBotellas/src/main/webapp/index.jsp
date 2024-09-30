@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
   <head>
-    <title>Ministore</title>
+    <title>Don Botellas</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -121,7 +122,7 @@
             <div class="offcanvas-body">
               <ul id="navbar" class="navbar-nav text-uppercase justify-content-end align-items-center flex-grow-1 pe-3 ">
                 <li class="nav-item" >
-                  <a class="nav-link me-4 active" href="index.html">Inicio</a>
+                  <a class="nav-link me-4 active" href="index.jsp">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link me-4" href="#company-services">Vinos</a>
