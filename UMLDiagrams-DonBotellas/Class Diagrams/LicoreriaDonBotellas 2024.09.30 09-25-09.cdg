@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="LicoreriaDonBotellas">
+  <ClassDiagramComponents>
+    <Class name="Carrito" package="modelo.dto" visibility="public" xPosition="460.0" yPosition="32.0">
+      <Fields>
+        <Field name="cart_id" type="int" visibility="private"/>
+        <Field name="user_id" type="int" visibility="private"/>
+        <Field name="fecha_creacion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="cart_id"/>
+          <Argument type="int" name="user_id"/>
+          <Argument type="String" name="fecha_creacion"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCart_id" returnType="int" visibility="public"/>
+        <Method name="setCart_id" returnType="void" visibility="public">
+          <Argument type="int" name="cart_id"/>
+        </Method>
+        <Method name="getUser_id" returnType="int" visibility="public"/>
+        <Method name="setUser_id" returnType="void" visibility="public">
+          <Argument type="int" name="user_id"/>
+        </Method>
+        <Method name="getFecha_creacion" returnType="String" visibility="public"/>
+        <Method name="setFecha_creacion" returnType="void" visibility="public">
+          <Argument type="String" name="fecha_creacion"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Categorias" package="modelo.dto" visibility="public" xPosition="1084.0" yPosition="59.0">
+      <Fields>
+        <Field name="categoria_id" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="descripcion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="categoria_id"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="descripcion"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCategoria_id" returnType="int" visibility="public"/>
+        <Method name="setCategoria_id" returnType="void" visibility="public">
+          <Argument type="int" name="categoria_id"/>
+        </Method>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getDescripcion" returnType="String" visibility="public"/>
+        <Method name="setDescripcion" returnType="void" visibility="public">
+          <Argument type="String" name="descripcion"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="DetalleCarrito" package="modelo.dto" visibility="public" xPosition="830.0" yPosition="143.0">
+      <Fields>
+        <Field name="detalle_id" type="int" visibility="private"/>
+        <Field name="cart_id" type="int" visibility="private"/>
+        <Field name="producto_id" type="int" visibility="private"/>
+        <Field name="cantidad" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="DetallePedido" package="modelo.dto" visibility="public" xPosition="791.0" yPosition="436.0">
+      <Fields>
+        <Field name="detalle_id" type="int" visibility="private"/>
+        <Field name="pedido_id" type="int" visibility="private"/>
+        <Field name="producto_id" type="int" visibility="private"/>
+        <Field name="cantidad" type="int" visibility="private"/>
+        <Field name="precio_unitario" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="detalle_id"/>
+          <Argument type="int" name="pedido_id"/>
+          <Argument type="int" name="producto_id"/>
+          <Argument type="int" name="cantidad"/>
+          <Argument type="double" name="precio_unitario"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getDetalle_id" returnType="int" visibility="public"/>
+        <Method name="setDetalle_id" returnType="void" visibility="public">
+          <Argument type="int" name="detalle_id"/>
+        </Method>
+        <Method name="getPedido_id" returnType="int" visibility="public"/>
+        <Method name="setPedido_id" returnType="void" visibility="public">
+          <Argument type="int" name="pedido_id"/>
+        </Method>
+        <Method name="getProducto_id" returnType="int" visibility="public"/>
+        <Method name="setProducto_id" returnType="void" visibility="public">
+          <Argument type="int" name="producto_id"/>
+        </Method>
+        <Method name="getCantidad" returnType="int" visibility="public"/>
+        <Method name="setCantidad" returnType="void" visibility="public">
+          <Argument type="int" name="cantidad"/>
+        </Method>
+        <Method name="getPrecio_unitario" returnType="double" visibility="public"/>
+        <Method name="setPrecio_unitario" returnType="void" visibility="public">
+          <Argument type="double" name="precio_unitario"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MetodoPago" package="modelo.dto" visibility="public" xPosition="1637.0" yPosition="78.0">
+      <Fields>
+        <Field name="metodo_id" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="detalles" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="metodo_id"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="detalles"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getMetodo_id" returnType="int" visibility="public"/>
+        <Method name="setMetodo_id" returnType="void" visibility="public">
+          <Argument type="int" name="metodo_id"/>
+        </Method>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getDetalles" returnType="String" visibility="public"/>
+        <Method name="setDetalles" returnType="void" visibility="public">
+          <Argument type="String" name="detalles"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Pagos" package="modelo.dto" visibility="public" xPosition="1824.0" yPosition="436.0">
+      <Fields>
+        <Field name="pago_id" type="int" visibility="private"/>
+        <Field name="pedido_id" type="int" visibility="private"/>
+        <Field name="metodo_id" type="int" visibility="private"/>
+        <Field name="monto" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="pago_id"/>
+          <Argument type="int" name="pedido_id"/>
+          <Argument type="int" name="metodo_id"/>
+          <Argument type="double" name="monto"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPago_id" returnType="int" visibility="public"/>
+        <Method name="setPago_id" returnType="void" visibility="public">
+          <Argument type="int" name="pago_id"/>
+        </Method>
+        <Method name="getPedido_id" returnType="int" visibility="public"/>
+        <Method name="setPedido_id" returnType="void" visibility="public">
+          <Argument type="int" name="pedido_id"/>
+        </Method>
+        <Method name="getMetodo_id" returnType="int" visibility="public"/>
+        <Method name="setMetodo_id" returnType="void" visibility="public">
+          <Argument type="int" name="metodo_id"/>
+        </Method>
+        <Method name="getMonto" returnType="double" visibility="public"/>
+        <Method name="setMonto" returnType="void" visibility="public">
+          <Argument type="double" name="monto"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Pedidos" package="modelo.dto" visibility="public" xPosition="-57.0" yPosition="804.0">
+      <Fields>
+        <Field name="pedido_id" type="int" visibility="private"/>
+        <Field name="user_id" type="int" visibility="private"/>
+        <Field name="fecha" type="String" visibility="private"/>
+        <Field name="estado" type="String" visibility="private"/>
+        <Field name="total" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="pedido_id"/>
+          <Argument type="int" name="user_id"/>
+          <Argument type="String" name="fecha"/>
+          <Argument type="String" name="estado"/>
+          <Argument type="double" name="total"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPedido_id" returnType="int" visibility="public"/>
+        <Method name="setPedido_id" returnType="void" visibility="public">
+          <Argument type="int" name="pedido_id"/>
+        </Method>
+        <Method name="getUser_id" returnType="int" visibility="public"/>
+        <Method name="setUser_id" returnType="void" visibility="public">
+          <Argument type="int" name="user_id"/>
+        </Method>
+        <Method name="getFecha" returnType="String" visibility="public"/>
+        <Method name="setFecha" returnType="void" visibility="public">
+          <Argument type="String" name="fecha"/>
+        </Method>
+        <Method name="getEstado" returnType="String" visibility="public"/>
+        <Method name="setEstado" returnType="void" visibility="public">
+          <Argument type="String" name="estado"/>
+        </Method>
+        <Method name="getTotal" returnType="double" visibility="public"/>
+        <Method name="setTotal" returnType="void" visibility="public">
+          <Argument type="double" name="total"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Productos" package="modelo.dto" visibility="public" xPosition="73.0" yPosition="374.0">
+      <Fields>
+        <Field name="producto_id" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="precio" type="double" visibility="private"/>
+        <Field name="stock" type="int" visibility="private"/>
+        <Field name="categoria_id" type="int" visibility="private"/>
+        <Field name="fecha_caducidad" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="producto_id"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="descripcion"/>
+          <Argument type="double" name="precio"/>
+          <Argument type="int" name="stock"/>
+          <Argument type="int" name="categoria_id"/>
+          <Argument type="String" name="fecha_caducidad"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getProducto_id" returnType="int" visibility="public"/>
+        <Method name="setProducto_id" returnType="void" visibility="public">
+          <Argument type="int" name="producto_id"/>
+        </Method>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getDescripcion" returnType="String" visibility="public"/>
+        <Method name="setDescripcion" returnType="void" visibility="public">
+          <Argument type="String" name="descripcion"/>
+        </Method>
+        <Method name="getPrecio" returnType="double" visibility="public"/>
+        <Method name="setPrecio" returnType="void" visibility="public">
+          <Argument type="double" name="precio"/>
+        </Method>
+        <Method name="getStock" returnType="int" visibility="public"/>
+        <Method name="setStock" returnType="void" visibility="public">
+          <Argument type="int" name="stock"/>
+        </Method>
+        <Method name="getCategoria_id" returnType="int" visibility="public"/>
+        <Method name="setCategoria_id" returnType="void" visibility="public">
+          <Argument type="int" name="categoria_id"/>
+        </Method>
+        <Method name="getFecha_caducidad" returnType="String" visibility="public"/>
+        <Method name="setFecha_caducidad" returnType="void" visibility="public">
+          <Argument type="String" name="fecha_caducidad"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="ProductosPromocionados" package="modelo.dto" visibility="public" xPosition="706.0" yPosition="1276.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="producto_id" type="int" visibility="private"/>
+        <Field name="promocion_id" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="id"/>
+          <Argument type="int" name="producto_id"/>
+          <Argument type="int" name="promocion_id"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getProducto_id" returnType="int" visibility="public"/>
+        <Method name="setProducto_id" returnType="void" visibility="public">
+          <Argument type="int" name="producto_id"/>
+        </Method>
+        <Method name="getPromocion_id" returnType="int" visibility="public"/>
+        <Method name="setPromocion_id" returnType="void" visibility="public">
+          <Argument type="int" name="promocion_id"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ProductosProximosAVencer" package="modelo.dto" visibility="public" xPosition="749.0" yPosition="913.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="producto_id" type="int" visibility="private"/>
+        <Field name="cantidad" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="id"/>
+          <Argument type="int" name="producto_id"/>
+          <Argument type="int" name="cantidad"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getProducto_id" returnType="int" visibility="public"/>
+        <Method name="setProducto_id" returnType="void" visibility="public">
+          <Argument type="int" name="producto_id"/>
+        </Method>
+        <Method name="getCantidad" returnType="int" visibility="public"/>
+        <Method name="setCantidad" returnType="void" visibility="public">
+          <Argument type="int" name="cantidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Promociones" package="modelo.dto" visibility="public" xPosition="1158.0" yPosition="982.0">
+      <Fields>
+        <Field name="promocion_id" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="descuento" type="double" visibility="private"/>
+        <Field name="fecha_inicio" type="String" visibility="private"/>
+        <Field name="fecha_fin" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="promocion_id"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="descripcion"/>
+          <Argument type="double" name="descuento"/>
+          <Argument type="String" name="fecha_inicio"/>
+          <Argument type="String" name="fecha_fin"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPromocion_id" returnType="int" visibility="public"/>
+        <Method name="setPromocion_id" returnType="void" visibility="public">
+          <Argument type="int" name="promocion_id"/>
+        </Method>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getDescripcion" returnType="String" visibility="public"/>
+        <Method name="setDescripcion" returnType="void" visibility="public">
+          <Argument type="String" name="descripcion"/>
+        </Method>
+        <Method name="getDescuento" returnType="double" visibility="public"/>
+        <Method name="setDescuento" returnType="void" visibility="public">
+          <Argument type="double" name="descuento"/>
+        </Method>
+        <Method name="getFecha_inicio" returnType="String" visibility="public"/>
+        <Method name="setFecha_inicio" returnType="void" visibility="public">
+          <Argument type="String" name="fecha_inicio"/>
+        </Method>
+        <Method name="getFecha_fin" returnType="String" visibility="public"/>
+        <Method name="setFecha_fin" returnType="void" visibility="public">
+          <Argument type="String" name="fecha_fin"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Usuarios" package="modelo.dto" visibility="public" xPosition="1520.0" yPosition="820.0">
+      <Fields>
+        <Field name="userId" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="email" type="String" visibility="private"/>
+        <Field name="password" type="String" visibility="private"/>
+        <Field name="direccion" type="String" visibility="private"/>
+        <Field name="telefono" type="String" visibility="private"/>
+        <Field name="rol" type="String" visibility="private"/>
+        <Field name="fecha_creacion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="userId"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="email"/>
+          <Argument type="String" name="password"/>
+          <Argument type="String" name="direccion"/>
+          <Argument type="String" name="telefono"/>
+          <Argument type="String" name="rol"/>
+          <Argument type="String" name="fecha_creacion"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getUserId" returnType="int" visibility="public"/>
+        <Method name="setUserId" returnType="void" visibility="public">
+          <Argument type="int" name="userId"/>
+        </Method>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getEmail" returnType="String" visibility="public"/>
+        <Method name="setEmail" returnType="void" visibility="public">
+          <Argument type="String" name="email"/>
+        </Method>
+        <Method name="getPassword" returnType="String" visibility="public"/>
+        <Method name="setPassword" returnType="void" visibility="public">
+          <Argument type="String" name="password"/>
+        </Method>
+        <Method name="getDireccion" returnType="String" visibility="public"/>
+        <Method name="setDireccion" returnType="void" visibility="public">
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="getTelefono" returnType="String" visibility="public"/>
+        <Method name="setTelefono" returnType="void" visibility="public">
+          <Argument type="String" name="telefono"/>
+        </Method>
+        <Method name="getRol" returnType="String" visibility="public"/>
+        <Method name="setRol" returnType="void" visibility="public">
+          <Argument type="String" name="rol"/>
+        </Method>
+        <Method name="getFecha_creacion" returnType="String" visibility="public"/>
+        <Method name="setFecha_creacion" returnType="void" visibility="public">
+          <Argument type="String" name="fecha_creacion"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

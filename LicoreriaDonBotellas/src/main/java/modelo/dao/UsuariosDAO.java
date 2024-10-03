@@ -66,7 +66,8 @@ public class UsuariosDAO {
         String consulSql = "SELECT * FROM usuarios WHERE nombre = ?";
 
         try (PreparedStatement ps = cnx.prepareStatement(consulSql)) {
-            ps.setString(1, username);
+            ps.setString(1, username); 
+//'username' es la variable que captura al nombre de usuario ingresado en la web por el usuario (ver login.js)
             try (ResultSet rs = ps.executeQuery()) {
                 if (rs.next()) {
                     usuario = new Usuarios(

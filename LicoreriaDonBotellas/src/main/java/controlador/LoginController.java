@@ -29,10 +29,7 @@ public class LoginController extends HttpServlet {
             logger.error("Error al inicializar UsuariosDAO", e);
         }
     }
-
    
-
-    
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
