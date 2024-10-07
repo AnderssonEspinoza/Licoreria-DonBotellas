@@ -139,7 +139,7 @@
         
         
 
-      <!-- Bottom Navbar: Liquor Categories -->
+      <!-- Bottom navBar: Liquor Categories -->
           <nav class="navbar navbar-expand-lg navbar-black bg-black navbar-bottom">
               <div class="container-fluid">
                 
