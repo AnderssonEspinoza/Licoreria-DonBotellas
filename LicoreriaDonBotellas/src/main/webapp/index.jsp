@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
   <head>
     <title>Don Botellas</title>
@@ -84,98 +83,109 @@
         <path fill="currentColor" d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z" />
       </symbol>
       <symbol xmlns="http://www.w3.org/2000/svg" id="nav-icon" viewBox="0 0 16 16">
-        <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+        <path fill="#FFFFFF" d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
       </symbol>
       <symbol xmlns="http://www.w3.org/2000/svg" id="close" viewBox="0 0 16 16">
         <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
       </symbol>
       <symbol xmlns="http://www.w3.org/2000/svg" id="navbar-icon" viewBox="0 0 16 16">
-        <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+        <path fill="#FFFFFF" d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
       </symbol>
     </svg>  
 
     
     
-    <header id="header" class="site-header header-scrolled position-fixed text-black bg-black">
-      <nav id="header-nav" class="navbar navbar-expand-lg px-3 mb-3">
+      <header id="header" class="site-header header-scrolled position-fixed text-black bg-black padding-top-10px " style="padding-top: 20px;">
+        
+        <nav class="navbar navbar-expand-lg navbar-black bg-black p-3">
 
-        <div class="container-fluid">
+          <div class="container-fluid position-relative">
+            
+            <!-- Logo centrado -->
+            <a class="navbar-brand position-absolute top-50 start-50 translate-middle" href="#" 
+                style="display: inline-block; transform: translateY(-50%);">
+                <img src="images/logo.jpeg" alt="Don Botella" style="width: 80px; height: auto; display: block;">
+            </a>
 
-          <a class="navbar-brand" href="index.html">
-            <img src="" class="logo" alt="logito">
-          </a>
-
-          <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <svg class="navbar-icon">
-              <use xlink:href="#navbar-icon"></use>
-            </svg>
-          </button>
-
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
-            <div class="offcanvas-header px-4 pb-0">
-              <a class="navbar-brand" href="index.html">
-                <img src="" class="logo" alt="logito">
-              </a>
-              <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
-            </div>
-            <!--Lista navbar-->
-            <div class="offcanvas-body">
-              <ul id="navbar" class="navbar-nav text-uppercase justify-content-end align-items-center flex-grow-1 pe-3 ">
-                <li class="nav-item" >
-                  <a class="nav-link me-4 active" href="index.jsp">Inicio</a>
+        
+            <!-- Iconos a la derecha -->
+            <div class="user-items ms-auto">
+              <ul class="d-flex list-unstyled mb-0">
+                <li class="search-item pe-3">
+                  <a href="#" class="search-button">
+                    <svg class="search">
+                      <use xlink:href="#search"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link me-4" href="#company-services">Vinos</a>
+                <li class="pe-3">
+                  <a href="#">
+                    <svg class="user">
+                      <use xlink:href="#user"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link me-4" href="#mobile-products">Rones</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-4" href="#smart-watches">Wiskies</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-4" href="#yearly-sale">Tequilas</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link me-4" href="#latest-blog">Gins</a>
-                </li>
-
-              
-                <li class="nav-item">
-                  <div class="user-items ps-5">
-                    <ul class="d-flex justify-content-end list-unstyled">
-                      <li class="search-item pe-3">
-                        <a href="#" class="search-button">
-                          <svg class="search">
-                            <use xlink:href="#search"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="pe-3">
-                        <a href="#">
-                          <svg class="user">
-                            <use xlink:href="#user"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.html">
-                          <svg class="cart">
-                            <use xlink:href="#cart"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                <li>
+                  <a href="cart.html">
+                    <svg class="cart">
+                      <use xlink:href="#cart"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
+        </nav>
+        
+        
 
-      </nav>
-    </header>
+      <!-- Bottom Navbar: Liquor Categories -->
+          <nav class="navbar navbar-expand-lg navbar-black bg-black navbar-bottom">
+              <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategories" aria-controls="navbarCategories" aria-expanded="false" aria-label="Toggle navigation" >
+                  <span class="navbar-toggler-icon" ></span>
+                </button>
+              
+                  <div class="collapse navbar-collapse" id="navbarCategories">
+                      <!-- Nav links -->
+                      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Whiskies</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Rones</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Espumantes</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Gins</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Vodkas</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Vinos</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Piscos</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Tequilas</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Otros Licores</a>
+                          </li>
+                      </ul>
+                  </div>
+
+              </div>
+          </nav>
+
+      </header>
+
+    
     <!--Secccion del carrusel de promociones-->
     <section id="billboard" class="position-relative overflow-hidden bg-light-blue">
 
@@ -251,9 +261,9 @@
               </div>
               <div class="icon-box-content">
                 <h3 class="card-title text-uppercase text-dark">Delivery gratuito</h3>
-                <p>Ãšnete a nuestro programa de fidelidad y obtÃ©n envÃ­o gratuito 
+                <p>Únete a nuestro programa de fidelidad y obtén envío gratuito 
                   en todas tus compras. 
-                  Â¡Porque valoramos tu lealtad!</p>
+                  ¡Porque valoramos tu lealtad!</p>
               </div>
             </div>
           </div>
@@ -266,8 +276,8 @@
               </div>
               <div class="icon-box-content">
                 <h3 class="card-title text-uppercase text-dark">Descubre nuestros licores premium</h3>
-                <p>Destilados Ãºnicos hasta vinos exquisitos, ofrecemos lo mejor en 
-                  licores para cada ocasiÃ³n
+                <p>Destilados únicos hasta vinos exquisitos, ofrecemos lo mejor en 
+                  licores para cada ocasión
                 </p>
               </div>
             </div>
@@ -283,7 +293,7 @@
                 <h3 class="card-title text-uppercase text-dark">Ofertas especiales en licores seleccionados </h3>
                 <p>Cada semana, destacamos productos seleccionados para que puedas disfrutar 
                   de precios especiales en tus bebidas favoritas. 
-                  Â¡No te pierdas la oportunidad de ahorrar en lo que mÃ¡s te gusta!</p>
+                  ¡No te pierdas la oportunidad de ahorrar en lo que más te gusta!</p>
               </div>
             </div>
           </div>
@@ -296,8 +306,8 @@
               </div>
               <div class="icon-box-content">
                 <h3 class="card-title text-uppercase text-dark">100% de seguridad en tu compra</h3>
-                <p>Realiza tus compras con total confianza. Utilizamos tecnologÃ­as de encriptaciÃ³n 
-                  avanzadas para proteger tu informaciÃ³n personal y de pago.</p>
+                <p>Realiza tus compras con total confianza. Utilizamos tecnologías de encriptación 
+                  avanzadas para proteger tu información personal y de pago.</p>
               </div>
             </div>
           </div>
@@ -325,7 +335,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
@@ -343,7 +353,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
@@ -361,7 +371,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
@@ -379,7 +389,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
@@ -397,7 +407,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
@@ -433,7 +443,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
@@ -451,7 +461,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
@@ -469,7 +479,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
@@ -487,7 +497,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
@@ -505,7 +515,7 @@
                   </div>
                   <div class="cart-concern position-absolute">
                     <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black">AÃ±adir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                      <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                     </div>
                   </div>
                   <div class="card-detail d-flex justify-content-between pt-3">
@@ -527,7 +537,7 @@
       <div class="container">
         <div class="row">
           <div class="display-header d-flex justify-content-between pb-3">
-            <h2 class="display-7 text-dark text-uppercase">LO ÃšLTIMO DE LOS LICORES DEL MUNDO</h2>
+            <h2 class="display-7 text-dark text-uppercase">LO ÚLTIMO DE LOS LICORES DEL MUNDO</h2>
             <div class="btn-right">
               <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Leer blog</a>
             </div>
@@ -548,7 +558,7 @@
                   <span class="meta-category"></span>
                 </div>
                 <h3 class="card-title">
-                  <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky EscocÃ©s</a>
+                  <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky Escocés</a>
                 </h3>
               </div>
             </div>
@@ -565,7 +575,7 @@
                   <span class="meta-category"></span>
                 </div>
                 <h3 class="card-title">
-                  <a href="#">JÃ¤germeister: Un Viaje por el Mundo de un Licor Legendario</a>
+                  <a href="#">Jägermeister: Un Viaje por el Mundo de un Licor Legendario</a>
                 </h3>
               </div>
             </div>
@@ -581,7 +591,7 @@
                   <span class="meta-category"></span>
                 </div>
                 <h3 class="card-title">
-                  <a href="#">CÃ³mo un Buen Calzado Mejora Tu Experiencia de Cata</a>
+                  <a href="#">Cómo un Buen Calzado Mejora Tu Experiencia de Cata</a>
                 </h3>
               </div>
             </div>
@@ -610,10 +620,10 @@
                 <div class="swiper-slide text-center d-flex justify-content-center">
                   <div class="review-item col-md-10">
                     <i class="icon icon-review"></i>
-                    <blockquote>"Â¡Estoy muy satisfecho con mi compra en DonBotella! 
-                      La selecciÃ³n de licores es excelente y el proceso de compra 
-                      fue fÃ¡cil. Mi pedido llegÃ³ rÃ¡pidamente y en perfectas condiciones. 
-                      Sin duda, volverÃ© a comprar aquÃ­. Â¡Altamente recomendado!"
+                    <blockquote>"¡Estoy muy satisfecho con mi compra en DonBotella! 
+                      La selección de licores es excelente y el proceso de compra 
+                      fue fácil. Mi pedido llegó rápidamente y en perfectas condiciones. 
+                      Sin duda, volveré a comprar aquí. ¡Altamente recomendado!"
                     </blockquote>
                     <div class="rating">
                       <svg class="star star-fill">
@@ -641,10 +651,10 @@
                   <div class="review-item col-md-10">
                     <i class="icon icon-review"></i>
                     <blockquote>
-                      "Â¡Excelente experiencia de compra! EncontrÃ© 
-                      licores Ãºnicos que no habÃ­a visto en otros sitios. La entrega 
-                      fue rÃ¡pida y todo llegÃ³ en perfectas condiciones. 
-                      Definitivamente volverÃ© a comprar. Â¡Lo recomiendo a todos!"
+                      "¡Excelente experiencia de compra! Encontré 
+                      licores únicos que no había visto en otros sitios. La entrega 
+                      fue rápida y todo llegó en perfectas condiciones. 
+                      Definitivamente volveré a comprar. ¡Lo recomiendo a todos!"
                     </blockquote>
                     <div class="rating">
                       <svg class="star star-fill">
@@ -688,7 +698,7 @@
             <div class="col-md-6 col-sm-12">
               <div class="display-header pe-3">
                 <h2 class="display-7 text-uppercase text-light">Subscrite </h2>
-                <p>"Â¡SuscrÃ­bete y recibe las Ãºltimas novedades, promociones exclusivas y recomendaciones de 
+                <p>"¡Suscríbete y recibe las últimas novedades, promociones exclusivas y recomendaciones de 
                   licores directamente en tu bandeja de entrada!"</p>
               </div>
             </div>
@@ -706,112 +716,101 @@
     </section>
 
     <!--Secction footer-->
-    <footer id="footer" class="overflow-hidden">
-      <div class="container">
-        <div class="row">
-          <div class="footer-top-area">
-            <div class="row d-flex flex-wrap justify-content-between">
-              <div class="col-lg-3 col-sm-6 pb-3">
-                <div class="footer-menu">
-                  <img src="" alt="logo">
-                  <p>"Calidad y variedad en licores a un clic de distancia. Â¡Haz tu pedido hoy y disfruta en casa!"</p>
-                  <div class="social-links">
-                    <ul class="d-flex list-unstyled">
-                      <li>
-                        <a href="#">
-                          <svg class="facebook">
-                            <use xlink:href="#facebook" />
-                          </svg>
-                        </a>
+    <footer id="footer" class="overflow-hidden bg-black" style="padding-top: 25px;">
+        <div class="container">
+          <div class="row">
+            <div class="footer-top-area">
+              <div class="row d-flex flex-wrap justify-content-between">
+
+                <div class="col-lg-3 col-sm-6 pb-3">
+                  <div class="footer-menu">
+                      <img src="images/logo.jpeg" style="width: 50%;" alt="logo">
+                    <p>"Calidad y variedad en licores a un clic de distancia. ¡Haz tu pedido hoy y disfruta en casa!"</p>
+                    <div class="social-links">
+                      <ul class="d-flex list-unstyled">
+                        <li>
+                          <a href="#">
+                            <svg class="facebook">
+                              <use xlink:href="#facebook" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <svg class="instagram">
+                              <use xlink:href="#instagram" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <svg class="youtube">
+                              <use xlink:href="#youtube" />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 pb-3">
+                  <div class="footer-menu text-uppercase">
+                    <h5 class="widget-title pb-2">Informacion</h5>
+                    <ul class="menu-list list-unstyled">
+                      <li class="menu-item pb-2">
+                        <a href="#">¿Por que? La Canasteri?a?</a>
                       </li>
-                      <li>
-                        <a href="#">
-                          <svg class="instagram">
-                            <use xlink:href="#instagram" />
-                          </svg>
-                        </a>
+                      <li class="menu-item pb-2">
+                        <a href="#">Ventas Corporativas</a>
                       </li>
-                      <li>
-                        <a href="#">
-                          <svg class="twitter">
-                            <use xlink:href="#twitter" />
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <svg class="linkedin">
-                            <use xlink:href="#linkedin" />
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <svg class="youtube">
-                            <use xlink:href="#youtube" />
-                          </svg>
-                        </a>
+                      <li class="menu-item pb-2">
+                        <a href="#">Tiendas</a>
                       </li>
                     </ul>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-2 col-sm-6 pb-3">
-                <div class="footer-menu text-uppercase">
-                  <h5 class="widget-title pb-2">Enlaces rÃ¡pidos</h5>
-                  <ul class="menu-list list-unstyled text-uppercase">
-                    <li class="menu-item pb-2">
-                      <a href="#">Home</a>
-                    </li>
-                    <li class="menu-item pb-2">
-                      <a href="#">About</a>
-                    </li>
-                    <li class="menu-item pb-2">
-                      <a href="#">Shop</a>
-                    </li>
-                    <li class="menu-item pb-2">
-                      <a href="#">Blogs</a>
-                    </li>
-                    <li class="menu-item pb-2">
-                      <a href="#">Contact</a>
-                    </li>
-                  </ul>
+
+                <div class="col-lg-2 col-sm-6 pb-3">
+                  <div class="footer-menu text-uppercase">
+                    <h5 class="widget-title pb-2">Ayuda</h5>
+                    <ul class="menu-list list-unstyled text-uppercase">
+                      <li class="menu-item pb-2">
+                        <a href="#">Medios de pago</a>
+                      </li>
+                      <li class="menu-item pb-2">
+                        <a href="#">Seguimiento de mi pedido</a>
+                      </li>
+                      <li class="menu-item pb-2">
+                        <a href="#">Libro de reclamaciones
+                        </a>
+                      </li>
+                      <li class="menu-item pb-2">
+                        <a href="#">Te?rminos y condiciones</a>
+                      </li>
+                      <li class="menu-item pb-2">
+                        <a href="#">Entregas y devoluciones</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-sm-6 pb-3">
-                <div class="footer-menu text-uppercase">
-                  <h5 class="widget-title pb-2">Ayuda e informaciÃ³n</h5>
-                  <ul class="menu-list list-unstyled">
-                    <li class="menu-item pb-2">
-                      <a href="#">Seguimiento de Pedido</a>
-                    </li>
-                    <li class="menu-item pb-2">
-                      <a href="#">Politica de Retorno</a>
-                    </li>
-                    <li class="menu-item pb-2">
-                      <a href="#">EnvÃ­o + Entrega</a>
-                    </li>
-                    <li class="menu-item pb-2">
-                      <a href="#">Faqs</a>
-                    </li>
-                  </ul>
+
+                <div class="col-lg-3 col-sm-6 pb-3">
+                  <div class="footer-menu contact-item">
+                    <h5 class="widget-title text-uppercase pb-2">Contactanos</h5>
+                    <p><a href="mailto:">yourinfo@gmail.com</a>
+                    </p>
+                    <p>necesita ayuda? solo llamanos. <a href="">+55 111 222 333 44</a>
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-sm-6 pb-3">
-                <div class="footer-menu contact-item">
-                  <h5 class="widget-title text-uppercase pb-2">Contactanos</h5>
-                  <p>Tienes alguna sugerncia o pregunta? <a href="mailto:">yourinfo@gmail.com</a>
-                  </p>
-                  <p>necesita ayuda? solo llamanos. <a href="">+55 111 222 333 44</a>
-                  </p>
-                </div>
+
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <hr>
-    </footer>
+        <hr>
+      </footer>
 
  
 
