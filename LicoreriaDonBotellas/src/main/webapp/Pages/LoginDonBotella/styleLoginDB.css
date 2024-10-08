@@ -9,7 +9,7 @@
 
 body {
     background-color: #101214; /* Color de fondo oscuro/plomo */
-    background: url(../DnB.jpeg) no-repeat;
+    background: url(DnB.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
