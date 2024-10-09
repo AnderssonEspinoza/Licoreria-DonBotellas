@@ -248,7 +248,7 @@
         </svg>
       </div>
     </section>
-<!--Section de info de la empresa don botella-->
+<!--Section de info de la empresa Don Botella-->
     <section id="company-services" class="padding-large">
       <div class="container">
         <div class="row">
