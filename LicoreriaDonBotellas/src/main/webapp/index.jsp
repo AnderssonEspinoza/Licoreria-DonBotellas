@@ -10,6 +10,7 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
+    <!-- -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styleIndex.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -94,7 +95,7 @@
     </svg>  
 
     
-    
+    <!--Menu nav   -->
       <header id="header" class="site-header header-scrolled position-fixed text-black bg-black padding-top-10px " style="padding-top: 20px;">
         
         <nav class="navbar navbar-expand-lg navbar-black bg-black p-3">
@@ -126,7 +127,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="cart.html">
+                    <a href="Pages/carrito.html">
                     <svg class="cart">
                       <use xlink:href="#cart"></use>
                     </svg>
@@ -151,22 +152,22 @@
                       <!-- Nav links -->
                       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Whiskies</a>
+                              <a class="nav-link" href="Pages/bebidas_alcoholicas/whisky.html">Whiskies</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Rones</a>
+                              <a class="nav-link" href="Pages/bebidas_alcoholicas/ron.html">Rones</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Espumantes</a>
+                              <a class="nav-link" href="Pages/bebidas_alcoholicas/espumante.html">Espumantes</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#">Gins</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Vodkas</a>
+                              <a class="nav-link" href="Pages/bebidas_alcoholicas/vodka.html">Vodkas</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Vinos</a>
+                              <a class="nav-link" href="Pages/bebidas_alcoholicas/vino.html">Vinos</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#">Piscos</a>
@@ -200,8 +201,8 @@
                 <div class="col-md-6">
 
                   <div class="banner-content">
-                    <h1 class="display-2 text-uppercase text-white pb-5">Licores al por mayor</h1>
-                    <a href="shop.html" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">contactar</a>
+                    <h1 class="display-2 text-uppercase text-white pb-5" style="padding-top: 30px;margin-left: 10px ;font-size: 70px; font-weight: bold;">Los mejores Licores al por mayor y menor</h1>
+                    <a href="shop.html" class="btn btn-medium btn-dark  btn-rounded-none" style="border-radius: 40px;">Contactar</a>
                   </div>
                 </div>
 
@@ -222,8 +223,8 @@
               <div class="row d-flex flex-wrap align-items-center">
                 <div class="col-md-6">
                   <div class="banner-content">
-                    <h1 class="display-2 text-uppercase text-white pb-5 ">Los mejores wisikies</h1>
-                    <a href="shop.html" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Shop Product</a>
+                    <h1 class="display-2 text-uppercase text-white pb-5 " style="padding-top: 30px;margin-left: 10px ;font-size: 70px; font-weight: bold;">Arma tu combo segun tu preferencia</h1>
+                    <a href="shop.html" class="btn btn-medium btn-dark  btn-rounded-none" style="border-radius: 40px;">Armar ya!!</a>
                   </div>
                 </div>
                 <div class="col-md-5">

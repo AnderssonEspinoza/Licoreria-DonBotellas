@@ -636,11 +636,14 @@
   /*----------------------------------------------*/
   /* Inserta la imagen de fondo en el contenedor del swiper-slide */
   #billboard .swiper-slide {
-    background-image: url('images/flayer-one.jpg'); /* Cambia 'ruta/a/tu/imagen.jpg' por la URL de tu imagen */
+   
     background-size: cover; /* Hace que la imagen cubra todo el contenedor */
     background-position: center; /* Centra la imagen dentro del contenedor */
     background-repeat: no-repeat; /* Evita que se repita */
   }
+  
+
+
   
   /* Mantén el estilo para las flechas de navegación */
   #billboard .swiper-arrow {
