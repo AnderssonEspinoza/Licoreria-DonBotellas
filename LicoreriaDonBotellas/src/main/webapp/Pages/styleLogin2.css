@@ -8,10 +8,9 @@
 }
 
 body {
-    background-color: #c9d6ff;
-    background: url(gym.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #c9d6ff !important;
+    
+    
     display: flex;
     align-items: center;
     justify-content: center;
