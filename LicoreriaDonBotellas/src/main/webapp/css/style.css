@@ -1,0 +1,302 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*----header-card-inferior --*/
+header {
+    position: fixed;
+    top: 0px; /* Ocultamos inicialmente el header */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #000;
+    transition: top 0.3s; /* Transición nav-item suave nav-link*/
+}
+.image-container img {
+    margin-left: 250px;
+    width: 60px;
+    object-fit: cover;
+}
+.image-container .logo-inferior {
+    width: 300px;
+    height: 50px;
+}
+.nav .nav-item .img-login img{
+    max-width: 30px;
+    max-height: 30px;
+}
+.nav .nav-item i, .navbar .offcanvas{
+    background-color: #000;
+}
+.nav .nav-item i, .navbar .offcanvas .navbar-nav a{
+    color: rgb(255, 255, 255);
+    background-color: #000;
+}
+.navbar .offcanvas .dropdown-menu{
+    background-color: black;
+    text-align: center;
+}
+.navbar .offcanvas .dropdown-menu li a{
+    background-color: black;
+}
+.palabra-color {
+    color: rgb(255, 255, 255) !important;
+}
+
+.boton-superior i{
+    color: rgb(255, 255, 255); /* hamburguesa de header*/
+}
+/*----------------------- Cuerpo--------------------*/
+/* ---------Filtro por precio----------*/
+.cuerpo{
+    margin-top: 200px;
+}
+.main-header{
+    text-align: left;
+}
+.category_list {
+	word-wrap: break-word;
+    padding: 15px; /* Espaciado interno para que no esté muy pegado al borde */
+}
+/* Ajuste en el filtro card-text*/
+
+.offcanvas{
+    width: 330px !important;
+}
+.category_list input[type="range"] {
+	width: 100%;
+}
+.category_list p {
+	font-size: 14px;
+	margin-top: 15px;
+	color: #666;
+	margin-bottom: 15px;
+}
+.price-filter h5,.list-group h5 {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+	margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.category_list .price-filter, .category_list .list-group {
+    margin-bottom: 20px; /* Espacio para separar las secciones */
+}
+.category_list ul li {
+    padding-left: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.list-group li a{
+    text-align: left !important;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+.palabra-color{
+    color: rgb(200, 170, 0) !important;
+}
+.offcanvas .list-group a:hover {
+    color:gold;
+}
+/* Productos */
+.cuerpo {
+    display: flex;
+    margin-left: 30px;
+}
+.products-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.products-list .product-item { 
+	align-items: center;
+    margin: 10px;
+    border: none;
+}
+/* elevacion del producto */
+.products-list .card {
+    width: 17rem;
+    margin-bottom: 20px !important;
+}
+.products-list .product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+/* tamaño de imagen */
+.products-list .product-item .card-img-top img {
+	max-width: 200px;
+    max-height: 200px;
+}
+/* tamaño de letra de los productos */
+.products-list .product-item .card-body .card-text{
+    padding-bottom: 10px;
+    width: 240px;
+    height: 80px;
+}
+.products-list .product-item .card-body .card-text p{
+    color: #5d5d5d;
+    text-align:left;
+    text-decoration: none;
+	font-size: 15px;
+    margin: 0;
+    font-weight: bold;
+
+}
+/* boton de añadir  */
+.products-list .product-item .card-body button{ 
+    padding: 7px 50px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+	font-size: 16px;
+    margin: 0;
+}
+.products-list .product-item a:hover {
+    background: #244060;
+}
+footer .footer-menu img{
+    width: 80px ;
+}
+footer .footer-menu{
+align-items: center;
+color: white;
+text-decoration: none;
+}
+.footer-menu .menu-list .menu-item a{
+    color: white;
+    text-decoration: none;
+}
+.list-unstyled li a{
+    color: white;
+    margin-left: 10px;
+}
+/*-----carrito--*/
+
+main{
+    margin-top: 200px;
+}
+/* Responsividad */
+@media (max-width: 1300px) {
+    .products-list .card {
+        width: 15rem;
+    }
+}
+@media (max-width: 1025px) {
+    .navbar-toggler {
+        display: block; /* Asegura que el botón sea visible */
+        color:black !important;
+        border: none !important;
+        box-shadow:none !important;
+        text-transform: uppercase;
+    }
+    .products-list .card {
+        width: 14rem;
+    }
+    .navbar-toggler i{
+        font-size: 16px;
+    }
+	.cuerpo {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 993px) {
+    .image-container img, .image-container .logo-inferior {
+        margin-left: 0px;
+    }
+
+    .image-container .logo-superior {
+        display: none;
+    } 
+    .category_list{
+        flex-direction: row;
+    }
+    .offcanvas{
+        padding: 20px;
+    }
+    .offcanvas-end{
+        font-size: 8px;
+    }
+    .cuerpo {
+        display: flex;
+        flex-direction: column; /* Permite que el filtro se apile encima de los productos */
+        align-items: flex-start;
+    }
+    .cuerpo {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 821px) {
+    
+    .products-list .card {
+        width: 16rem;
+    }
+}
+
+@media (max-width: 651px) {
+    footer{
+        text-align: center;
+    }
+    .products-list .card {
+        width: 14rem;
+        margin-bottom: 50px !important;    
+    }
+    .image-container .logo-inferior {
+        width: 230px;;
+    }
+}
+@media (max-width: 587px) {
+    
+    .products-list .card {
+        width: 25rem;
+    }
+    .image-container .logo-inferior {
+        width: 200px;;
+    }
+}
+@media (max-width: 428px) {
+    .image-container .logo-inferior {
+        width: 140px;;
+    }
+    .products-list .card {
+    width: 20rem;
+    }
+    .products-list .product-item .card-img-top img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .products-list .product-item .card-body .card-text p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .products-list .product-item .card-body  a{
+        font-weight: bold;
+    }
+}
+@media (max-width: 391px) {
+    .products-list .card {
+    width: 18rem;
+    }
+    .image-container .logo-inferior {
+        width: 170px;;
+    }
+    .align-items-center{
+        margin-left: 60px;
+    }
+}
+@media (max-width: 361px) {
+    .products-list .card {
+    width: 17rem;
+    }
+
+}
+@media (max-width: 345px) {
+    .products-list .card {
+    width: 15rem;
+    }
+    .align-items-center{
+        margin-left: 30px;
+    }
+}
