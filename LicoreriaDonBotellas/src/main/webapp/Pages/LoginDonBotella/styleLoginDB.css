@@ -8,49 +8,58 @@
 }
 
 body {
-    background-color: #c9d6ff !important;
-    
-    
+
+    background-color: #101214; /* Color de fondo oscuro/plomo */
+    background: url(DnB.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
 }
+
 .container {
-    background-color: #fff;
+    background-color: #fff; /*aaaaquiii*/
+    border: 1px solid #666; /* Borde plomo */
     border-radius: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra suave negra */
     position: relative;
     overflow: hidden;
-    width: 800px;
+    width: 600px;
     max-width: 100%;
-    min-height: 650px;
+    min-height: 680px;
 }
+
 .container h1 {
     margin-bottom: 0px;
+    color: #b49c4d; /* Color de título negro */
 }
+
 .container p {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.3px;
     margin: 20px 0;
+    color: #ffffff; /* Texto en plomo */
 }
 
 .container span {
     font-size: 12px;
+    color: #b49c4d; /* Texto dorado */
 }
 
 .container a {
-    color: #333;
+    color: #101214; /* Enlaces en negro */
     font-size: 13px;
     text-decoration: none;
     margin: 10px 0 10px;
 }
 
 .container button {
-    background-color: #512da8;
-    color: #fff;
+    background-color: #b49c4d; /* Botón dorado */
+    color: #fff; /* Texto blanco */
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
@@ -64,11 +73,12 @@ body {
 
 .container button.hidden {
     background-color: transparent;
-    border-color: #fff;
+    border-color: #b49c4d;
+    color: #b49c4d; /* Texto dorado en botón */
 }
 
 .container form {
-    background-color: #fff;
+    background-color: #fff;/*aaaaquiii*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,13 +88,13 @@ body {
 }
 
 .container input, .container select {
-    background-color: #eee;
+    background-color: #eee; /* Fondo claro para inputs */
     border: none;
     margin: 3px 0;
     padding: 8px 13px;
     font-size: 13px;
     border-radius: 8px;
-    width: 100%;
+    width: 50%;
     outline: none;
 }
 
@@ -92,7 +102,7 @@ body {
     width: 100%;
     text-align: left;
     font-size: 10px;
-    color: #333;
+    color: #101214; /* Etiquetas en negro */
 }
 
 .form-container {
@@ -142,7 +152,7 @@ body {
 }
 
 .social-icons a {
-    border: 1px solid #ccc;
+    border: 1px solid #b49c4d; /* Borde dorado */
     border-radius: 20%;
     display: inline-flex;
     justify-content: center;
@@ -150,6 +160,7 @@ body {
     margin: 0 3px;
     width: 40px;
     height: 40px;
+    color: #b49c4d; /* Iconos dorados */
 }
 
 .toggle-container {
@@ -170,9 +181,9 @@ body {
 }
 
 .toggle {
-    background-color: #512da8;
+    background-color: #b49c4d; /* Color dorado */
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
+    background: linear-gradient(to right,#666, #101214); /* Degradado dorado a negro */
     color: #fff;
     position: relative;
     left: -100%;
