@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package controlador;
 
 import org.slf4j.Logger;
@@ -16,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import modelo.dao.UsuariosDAO;
 import modelo.dto.Usuarios;
 
+
 public class LoginController extends HttpServlet {
 
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
@@ -29,7 +26,7 @@ public class LoginController extends HttpServlet {
             logger.error("Error al inicializar UsuariosDAO", e);
         }
     }
-   
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
