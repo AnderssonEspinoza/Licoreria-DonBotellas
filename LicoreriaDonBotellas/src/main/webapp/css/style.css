@@ -47,6 +47,10 @@ header {
     color: rgb(255, 255, 255); /* hamburguesa de header*/
 }
 /*----------------------- Cuerpo--------------------*/
+/*----carusel------*/
+.position-relative{
+    margin-top: 200px !important;
+}
 /* ---------Filtro por precio----------*/
 .cuerpo{
     margin-top: 200px;

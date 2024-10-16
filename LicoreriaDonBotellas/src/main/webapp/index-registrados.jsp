@@ -12,15 +12,17 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
 
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
-  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/styleIndex.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styleIndex.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!-- script
     ================================================== -->
   <script src="js/modernizr.js"></script>
@@ -127,19 +129,19 @@
         <!-- Logo -->
         <div> </div>
         <div class="image-container col">
-          <div class="grid text-center" style="row-gap: 0;">
-						<div> <a href="index.jsp">
-								<img src="img/logo.png" class="logo-superior" id="imagen-ocultar">
-							</a>
-						</div>
-						<div>
-							<a href="index.jsp">
-								<img src="img/Logo Moda Femenina Minimalista Negro y Rosa (1).png"
-									class="logo-inferior">
-							</a>
-						</div>
+            <div class="grid text-center" style="row-gap: 0;">
+		<div> 
+                    <a href="index-registrados.jsp">
+			<img src="img/logo.png" class="logo-superior" id="imagen-ocultar">
+                    </a>
+		</div>
+		<div>
+                    <a href="index-registrados.jsp">
+			<img src="img/Logo Moda Femenina Minimalista Negro y Rosa (1).png" class="logo-inferior">
+                    </a>
+		</div>
 
-					</div>
+            </div>
         </div>
 
         <!-- Hamburger Menu (and other icons like search, profile, cart) -->
@@ -151,20 +153,19 @@
               </a>
             </li>
             <li class=" nav-item">
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle palabra-color img-login" href="#" role="button"
-									data-bs-toggle="dropdown"><img src="img/img_login.png" alt=""></a>
-								<ul class="dropdown-menu ">
-									<li><a class="dropdown-item"></a>Mi Cuenta</li>
-									<li><a class="dropdown-item"></a>Mis Compras</li>
-									<li><a class="dropdown-item"></a>Cerrar Sesión</li>
-								</ul>
-							</li>
-						</li>
+		<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle palabra-color img-login" href="#" role="button" data-bs-toggle="dropdown"><img src="img/img_login.png" alt=""></a>
+			<ul class="dropdown-menu ">
+                            <li><a class="dropdown-item"></a>Mi Cuenta</li>
+                            <li><a class="dropdown-item"></a>Mis Compras</li>
+                            <li><a class="dropdown-item"></a>Cerrar Sesion</li>
+			</ul>
+		</li>
+            </li>
             <li class="nav-item">
-              <a class="nav-link ">
-                <i class="bi bi-cart-fill"></i>
-              </a>
+                <a class="nav-link" href="Pages/registrados/carritoCliente.html">
+                    <i class="bi bi-cart-fill"></i>
+                </a>
             </li>
           </ul>
 
@@ -186,18 +187,18 @@
           </div>
           <ul class="navbar-nav justify-content mx-auto mb-2  mb-lg-0">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle palabra-color" href="#" role="button" data-bs-toggle="dropdown">Bebidas
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
                 Alcoholicas</a>
               <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_alcoholicas/vino.html">Vino</a></li>
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_alcoholicas/ron.html">Ron</a>
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/vino.html">Vino</a></li>
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/ron.html">Ron</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_alcoholicas/whisky.html">Whisky</a>
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/whisky.html">Whisky</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_alcoholicas/espumante.html">Espumante</a></li>
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_alcoholicas/vodka.html">Vodka</a>
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/espumante.html">Espumante</a></li>
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/vodka.html">Vodka</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_alcoholicas/Pisco.html">Pisco</a>
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/Pisco.html">Pisco</a>
                 </li>
               </ul>
             </li>
@@ -205,44 +206,44 @@
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
                 No Alcoholicas</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_no_alcoholicas/gaseosas.html">Gaseosa</a>
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/gaseosas.html">Gaseosa</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_no_alcoholicas/agua.html">Aguas</a>
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/agua.html">Aguas</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_no_alcoholicas/energizante.html">Energizante
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/energizante.html">Energizante
                   </a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_no_alcoholicas/jugo.html">Jugos</a>
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/jugo.html">Jugos</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/bebidas_no_alcoholicas/Rehidratante.html">Rehidratante
+                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/Rehidratante.html">Rehidratante
                   </a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cerveza</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/Pages/registrados/cerveza/pilsen.html">Pilsen</a>
+                <li><a class="dropdown-item" href="Pages/registrados/cerveza/pilsen.html">Pilsen</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/cerveza/Cusqueña.html">Cusqueña</a>
+                <li><a class="dropdown-item" href="Pages/registrados/cerveza/Cusqueña.html">Cusqueña</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/cerveza/cistral.html">Cristal</a>
+                <li><a class="dropdown-item" href="Pages/registrados/cerveza/cistral.html">Cristal</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/cerveza/heineken.html">Heineken</a>
+                <li><a class="dropdown-item" href="Pages/registrados/cerveza/heineken.html">Heineken</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/cerveza/godlen.html">Godlen </a>
+                <li><a class="dropdown-item" href="Pages/registrados/cerveza/godlen.html">Godlen </a>
                 </li>
               </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cigarros y Vapes</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/Pages/registrados/cigarros_y_vapes/cigarros_regulare.html">Cigarros
+                <li><a class="dropdown-item" href="Pages/registrados/cigarros_y_vapes/cigarros_regulare.html">Cigarros
                     Regulares</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/cigarros_y_vapes/cigarros_electricos.html">Cigarros
+                <li><a class="dropdown-item" href="Pages/registrados/cigarros_y_vapes/cigarros_electricos.html">Cigarros
                     Electronicos</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/cigarros_y_vapes/complementos.html">Complementos</a>
+                <li><a class="dropdown-item" href="Pages/registrados/cigarros_y_vapes/complementos.html">Complementos</a>
                 </li>
               </ul>
             </li>
@@ -250,15 +251,15 @@
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Listos
                 Para Tomar</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/Pages/registrados/listo_para_tomar/smirnoff.html">Smirnoff</a>
+                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/smirnoff.html">Smirnoff</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/listo_para_tomar/four_loko.html">Four
+                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/four_loko.html">Four
                     Loko</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/listo_para_tomar/tabernero.html">Tabernero</a>
+                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/tabernero.html">Tabernero</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/listo_para_tomar/mikes.html">Mikes</a></li>
-                <li><a class="dropdown-item" href="/Pages/registrados/listo_para_tomar/piscano.html">Piscano </a>
+                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/mikes.html">Mikes</a></li>
+                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/piscano.html">Piscano </a>
                 </li>
               </ul>
             </li>
@@ -266,16 +267,16 @@
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Piqueos
                 y Snacks</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/Pages/registrados/Piqueos_y_Snacks/papa.html">Papas</a>
+                <li><a class="dropdown-item" href="Pages/registrados/Piqueos_y_Snacks/papa.html">Papas</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/Piqueos_y_Snacks/piqueos.html">Piqueos</a>
+                <li><a class="dropdown-item" href="Pages/registrados/Piqueos_y_Snacks/piqueos.html">Piqueos</a>
                 </li>
-                <li><a class="dropdown-item" href="/Pages/registrados/Piqueos_y_Snacks/habas_y_mani.html">Habas y
+                <li><a class="dropdown-item" href="Pages/registrados/Piqueos_y_Snacks/habas_y_mani.html">Habas y
                     Mani</a></li>
-                <li><a class="dropdown-item" href="/Pages/registrados/Piqueos_y_Snacks/frutos_secos.html">Frutos
+                <li><a class="dropdown-item" href="Pages/registrados/Piqueos_y_Snacks/frutos_secos.html">Frutos
                     Secos</a></li>
                 <li><a class="dropdown-item"
-                    href="/Pages/registrados/Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
+                    href="Pages/registrados/Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
                 </li>
               </ul>
             </li>
@@ -299,13 +300,13 @@
 
                 <div class="banner-content">
                   <h1 class="display-2 text-uppercase text-white pb-5">Licores al por mayor</h1>
-                  <a href="shop.html" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">contactar</a>
+                  <a class="btn btn-medium btn-dark text-uppercase btn-rounded-none">contactar</a>
                 </div>
               </div>
 
               <div class="col-md-5">
                 <div class="image-holder">
-                  <img src="img/banner-image.png" style="opacity: 0.1;" alt="banner">
+                  <img src="img/index/banne-jagger.png" style="opacity: 0.1;" alt="banner">
                 </div>
               </div>
 
@@ -321,12 +322,12 @@
               <div class="col-md-6">
                 <div class="banner-content">
                   <h1 class="display-2 text-uppercase text-white pb-5 ">Los mejores wisikies</h1>
-                  <a href="shop.html" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Shop Product</a>
+                  <a class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Shop Product</a>
                 </div>
               </div>
               <div class="col-md-5">
                 <div class="image-holder">
-                  <img src="img/banner-image.png" style="opacity: 0.1;" alt="banner">
+                  <img src="img/index/banne-jagger.png" style="opacity: 0.1;" alt="banner">
                 </div>
               </div>
             </div>
@@ -420,7 +421,7 @@
         <div class="display-header d-flex justify-content-between pb-3">
           <h2 class="display-7 text-dark text-uppercase">Wiskies</h2>
           <div class="btn-right">
-            <a href="shop.html" class="btn btn-medium btn-normal text-uppercase">Ir a comprar</a>
+            <a href="Pages/registrados/bebidas_alcoholicas/whisky.html" class="btn btn-medium btn-normal text-uppercase">Ir a comprar</a>
           </div>
         </div>
 
@@ -429,11 +430,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/blueLabel.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/blueLabel.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -449,11 +450,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/blueLabel.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/blueLabel.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -469,11 +470,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/blueLabel.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/blueLabel.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -489,11 +490,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/blueLabel.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/blueLabel.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -509,11 +510,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/blueLabel.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/blueLabel.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -539,7 +540,7 @@
         <div class="display-header d-flex justify-content-between pb-3">
           <h2 class="display-7 text-dark text-uppercase">Vinos</h2>
           <div class="btn-right">
-            <a href="shop.html" class="btn btn-medium btn-normal text-uppercase">Ir a comprar</a>
+            <a href="Pages/registrados/bebidas_alcoholicas/vino.html" class="btn btn-medium btn-normal text-uppercase">Ir a comprar</a>
           </div>
         </div>
         <div class="swiper product-watch-swiper">
@@ -547,11 +548,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/vino.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/vino.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -567,11 +568,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/vino.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/vino.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -587,11 +588,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/vino.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/vino.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -607,11 +608,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/vino.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/vino.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -627,11 +628,11 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="img/vino.webp" alt="product-item" class="img-fluid">
+                  <img src="img/index/vino.webp" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -666,7 +667,7 @@
             <div class="card border-none me-3">
 
               <div class="card-image">
-                <img src="img/img-notice-one.webp" alt="" class="img-fluid">
+                <img src="img/index/img-notice-one.webp" alt="" class="img-fluid">
               </div>
             </div>
 
@@ -684,7 +685,7 @@
           <div class="col-lg-4 col-sm-12">
             <div class="card border-none me-3">
               <div class="card-image">
-                <img src="img/img-notice-two.webp" alt="" class="img-fluid">
+                <img src="img/index/img-notice-two.webp" alt="" class="img-fluid">
               </div>
             </div>
             <div class="card-body text-uppercase">
@@ -700,7 +701,7 @@
           <div class="col-lg-4 col-sm-12">
             <div class="card border-none me-3">
               <div class="card-image">
-                <img src="img/img-notice-thre.webp" alt="" class="img-fluid">
+                <img src="img/index/img-notice-thre.webp" alt="" class="img-fluid">
               </div>
             </div>
             <div class="card-body text-uppercase">
@@ -844,7 +845,7 @@
           <div class="row d-flex flex-wrap justify-content-between">
             <div class="col-lg-3 col-sm-6 pb-3">
               <div class="footer-menu">
-                <img src="/img/logo.jpeg" style="width: 50%;" alt="logo">
+                <img src="img/logo.png" style="width: 50%;" alt="logo">
                 <p>"Calidad y variedad en licores a un clic de distancia. ¡Haz tu pedido hoy y
                   disfruta
                   en casa!"</p>
@@ -925,12 +926,12 @@
   </footer>
 
 
-  <script src="/js/ocultacionDeLogo.js"></script>
-  <script src="/js/jquery-1.11.0.min.js"></script>
+  <script src="js/ocultacionDeLogo.js"></script>
+  <script src="js/jquery-1.11.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="/js/plugins.js"></script>
-  <script type="text/javascript" src="/js/script.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
