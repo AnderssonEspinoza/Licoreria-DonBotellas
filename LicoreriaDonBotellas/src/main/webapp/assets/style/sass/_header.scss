@@ -1,0 +1,70 @@
+// Header
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: $background-black;
+  transition: top 0.3s;  
+  .main-header{
+      text-align: left;
+    }
+    .navbar{
+        .image-container {
+            .imagen{
+                margin-left: 250px;
+                .logo-superior img {
+                    object-fit: cover;
+                    max-width: 80px
+                }
+                .logo-inferior img{
+                    max-width: 250px;
+                    max-height: 50px;
+                }
+            }
+        }
+        .offcanvas{
+            background-color: #000;
+
+                .offcanvas-header{
+                    .btn-close{
+                        color: $color-white !important;
+                        background-color: $color-white;
+                    }
+                }
+                .navbar-nav {
+                    font-size: $font-size-medium;
+                    a{
+                        background-color: $background-black;
+                        color: $color-white;
+                    }   
+                }
+                .dropdown-menu {
+                    text-align: center;
+                    background-color: $background-black;
+                    li a{
+                        background-color: $background-black;
+                    }
+                }
+        }
+        .boton-superior i {
+            color: $color-white;
+        }
+        .nav {
+            .nav-item {
+                .nav-link{
+                    img {
+                    max-width: 30px;
+                    max-height: 30px;
+                    }
+                    i{
+                    background-color: $background-black;
+                    color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+    
+}
