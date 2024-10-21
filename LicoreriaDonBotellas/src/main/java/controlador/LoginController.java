@@ -38,6 +38,7 @@ public class LoginController extends HttpServlet {
 
         if (usuario != null && usuario.getPassword().equals(password) && "Administrador".equals(usuario.getRol())) {
             response.getWriter().write("{\"success\": true}");
+            response.sendRedirect(request.getContextPath()+"/index-registrados.jsp");
         } else {
             response.getWriter().write("{\"success\": false}");
         }
