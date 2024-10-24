@@ -1,19 +1,22 @@
 package modelo.dto;
+
+import java.sql.Date;
+
 public class Usuarios {
-    private int userId;
+    private int user_id;
     private String nombre;
     private String email;
     private String password;
     private String direccion;
     private String telefono;
     private String rol;
-    private String fecha_creacion;
+    private Date fecha_creacion;
     
     public Usuarios(){       
     }
 
-    public Usuarios(int userId, String nombre, String email, String password, String direccion, String telefono, String rol, String fecha_creacion) {
-        this.userId = userId;
+    public Usuarios(int user_id, String nombre, String email, String password, String direccion, String telefono, String rol, Date fecha_creacion) {
+        this.user_id = user_id;
         this.nombre = nombre;
         this.email = email;
         this.password = password;
@@ -23,12 +26,12 @@ public class Usuarios {
         this.fecha_creacion = fecha_creacion;
     }
 
-    public int getUserId() {
-        return userId;
+    public int getUser_id() {
+        return user_id;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setUser_id(int userId) {
+        this.user_id = userId;
     }
 
     public String getNombre() {
@@ -79,11 +82,11 @@ public class Usuarios {
         this.rol = rol;
     }
 
-    public String getFecha_creacion() {
+    public Date getFecha_creacion() {
         return fecha_creacion;
     }
 
-    public void setFecha_creacion(String fecha_creacion) {
+    public void setFecha_creacion(Date fecha_creacion) {
         this.fecha_creacion = fecha_creacion;
     }
     

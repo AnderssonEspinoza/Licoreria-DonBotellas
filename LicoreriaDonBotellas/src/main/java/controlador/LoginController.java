@@ -9,6 +9,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import modelo.dao.UsuariosDAO;
 import modelo.dto.Usuarios;
 
@@ -32,7 +33,10 @@ public class LoginController extends HttpServlet {
             throws ServletException, IOException {
         
         String username = request.getParameter("NombreUsuario");
-        String password = request.getParameter("Contrasena");
+        String correo = request.getParameter("correoElectronico");
+        String password = request.getParameter("contrasena");
+        
+        /*
 
         Usuarios usuario = usuariosDAO.getUsuarioByUsername(username);
 
@@ -41,6 +45,19 @@ public class LoginController extends HttpServlet {
             response.sendRedirect(request.getContextPath()+"/index-registrados.jsp");
         } else {
             response.getWriter().write("{\"success\": false}");
+        }*/
+        
+        Usuarios usuario = usuariosDAO.getUsuarioByCorreo(correo);
+        if(usuario != null && usuario.getPassword().equals(password) && "Cliente".equals(usuario.getRol())){
+            response.getWriter().write("{\"success\": true}");
+            response.sendRedirect(request.getContextPath()+"/index-registrados.jsp");
+        }else if(usuario != null && usuario.getPassword().equals(password) && "Administrador".equals(usuario.getRol())){
+            response.getWriter().write("{\"success\": true}");
+            HttpSession session = request.getSession();
+            session.setAttribute("nombreUsuario", usuario.getNombre());
+            response.sendRedirect(request.getContextPath()+"/index-registrados.jsp");
+        }else {
+            response.getWriter().write("{\"success\":false}");
         }
         
     }
