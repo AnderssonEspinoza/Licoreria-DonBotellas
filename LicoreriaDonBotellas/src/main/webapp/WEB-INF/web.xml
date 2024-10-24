@@ -4,9 +4,17 @@
         <servlet-name>LoginController</servlet-name>
         <servlet-class>controlador.LoginController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>InventarioController</servlet-name>
+        <servlet-class>controlador.InventarioController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>
         <url-pattern>/LoginController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InventarioController</servlet-name>
+        <url-pattern>/InventarioController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
