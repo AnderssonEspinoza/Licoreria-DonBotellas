@@ -18,6 +18,7 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 /**
  *
  * @author Zephyr
@@ -62,39 +63,25 @@ public class InventarioController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-            ProductosDAO dao;
+        ProductosDAO dao;
         try {
             dao = new ProductosDAO();
-             List<Productos> listaProductos = dao.getList();
-             Gson gson = new Gson();
-             String json = gson.toJson(listaProductos);
-             response.setContentType("application/json");
-        } catch (SQLException ex) {
-            Logger.getLogger(InventarioController.class.getName()).log(Level.SEVERE, null, ex);
-        }         
-    }
-    /**
-     * Handles the HTTP <code>POST</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        processRequest(request, response);
-    }
+            List<Productos> listaProductos = dao.getList();
+            Gson gson = new Gson();
+            String json = gson.toJson(listaProductos);
 
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
-    @Override
-    public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
+            // Establecer el tipo de contenido como JSON
+            response.setContentType("application/json");
+            response.setCharacterEncoding("UTF-8"); // Asegúrate de que se use UTF-8
+
+            // Escribir el JSON en la respuesta
+            PrintWriter out = response.getWriter();
+            out.print(json);
+            out.flush();
+        } catch (SQLException ex) {
+        Logger.getLogger(InventarioController.class.getName()).log(Level.SEVERE, null, ex);
+        response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error en la base de datos");
+        }
+    }
 
 }
