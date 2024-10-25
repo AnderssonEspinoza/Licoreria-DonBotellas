@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:\Users\esola\OneDrive\Documentos\NetBeansProjects\Licoreria-DonBotellas\LicoreriaDonBotellas\src\main\java\modelo\dto\Carrito.java
 C:\Users\esola\OneDrive\Documentos\NetBeansProjects\Licoreria-DonBotellas\LicoreriaDonBotellas\src\main\java\modelo\dto\Productos.java
 C:\Users\esola\OneDrive\Documentos\NetBeansProjects\Licoreria-DonBotellas\LicoreriaDonBotellas\src\main\java\modelo\dao\PedidosDAO.java
@@ -23,8 +22,3 @@ C:\Users\esola\OneDrive\Documentos\NetBeansProjects\Licoreria-DonBotellas\Licore
 C:\Users\esola\OneDrive\Documentos\NetBeansProjects\Licoreria-DonBotellas\LicoreriaDonBotellas\src\main\java\modelo\dao\UsuariosDAO.java
 C:\Users\esola\OneDrive\Documentos\NetBeansProjects\Licoreria-DonBotellas\LicoreriaDonBotellas\src\main\java\modelo\dto\DetalleCarrito.java
 C:\Users\esola\OneDrive\Documentos\NetBeansProjects\Licoreria-DonBotellas\LicoreriaDonBotellas\src\main\java\modelo\dao\ProductosDAO.java
-=======
-C:\Users\vegac\Documents\NetBeansProjects\Licoreria-DonBotellas\LicoreriaDonBotellas\src\main\java\com\mycompany\licoreriadonbotellas\resources\JakartaEE8Resource.java
-C:\Users\vegac\Documents\NetBeansProjects\Licoreria-DonBotellas\LicoreriaDonBotellas\src\main\java\servicios\ConectorDB.java
-C:\Users\vegac\Documents\NetBeansProjects\Licoreria-DonBotellas\LicoreriaDonBotellas\src\main\java\com\mycompany\licoreriadonbotellas\JakartaRestConfiguration.java
->>>>>>> Gerson
