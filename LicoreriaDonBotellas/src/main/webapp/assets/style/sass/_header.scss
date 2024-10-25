@@ -5,8 +5,8 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: $background-black;
-  transition: top 0.3s;  
+  background-color: $background-white;
+  transition: top 0.3s;     
   .main-header{
       text-align: left;
     }
@@ -16,7 +16,7 @@ header {
                 margin-left: 250px;
                 .logo-superior img {
                     object-fit: cover;
-                    max-width: 80px
+                    max-width: 30px
                 }
                 .logo-inferior img{
                     max-width: 250px;

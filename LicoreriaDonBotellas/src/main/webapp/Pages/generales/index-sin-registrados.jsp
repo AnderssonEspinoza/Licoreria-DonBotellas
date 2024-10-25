@@ -12,8 +12,8 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
 
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="../../assets/style/styleIndex.css">
+  <link rel="stylesheet" href="../../assets/style/styleIndex.css">
+  <link rel="stylesheet" type="text/css" href="css/styleIndex.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -427,9 +427,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
-
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -449,9 +447,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
-
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -471,8 +467,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
-
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -492,9 +487,8 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
-
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                        <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
                 </div>
@@ -513,9 +507,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
-
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -553,9 +545,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
-
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -575,9 +565,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-
                     <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
-
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -597,9 +585,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-
                     <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
-
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -619,9 +605,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-
                     <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
-
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -641,11 +625,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-<<<<<<< HEAD:LicoreriaDonBotellas/src/main/webapp/index-sin-registrados.jsp
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
-=======
                     <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
->>>>>>> Gerson:LicoreriaDonBotellas/src/main/webapp/Pages/generales/index-sin-registrados.jsp
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
