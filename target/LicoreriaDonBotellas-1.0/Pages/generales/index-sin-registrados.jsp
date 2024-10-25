@@ -12,7 +12,7 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../../assets/style/styleIndex.css">
   <link rel="stylesheet" type="text/css" href="css/styleIndex.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">

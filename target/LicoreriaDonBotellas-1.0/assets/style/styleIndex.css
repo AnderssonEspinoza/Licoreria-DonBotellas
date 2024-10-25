@@ -181,7 +181,7 @@
   --------------------------------------------------------------*/
   h3.card-title,
   h3.cart-title {
-     font-size: 1.5em;
+     font-size: 15px;
   }
   
   /* - Section width
@@ -1037,7 +1037,7 @@
   --------------------------------------------------------------*/
   /*------------ Sidebar -----------*/
   .sidebar-post-item h4.card-title {
-      font-size: 1.2em;
+      font-size: 12px;
   }
   
   /* 13. Sibgle Post Page
