@@ -14,26 +14,8 @@
 
         <link rel="stylesheet" href="css/style.css">
 
-<<<<<<< HEAD:LicoreriaDonBotellas/src/main/webapp/index-registrados.jsp
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/styleIndex.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-              integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <!-- script
-          ================================================== -->
-        <script src="js/modernizr.js"></script>
-    </head>
 
-    <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
-          tabindex="0">
-        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-=======
-  <link rel="stylesheet" href="css/style.css">
+ 
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styleIndex.css">
@@ -145,28 +127,7 @@
 
 
 
-<<<<<<< HEAD:LicoreriaDonBotellas/src/main/webapp/index-registrados.jsp
-    <header class="main-header grid">
-        <nav class="navbar navbar-expand-lg navbar-black bg-black">
-            <div class="container-fluid">
-                <!-- Logo -->
 
-                <div class="image-container col">
-                    <div class="grid text-center" style="row-gap: 0;">
-                        <div> 
-                            <a href="index-registrados.jsp">
-                                <img src="img/logo.png" class="logo-superior" id="imagen-ocultar">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="index-registrados.jsp">
-                                <img src="img/Logo Moda Femenina Minimalista Negro y Rosa (1).png" class="logo-inferior">
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-=======
   <header class="main-header grid">
     <nav class="navbar navbar-expand-lg navbar-black bg-black">
       <div class="container-fluid">
@@ -188,31 +149,7 @@
             </div>
         </div>
 
-        <!-- Hamburger Menu (and other icons like search, profile, cart) -->
-        <div class="d-flex align-items-center">
-          <ul class="nav justify-content-end me-3">
-            <li class="search-item  nav-item ">
-              <a href="#" class="search-button nav-link ">
-                <i class="bi bi-search"></i>
-              </a>
-            </li>
-            <li class=" nav-item">
-		<li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle palabra-color img-login" href="#" role="button" data-bs-toggle="dropdown"><img src="img/img_login.png" alt=""></a>
-			<ul class="dropdown-menu ">
-                            <li><a class="dropdown-item"></a>Mi Cuenta</li>
-                            <li><a class="dropdown-item"></a>Mis Compras</li>
-                            <li><a class="dropdown-item"></a>Cerrar Sesion</li>
-			</ul>
-		</li>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Pages/registrados/carritoCliente.html">
-                    <i class="bi bi-cart-fill"></i>
-                </a>
-            </li>
-          </ul>
->>>>>>> Gerson:LicoreriaDonBotellas/src/main/webapp/Pages/generales/index-registrados.jsp
+
 
                 <!-- Hamburger Menu (and other icons like search, profile, cart) -->
                 <div class="d-flex align-items-center">
@@ -233,13 +170,13 @@
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Pages/registrados/carritoCliente.html">
+                            <a class="nav-link" href="../../Pages/registrados/carritoCliente.html">
                                 <i class="bi bi-cart-fill"></i>
                             </a>
                         </li>
                     </ul>
 
-<<<<<<< HEAD:LicoreriaDonBotellas/src/main/webapp/index-registrados.jsp
+
                     <!-- Hamburger button in the same row -->
                     <button class="boton-superior navbar-toggler nav-link" type="button" data-bs-toggle="offcanvas"
                             data-bs-target="#menuLateral">
@@ -258,117 +195,8 @@
                 <% } %>
             </div>
         </nav>
-=======
-    <!-- Offcanvas Menu -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-black">
-      <div class="container-fluid">
-        <section class="offcanvas offcanvas-end pt-5 pt-lg-0" id="menuLateral" tabindex="-1">
-          <div class="offcanvas-header">
-            <button class="btn-close" type="button" aria-label="close" data-bs-dismiss="offcanvas"></button>
-          </div>
-          <ul class="navbar-nav justify-content mx-auto mb-2  mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
-                Alcoholicas</a>
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/vino.html">Vino</a></li>
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/ron.html">Ron</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/whisky.html">Whisky</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/espumante.html">Espumante</a></li>
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/vodka.html">Vodka</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_alcoholicas/Pisco.html">Pisco</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
-                No Alcoholicas</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/gaseosas.html">Gaseosa</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/agua.html">Aguas</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/energizante.html">Energizante
-                  </a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/jugo.html">Jugos</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/bebidas_no_alcoholicas/Rehidratante.html">Rehidratante
-                  </a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cerveza</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/registrados/cerveza/pilsen.html">Pilsen</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/cerveza/CusqueÃ±a.html">CusqueÃ±a</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/cerveza/cistral.html">Cristal</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/cerveza/heineken.html">Heineken</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/cerveza/godlen.html">Godlen </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cigarros y Vapes</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/registrados/cigarros_y_vapes/cigarros_regulare.html">Cigarros
-                    Regulares</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/cigarros_y_vapes/cigarros_electricos.html">Cigarros
-                    Electronicos</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/cigarros_y_vapes/complementos.html">Complementos</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Listos
-                Para Tomar</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/smirnoff.html">Smirnoff</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/four_loko.html">Four
-                    Loko</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/tabernero.html">Tabernero</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/mikes.html">Mikes</a></li>
-                <li><a class="dropdown-item" href="Pages/registrados/listo_para_tomar/piscano.html">Piscano </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Piqueos
-                y Snacks</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/registrados/Piqueos_y_Snacks/papa.html">Papas</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/Piqueos_y_Snacks/piqueos.html">Piqueos</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/registrados/Piqueos_y_Snacks/habas_y_mani.html">Habas y
-                    Mani</a></li>
-                <li><a class="dropdown-item" href="Pages/registrados/Piqueos_y_Snacks/frutos_secos.html">Frutos
-                    Secos</a></li>
-                <li><a class="dropdown-item"
-                    href="Pages/registrados/Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-      </div>
-    </nav>
-  </header>
-  <!--Secccion del carrusel de promociones-->
-  <section id="billboard" class="position-relative overflow-hidden bg-light-blue">
->>>>>>> Gerson:LicoreriaDonBotellas/src/main/webapp/Pages/generales/index-registrados.jsp
+
+
 
         <!-- Offcanvas Menu -->
         <nav class="navbar navbar-expand-lg navbar-white bg-black">
@@ -625,7 +453,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -645,7 +473,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -665,7 +493,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -685,7 +513,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -705,7 +533,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -743,7 +571,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -763,7 +591,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -783,7 +611,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -803,7 +631,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -823,7 +651,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>

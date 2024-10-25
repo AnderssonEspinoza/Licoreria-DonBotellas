@@ -50,12 +50,12 @@ public class LoginController extends HttpServlet {
         Usuarios usuario = usuariosDAO.getUsuarioByCorreo(correo);
         if(usuario != null && usuario.getPassword().equals(password) && "Cliente".equals(usuario.getRol())){
             response.getWriter().write("{\"success\": true}");
-            response.sendRedirect(request.getContextPath()+"/index-registrados.jsp");
+            response.sendRedirect(request.getContextPath()+"/Pages/generales/index-registrados.jsp");
         }else if(usuario != null && usuario.getPassword().equals(password) && "Administrador".equals(usuario.getRol())){
             response.getWriter().write("{\"success\": true}");
             HttpSession session = request.getSession();
             session.setAttribute("nombreUsuario", usuario.getNombre());
-            response.sendRedirect(request.getContextPath()+"/index-registrados.jsp");
+            response.sendRedirect(request.getContextPath()+"/Pages/generales/index-registrados.jsp");
         }else {
             response.getWriter().write("{\"success\":false}");
         }
