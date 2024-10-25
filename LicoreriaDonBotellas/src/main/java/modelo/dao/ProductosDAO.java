@@ -28,7 +28,7 @@ public class ProductosDAO {
     
     // Metodo para capturar los datos de los productos en una lista
     public List<Productos> getList(){
-        List<Productos> lista = new ArrayList<>();
+        List<Productos> listaProductos = new ArrayList<>();
         PreparedStatement ps;
         ResultSet rs;
         String cadSQL = "select producto_id, nombre, descripcion, precio, stock, categoria_id, fecha_caducidad from productos";
@@ -37,7 +37,7 @@ public class ProductosDAO {
         try{
             ps = cnx.prepareStatement(cadSQL);
             rs = ps.executeQuery();
-            lista = new ArrayList<>();
+            listaProductos = new ArrayList<>();
             
             while (rs.next()){
                 Productos p = new Productos(
@@ -49,14 +49,14 @@ public class ProductosDAO {
                         rs.getInt("categoria_id"),
                         rs.getString("fecha_caducidad")
                 );
-                lista.add(p);                
+                listaProductos.add(p);                
             }
             rs.close();
         }catch(SQLException ex){
             
         }
         
-        return lista;
+        return listaProductos;
     }
     
     
