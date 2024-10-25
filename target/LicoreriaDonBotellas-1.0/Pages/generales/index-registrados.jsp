@@ -289,55 +289,62 @@
     <div class="container mt-5">
       <div class="row">
           
-        <div class="col-lg-3 col-md-6 pb-3">
-            <div class="icon-box d-flex align-items-start">
-                <div class="me-3">
-                    <i class="bi bi-cart3" style="font-size: 2rem; color: #9bbcd0;"></i>
-                </div>
-                <div>
-                    <h5 class="mb-2">FREE DELIVERY</h5>
-                    <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
-          
-        <div class="col-lg-3 col-md-6 pb-3">
-                <div class="icon-box d-flex align-items-start">
-                    <div class="me-3">
-                        <i class="bi bi-cart3" style="font-size: 2rem; color: #9bbcd0;"></i>
-                    </div>
-                    <div>
-                        <h5 class="mb-2">FREE DELIVERY</h5>
-                        <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-            </div>
-          
-          
-        <div class="col-lg-3 col-md-6 pb-3">
-            <div class="icon-box d-flex align-items-start">
-                <div class="me-3">
-                    <i class="bi bi-cart3" style="font-size: 2rem; color: #9bbcd0;"></i>
-                </div>
-                <div>
-                    <h5 class="mb-2">FREE DELIVERY</h5>
-                    <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
-          
-          
+        
        <div class="col-lg-3 col-md-6 pb-3">
             <div class="icon-box d-flex align-items-start">
-                <div class="me-3">
-                    <i class="bi bi-cart3" style="font-size: 2rem; color: #9bbcd0;"></i>
+                <div class="me-3" > <!-- Ajuste manual con margin-top -->
+                    <i class="bi bi-cart3" style="font-size: 2rem; color: black;"></i>
                 </div>
                 <div>
-                    <h5 class="mb-2">FREE DELIVERY</h5>
+                    <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
                     <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
         </div>
+
+       <div class="col-lg-3 col-md-6 pb-3">
+            <div class="icon-box d-flex align-items-start">
+                <div class="me-3" > <!-- Ajuste manual con margin-top -->
+                    <i class="bi bi-shield-plus" style="font-size: 2rem; color: black;"></i>
+                </div>
+                <div>
+                    <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
+                    <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+          
+       <div class="col-lg-3 col-md-6 pb-3">
+        <div class="icon-box d-flex align-items-start">
+            <div class="me-3" > <!-- Ajuste manual con margin-top -->
+                <i class="bi bi-cart3" style="font-size: 2rem; color: black;"></i>
+            </div>
+            <div>
+                <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
+                <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+       
+       <div class="col-lg-3 col-md-6 pb-3">
+        <div class="icon-box d-flex align-items-start">
+            <div class="me-3" > <!-- Ajuste manual con margin-top -->
+                <i class="bi bi-cart3" style="font-size: 2rem; color: black;"></i>
+            </div>
+            <div>
+                <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
+                <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+
+
+          
+        
+          
+          
+          
+          
           
         
       </div>
