@@ -1,3 +1,4 @@
+controlador\ControladorRegistro.class
 servicios\ConectorDB.class
 modelo\dto\DetalleCarrito.class
 com\mycompany\licoreriadonbotellas\resources\JakartaEE8Resource.class

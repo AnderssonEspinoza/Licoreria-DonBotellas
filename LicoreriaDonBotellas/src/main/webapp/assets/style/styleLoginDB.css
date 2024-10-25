@@ -8,33 +8,32 @@
 }
 
 body {
-
-    background-color: #101214; /* Color de fondo oscuro/plomo */
-    background: url(DnB.jpeg) no-repeat;
+    background-color: #101214;
+    background: url(../img/login/DnB.jpeg) no-repeat center center;
     background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     height: 100vh;
+    flex-direction: column;
 }
 
 .container {
-    background-color: #fff; /*aaaaquiii*/
-    border: 1px solid #666; /* Borde plomo */
+    background-color: #fff;
+    border: 1px solid #666;
     border-radius: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra suave negra */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     position: relative;
     overflow: hidden;
     width: 600px;
     max-width: 100%;
     min-height: 680px;
+    padding: 0 !important;
 }
 
 .container h1 {
-    margin-bottom: 0px;
-    color: #b49c4d; /* Color de título negro */
+    margin-bottom: 10px;
+    color: #b49c4d;
 }
 
 .container p {
@@ -42,24 +41,24 @@ body {
     line-height: 20px;
     letter-spacing: 0.3px;
     margin: 20px 0;
-    color: #ffffff; /* Texto en plomo */
+    color: #ffffff;
 }
 
 .container span {
     font-size: 12px;
-    color: #b49c4d; /* Texto dorado */
+    color: #b49c4d;
 }
 
 .container a {
-    color: #101214; /* Enlaces en negro */
+    color: #101214;
     font-size: 13px;
     text-decoration: none;
-    margin: 10px 0 10px;
+    margin: 10px 0;
 }
 
 .container button {
-    background-color: #b49c4d; /* Botón dorado */
-    color: #fff; /* Texto blanco */
+    background-color: #b49c4d;
+    color: #fff;
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
@@ -74,35 +73,35 @@ body {
 .container button.hidden {
     background-color: transparent;
     border-color: #b49c4d;
-    color: #b49c4d; /* Texto dorado en botón */
+    color: #b49c4d;
 }
 
 .container form {
-    background-color: #fff;/*aaaaquiii*/
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 0 40px;
     height: 100%;
+    background-color: #fff;
 }
 
 .container input, .container select {
-    background-color: #eee; /* Fondo claro para inputs */
+    background-color: #eee;
     border: none;
     margin: 3px 0;
     padding: 8px 13px;
     font-size: 13px;
     border-radius: 8px;
-    width: 50%;
     outline: none;
+    width: 100%;
 }
 
 .container label {
     width: 100%;
     text-align: left;
     font-size: 10px;
-    color: #101214; /* Etiquetas en negro */
+    color: #101214;
 }
 
 .form-container {
@@ -127,6 +126,12 @@ body {
     width: 50%;
     opacity: 0;
     z-index: 1;
+    padding: 40px 0;
+}
+
+.container-input-register {
+    display: flex;
+    flex-direction: column;
 }
 
 .container.active .sign-up {
@@ -149,18 +154,20 @@ body {
 
 .social-icons {
     margin: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .social-icons a {
-    border: 1px solid #b49c4d; /* Borde dorado */
+    border: 1px solid #b49c4d;
     border-radius: 20%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin: 0 3px;
+    margin: 0 5px;
     width: 40px;
     height: 40px;
-    color: #b49c4d; /* Iconos dorados */
+    color: #b49c4d;
 }
 
 .toggle-container {
@@ -179,11 +186,22 @@ body {
     transform: translateX(-100%);
     border-radius: 0 150px 100px 0;
 }
+.toggle-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+    z-index: 1000;
+}
 
 .toggle {
-    background-color: #b49c4d; /* Color dorado */
+    background-color: #b49c4d;
     height: 100%;
-    background: linear-gradient(to right,#666, #101214); /* Degradado dorado a negro */
+    background: linear-gradient(to right, #666, #101214);
     color: #fff;
     position: relative;
     left: -100%;
@@ -227,4 +245,79 @@ body {
 
 .container.active .toggle-right {
     transform: translateX(200%);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+    .container h1{
+        margin-top: 30px;
+    }
+    
+    .toggle-container {
+        left: 0;
+        width: 100%;
+        display: none;
+    }
+    
+    .toggle-panel, .form-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .social-icons {
+        flex-direction: row;
+    }
+
+    button {
+        padding: 12px 20px;
+        width: 100%;
+    }
+
+    input {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+    
+    
+    
+    /* Botón para mostrar el formulario de registro en móviles */
+    .show-register {
+        display: block;
+        background-color: #b49c4d;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        margin-top: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    
+     /* Ocultar el formulario de registro inicialmente */
+    .container .sign-up {
+        display: none;
+    }
+
+    /* Mostrar el formulario de registro cuando se haga clic en el botón */
+    .container.show-register .sign-up {
+        display: block;
+        opacity: 1;
+    }
+
+    /* Ocultar el formulario de inicio de sesión cuando se muestre el de registro */
+    .container.show-register .sign-in {
+        display: none;
+    }
+    
+    /*--------------------*/
+   /* Estilos para los formularios */
+
+
+
 }
