@@ -9,12 +9,12 @@
                     <div class="image-container col">
                             <div class="grid text-center" style="row-gap: 0;">
                                     <div class="imagen">
-                                        <a href="../../../Pages/generales/index-registrados.jsp" class="logo-superior">
-                                                    <img src="../../assets/img/logos/logo-superior.png" id="imagen-ocultar">
+                                        <a href="/Pages/generales/index-sin-registrados.jsp" class="logo-superior">
+                                            <img src="../../assets/img/logos/logo-superior.png" alt=".." id="imagen-ocultar">
                                             </a>
                                     </div>
                                     <div class="imagen">
-                                        <a href="../../../Pages/generales/index-registrados.jsp" class="logo-inferior">
+                                        <a href="/Pages/generales/index-sin-registrados.jsp" class="logo-inferior">
                                                     <img src="../../../assets/img/logos/logo-inferior.png">
                                             </a>
                                     </div>

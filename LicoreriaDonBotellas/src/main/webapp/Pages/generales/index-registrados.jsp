@@ -32,7 +32,7 @@
 
         .product-card img {
             width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
-            height: 300px; /* Altura fija para todas las imágenes */
+            height: 300px; /* Altura fija para todas las imÃ¡genes */
             object-fit: cover; /* Recortar la imagen para llenar el contenedor sin deformar */
         }
 
@@ -64,12 +64,9 @@
 </head>
 
 <body>
-<<<<<<< HEAD
+
    <!--Secccion del header-->
    <%@include file="../components/header_registrado.jsp" %>
-=======
-    <jsp:include page="../components/header_registrado.jsp"/>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
   <!--Secccion del carrusel de promociones-->
 
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -86,19 +83,19 @@
       <div class="carousel-item active">
         <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DA�INO</h5>
+            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAï¿½INO</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DA�INO</h5>
+            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAï¿½INO</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DA�INO</h5>
+          <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAï¿½INO</h5>
         </div>
       </div>
     </div>
@@ -111,7 +108,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
+  <!--Seccion servicios -->
   <section id="company-services">
     <div class="container mt-5">
       <div class="row">
@@ -182,7 +179,7 @@
           </div>
         </div>
           
-        <section class="container related-products" style="background: :red;" >
+        <section class="container related-products" style="background: red;" >
           <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -308,12 +305,12 @@
                   </div>
                   
                   
-                  <!-- Añade más productos aquí -->
+                  <!-- AÃ±ade mÃ¡s productos aquÃ­ -->
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegación -->
+            <!-- Controles de navegaciÃ³n -->
             <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -348,7 +345,7 @@
           </div>
         </div>
           
-        <section class="container related-products" style="background: :red;" >
+        <section class="container related-products" style="background: red;" >
           <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -472,12 +469,12 @@
                   </div>
                   
                   
-                  <!-- Añade más productos aquí -->
+                  <!-- AÃ±ade mÃ¡s productos aquÃ­ -->
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegación -->
+            <!-- Controles de navegaciÃ³n -->
             <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -505,7 +502,7 @@
       <div class="row">
           
         <div class="display-header d-flex justify-content-between pb-3">
-          <h2 class="display-7 text-dark text-uppercase">LO ÚLTIMO DE LOS LICORES DEL MUNDO</h2>
+          <h2 class="display-7 text-dark text-uppercase">LO ÃLTIMO DE LOS LICORES DEL MUNDO</h2>
           <div class="btn-right">
             <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Leer blog</a>
           </div>
