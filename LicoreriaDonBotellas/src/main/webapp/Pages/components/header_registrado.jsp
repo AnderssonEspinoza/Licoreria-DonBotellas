@@ -25,18 +25,14 @@
                     <!-- Hamburger Menu (and other icons like search, profile, cart) -->
                     <div class="d-flex align-items-center">
                             <ul class="nav justify-content-end me-3">
-                                    <li class="nav-item search-item">
-                                            <a href="#" class="search-button nav-link ">
-                                                    <i class="bi bi-search"></i>
-                                            </a>
-                                    </li>
+                                    
                                     <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle palabra-color img-login" href="#" role="button"
                                                     data-bs-toggle="dropdown"><img src="../../../assets/img/logos/img_login.png" alt=""></a>
                                             <ul class="dropdown-menu ">
-                                                    <li><a class="dropdown-item"></a>Mi Cuenta</li>
-                                                    <li><a class="dropdown-item"></a>Mis Compras</li>
-                                                    <li><a class="dropdown-item" href="../../../Pages/generales/index-sin-registrados.jsp"></a>Cerrar Sesión</li>
+                                                    <li><a class="dropdown-item">Mi Cuenta</a></li>
+                                                    <li><a class="dropdown-item">Mis Compras</a></li>
+                                                    <li><a class="dropdown-item" href="../../../Pages/generales/index-sin-registrados.jsp">Cerrar Sesión</a></li>
                                             </ul>
                                     </li>
                                     <li class="nav-item">
