@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
@@ -31,7 +32,7 @@
 
         .product-card img {
             width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
-            height: 300px; /* Altura fija para todas las imágenes */
+            height: 300px; /* Altura fija para todas las imÃ¡genes */
             object-fit: cover; /* Recortar la imagen para llenar el contenedor sin deformar */
         }
 
@@ -63,183 +64,7 @@
 </head>
 
 <body>
-  <header class="main-header grid">
-    <nav class="navbar navbar-expand-lg navbar-black bg-black">
-      <div class="container-fluid">
-        <!-- Logo -->
-        <div> </div>
-        <div class="image-container col">
-          <div class="grid text-center" style="row-gap: 0;">
-            <div class="imagen">
-              <a href="index-registrados.html" class="logo-superior">
-                <img src="../../assets/img/logos/logo-superior.png" id="imagen-ocultar">
-              </a>
-            </div>
-            <div class="imagen">
-              <a href="index-registrados.html" class="logo-inferior">
-                <img src="../../assets/img/logos/logo-inferior.png">
-              </a>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Hamburger Menu (and other icons like search, profile, cart) -->
-        <div class="d-flex align-items-center">
-          <ul class="nav justify-content-end me-3">
-            <li class="nav-item search-item">
-              <a href="#" class="search-button nav-link ">
-                <i class="bi bi-search"></i>
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle palabra-color img-login" href="#" role="button"
-                data-bs-toggle="dropdown"><img src="../../assets/img/logos/img_login.png" alt=""></a>
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="../registrados/usuario/index.html">Mi Cuenta</a></li>
-                <li><a class="dropdown-item">Mis Compras</a></li>
-                <li><a class="dropdown-item">Cerrar Sesión</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="../../Pages/registrados/carritoCliente.html">
-                <i class="bi bi-cart-fill"></i>
-              </a>
-            </li>
-          </ul>
-          <!-- Hamburger button in the same row palabra-color-->
-          <button class="boton-superior navbar-toggler nav-link" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#menuLateral">
-            <i class="bi bi-list"></i>
-          </button>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Offcanvas Menu -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-black">
-      <div class="container-fluid">
-        <section class="offcanvas offcanvas-end pt-5 pt-lg-0" id="menuLateral" tabindex="-1">
-          <div class="offcanvas-header">
-            <button class="btn-close" type="button" aria-label="close" data-bs-dismiss="offcanvas"></button>
-          </div>
-          <ul class="navbar-nav justify-content mx-auto mb-2  mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
-                Alcoholicas</a>
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="../../Pages/registrados/bebidas_alcoholicas/vino.html">Vino</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/bebidas_alcoholicas/ron.html">Ron</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_alcoholicas/whisky.html">Whisky</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_alcoholicas/espumante.html">Espumante</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/bebidas_alcoholicas/vodka.html">Vodka</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/bebidas_alcoholicas/Pisco.html">Pisco</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
-                No Alcoholicas</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/gaseosas.html">Gaseosa</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/agua.html">Aguas</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/energizante.html">Energizante
-                  </a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/jugo.html">Jugos</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/Rehidratante.html">Rehidratante
-                  </a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cerveza</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/pilsen.html">Pilsen</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/Cusqueña.html">Cusqueña</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/cistral.html">Cristal</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/heineken.html">Heineken</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/godlen.html">Godlen </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cigarros y Vapes</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/cigarros_y_vapes/cigarros_regulare.html">Cigarros
-                    Regulares</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/cigarros_y_vapes/cigarros_electricos.html">Cigarros
-                    Electronicos</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/cigarros_y_vapes/complementos.html">Complementos</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Listos
-                Para Tomar</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/listo_para_tomar/smirnoff.html">Smirnoff</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/listo_para_tomar/four_loko.html">Four
-                    Loko</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/listo_para_tomar/tabernero.html">Tabernero</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/listo_para_tomar/mikes.html">Mikes</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/listo_para_tomar/piscano.html">Piscano
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Piqueos
-                y Snacks</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../../Pages/registrados/Piqueos_y_Snacks/papa.html">Papas</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/Piqueos_y_Snacks/piqueos.html">Piqueos</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/Piqueos_y_Snacks/habas_y_mani.html">Habas
-                    y
-                    Mani</a></li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/Piqueos_y_Snacks/frutos_secos.html">Frutos
-                    Secos</a></li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-      </div>
-    </nav>
-  </header>
+    <jsp:include page="../components/header_registrado.jsp"/>
   <!--Secccion del carrusel de promociones-->
 
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -487,12 +312,12 @@
                   </div>
                   
                   
-                  <!-- Añade más productos aquí -->
+                  <!-- AÃ±ade mÃ¡s productos aquÃ­ -->
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegación -->
+            <!-- Controles de navegaciÃ³n -->
             <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -648,12 +473,12 @@
                   </div>
                   
                   
-                  <!-- Añade más productos aquí -->
+                  <!-- AÃ±ade mÃ¡s productos aquÃ­ -->
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegación -->
+            <!-- Controles de navegaciÃ³n -->
             <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -679,7 +504,7 @@
     <div class="container">
       <div class="row">
         <div class="display-header d-flex justify-content-between pb-3">
-          <h2 class="display-7 text-dark text-uppercase">LO ÚLTIMO DE LOS LICORES DEL MUNDO</h2>
+          <h2 class="display-7 text-dark text-uppercase">LO ÃšLTIMO DE LOS LICORES DEL MUNDO</h2>
           <div class="btn-right">
             <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Leer blog</a>
           </div>
@@ -700,7 +525,7 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-                <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky Escocés</a>
+                <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky EscocÃ©s</a>
               </h3>
             </div>
           </div>
@@ -717,7 +542,7 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-                <a href="#">Jägermeister: Un Viaje por el Mundo de un Licor Legendario</a>
+                <a href="#">JÃ¤germeister: Un Viaje por el Mundo de un Licor Legendario</a>
               </h3>
             </div>
           </div>
@@ -733,7 +558,7 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-                <a href="#">Cómo un Buen Calzado Mejora Tu Experiencia de Cata</a>
+                <a href="#">CÃ³mo un Buen Calzado Mejora Tu Experiencia de Cata</a>
               </h3>
             </div>
           </div>
@@ -743,105 +568,8 @@
   </section> -->
 
   <!--Secction footer-->
-  <footer class="overflow-hidden bg-black" id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="footer-top-area">
-					<div class="row d-flex flex-wrap justify-content-between">
-						<div class="col-lg-3 col-sm-6 pb-3">
-							<div class="footer-menu">
-								<img src="../../assets/img/logos/logo-superior.png" alt="logo">
-								<p>"Calidad y variedad en licores a un clic de distancia. ¡Haz tu pedido hoy y disfruta
-									en casa!"</p>
-								<div class="social-links">
-									<ul class="d-flex list-unstyled">
-										<li>
-											<a href="#">
-												<i class="bi bi-facebook"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i class="bi bi-instagram"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i class="bi bi-youtube"></i>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-sm-6 pb-3">
-							<div class="footer-menu text-uppercase">
-								<h5 class="widget-title pb-2">Informacion</h5>
-								<ul class="menu-list list-unstyled">
-									<li class="menu-item pb-2">
-										<a href="#">¿Por que? La Canasteri?a?</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Ventas Corporativas</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Tiendas</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-2 col-sm-6 pb-3">
-							<div class="footer-menu text-uppercase">
-								<h5 class="widget-title pb-2">Ayuda</h5>
-								<ul class="menu-list list-unstyled text-uppercase">
-									<li class="menu-item pb-2">
-										<a href="#">Medios de pago</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Seguimiento de mi pedido</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Libro de reclamaciones
-										</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Te?rminos y condiciones</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Entregas y devoluciones</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-sm-6 pb-3">
-							<div class="footer-menu contact-item">
-								<h5 class="widget-title text-uppercase pb-2">Contactanos</h5>
-								<a href="">yourinfo@gmail.com</a>
-								<p>¿Necesita ayuda? solo llamanos. <a href="">+55 111 222 333 44</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<hr>
-	</footer>
+ <jsp:include page="../components/footer.jsp"/>
 
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-  <script src="../../assets/js/javaScript.js"></script>
-  <script src="../../assets/js/jquery-1.11.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script type="text/javascript" src="../../assets/js/plugins.js"></script>
-  <script type="text/javascript" src="../../assets/js/script.js"></script>
-  <script src="../../assets/js/ocultacionDeLogo.js"></script>
-  <script src="../../assets/js/carrito-common.js"></script>
-  <script src="../../assets/js/carritoCliente.js"></script>
-  <script src="../../assets/js/carrito.js"></script>
 </body>
 
 </html>

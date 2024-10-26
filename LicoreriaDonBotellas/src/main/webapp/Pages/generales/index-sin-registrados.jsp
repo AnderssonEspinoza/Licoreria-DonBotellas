@@ -1,29 +1,17 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
 <head>
-  <title>Don Botellas</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="format-detection" content="telephone=no">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="author" content="">
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-
-  <link rel="stylesheet" href="../../assets/style/styleIndex.css">
-  <link rel="stylesheet" type="text/css" href="css/styleIndex.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <!-- script
-    ================================================== -->
-  <script src="js/modernizr.js"></script>
+  <title>Don Botellas</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../../assets/style/sass/main.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
@@ -121,163 +109,7 @@
 
 
 
-  <header class="main-header grid">
-    <nav class="navbar navbar-expand-lg navbar-black bg-black">
-      <div class="container-fluid">
-        <!-- Logo -->
-        <div> </div>
-        <div class="image-container col">
-          <div class="grid text-center" style="row-gap: 0;">
-						<div> <a href="index-sin-registrados.jsp">
-								<img src="img/logo.png" class="logo-superior" id="imagen-ocultar">
-							</a>
-						</div>
-						<div>
-							<a href="index-sin-registrados.jsp">
-								<img src="img/Logo Moda Femenina Minimalista Negro y Rosa (1).png"
-									class="logo-inferior">
-							</a>
-						</div>
-
-					</div>
-        </div>
-
-        <!-- Hamburger Menu (and other icons like search, profile, cart) -->
-        <div class="d-flex align-items-center">
-          <ul class="nav justify-content-end me-3">
-            <li class="search-item  nav-item ">
-              <a href="#" class="search-button nav-link ">
-                <i class="bi bi-search"></i>
-              </a>
-            </li>
-            <li class=" nav-item">
-              <a class="nav-link" href="Pages/LoginDonBotella/login2.html">
-                <i class="bi bi-person-fill"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="Pages/registrados/carritoCliente.html">
-                <i class="bi bi-cart-fill"></i>
-              </a>
-            </li>
-          </ul>
-
-          <!-- Hamburger button in the same row -->
-          <button class="boton-superior navbar-toggler nav-link" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#menuLateral">
-            <i class="bi bi-list"></i>
-          </button>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Offcanvas Menu -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-black">
-      <div class="container-fluid">
-        <section class="offcanvas offcanvas-end pt-5 pt-lg-0" id="menuLateral" tabindex="-1">
-          <div class="offcanvas-header">
-            <button class="btn-close" type="button" aria-label="close" data-bs-dismiss="offcanvas"></button>
-          </div>
-          <ul class="navbar-nav justify-content mx-auto mb-2  mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
-                Alcoholicas</a>
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_alcoholicas/vino.html">Vino</a></li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_alcoholicas/ron.html">Ron</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_alcoholicas/whisky.html">Whisky</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_alcoholicas/espumante.html">Espumante</a></li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_alcoholicas/vodka.html">Vodka</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_alcoholicas/Pisco.html">Pisco</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
-                No Alcoholicas</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_no_alcoholicas/gaseosas.html">Gaseosa</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_no_alcoholicas/agua.html">Aguas</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_no_alcoholicas/energizante.html">Energizante
-                  </a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_no_alcoholicas/jugo.html">Jugos</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/bebidas_no_alcoholicas/Rehidratante.html">Rehidratante
-                  </a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cerveza</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/sin-registrados/cerveza/pilsen.html">Pilsen</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/cerveza/Cusqueña.html">Cusqueña</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/cerveza/cistral.html">Cristal</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/cerveza/heineken.html">Heineken</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/cerveza/godlen.html">Godlen </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cigarros y Vapes</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/sin-registrados/cigarros_y_vapes/cigarros_regulare.html">Cigarros
-                    Regulares</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/cigarros_y_vapes/cigarros_electricos.html">Cigarros
-                    Electronicos</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/cigarros_y_vapes/complementos.html">Complementos</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Listos
-                Para Tomar</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/sin-registrados/listo_para_tomar/smirnoff.html">Smirnoff</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/listo_para_tomar/four_loko.html">Four
-                    Loko</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/listo_para_tomar/tabernero.html">Tabernero</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/listo_para_tomar/mikes.html">Mikes</a></li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/listo_para_tomar/piscano.html">Piscano </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Piqueos
-                y Snacks</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/sin-registrados/Piqueos_y_Snacks/papa.html">Papas</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/Piqueos_y_Snacks/piqueos.html">Piqueos</a>
-                </li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/Piqueos_y_Snacks/habas_y_mani.html">Habas y
-                    Mani</a></li>
-                <li><a class="dropdown-item" href="Pages/sin-registrados/Piqueos_y_Snacks/frutos_secos.html">Frutos
-                    Secos</a></li>
-                <li><a class="dropdown-item"
-                    href="Pages/sin-registrados/Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-      </div>
-    </nav>
-  </header>
+  <jsp:include page="../components/header_sin_registrar.jsp"/>
   <!--Secccion del carrusel de promociones -->
   <section id="billboard" class="position-relative overflow-hidden bg-light-blue">
 
@@ -353,9 +185,9 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Delivery gratuito</h3>
-              <p>Únete a nuestro programa de fidelidad y obtén envío gratuito
+              <p>Ãnete a nuestro programa de fidelidad y obtÃ©n envÃ­o gratuito
                 en todas tus compras.
-                ¡Porque valoramos tu lealtad!</p>
+                Â¡Porque valoramos tu lealtad!</p>
             </div>
           </div>
         </div>
@@ -368,8 +200,8 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Descubre nuestros licores premium</h3>
-              <p>Destilados únicos hasta vinos exquisitos, ofrecemos lo mejor en
-                licores para cada ocasión
+              <p>Destilados Ãºnicos hasta vinos exquisitos, ofrecemos lo mejor en
+                licores para cada ocasiÃ³n
               </p>
             </div>
           </div>
@@ -385,7 +217,7 @@
               <h3 class="card-title text-uppercase text-dark">Ofertas especiales en licores seleccionados </h3>
               <p>Cada semana, destacamos Pages seleccionados para que puedas disfrutar
                 de precios especiales en tus bebidas favoritas.
-                ¡No te pierdas la oportunidad de ahorrar en lo que más te gusta!</p>
+                Â¡No te pierdas la oportunidad de ahorrar en lo que mÃ¡s te gusta!</p>
             </div>
           </div>
         </div>
@@ -398,8 +230,8 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">100% de seguridad en tu compra</h3>
-              <p>Realiza tus compras con total confianza. Utilizamos tecnologías de encriptación
-                avanzadas para proteger tu información personal y de pago.</p>
+              <p>Realiza tus compras con total confianza. Utilizamos tecnologÃ­as de encriptaciÃ³n
+                avanzadas para proteger tu informaciÃ³n personal y de pago.</p>
             </div>
           </div>
         </div>
@@ -427,7 +259,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -447,7 +279,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -467,7 +299,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -487,7 +319,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -507,7 +339,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -545,7 +377,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -565,7 +397,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -585,7 +417,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -605,7 +437,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -625,7 +457,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">A�adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -649,7 +481,7 @@
     <div class="container">
       <div class="row">
         <div class="display-header d-flex justify-content-between pb-3">
-          <h2 class="display-7 text-dark text-uppercase">LO ÚLTIMO DE LOS LICORES DEL MUNDO</h2>
+          <h2 class="display-7 text-dark text-uppercase">LO ÃLTIMO DE LOS LICORES DEL MUNDO</h2>
           <div class="btn-right">
             <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Leer blog</a>
           </div>
@@ -670,7 +502,7 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-                <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky Escocés</a>
+                <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky EscocÃ©s</a>
               </h3>
             </div>
           </div>
@@ -687,7 +519,7 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-                <a href="#">Jägermeister: Un Viaje por el Mundo de un Licor Legendario</a>
+                <a href="#">JÃ¤germeister: Un Viaje por el Mundo de un Licor Legendario</a>
               </h3>
             </div>
           </div>
@@ -703,7 +535,7 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-                <a href="#">Cómo un Buen Calzado Mejora Tu Experiencia de Cata</a>
+                <a href="#">CÃ³mo un Buen Calzado Mejora Tu Experiencia de Cata</a>
               </h3>
             </div>
           </div>
@@ -732,10 +564,10 @@
               <div class="swiper-slide text-center d-flex justify-content-center">
                 <div class="review-item col-md-10">
                   <i class="icon icon-review"></i>
-                  <blockquote>"¡Estoy muy satisfecho con mi compra en DonBotella!
-                    La selección de licores es excelente y el proceso de compra
-                    fue fácil. Mi pedido llegó rápidamente y en perfectas condiciones.
-                    Sin duda, volveré a comprar aquí. ¡Altamente recomendado!"
+                  <blockquote>"Â¡Estoy muy satisfecho con mi compra en DonBotella!
+                    La selecciÃ³n de licores es excelente y el proceso de compra
+                    fue fÃ¡cil. Mi pedido llegÃ³ rÃ¡pidamente y en perfectas condiciones.
+                    Sin duda, volverÃ© a comprar aquÃ­. Â¡Altamente recomendado!"
                   </blockquote>
                   <div class="rating">
                     <svg class="star star-fill">
@@ -763,10 +595,10 @@
                 <div class="review-item col-md-10">
                   <i class="icon icon-review"></i>
                   <blockquote>
-                    "¡Excelente experiencia de compra! Encontré
-                    licores únicos que no había visto en otros sitios. La entrega
-                    fue rápida y todo llegó en perfectas condiciones.
-                    Definitivamente volveré a comprar. ¡Lo recomiendo a todos!"
+                    "Â¡Excelente experiencia de compra! EncontrÃ©
+                    licores Ãºnicos que no habÃ­a visto en otros sitios. La entrega
+                    fue rÃ¡pida y todo llegÃ³ en perfectas condiciones.
+                    Definitivamente volverÃ© a comprar. Â¡Lo recomiendo a todos!"
                   </blockquote>
                   <div class="rating">
                     <svg class="star star-fill">
@@ -811,7 +643,7 @@
           <div class="col-md-6 col-sm-12">
             <div class="display-header pe-3">
               <h2 class="display-7 text-uppercase text-light">Subscrite </h2>
-              <p>"¡Suscríbete y recibe las últimas novedades, promociones exclusivas y recomendaciones de
+              <p>"Â¡SuscrÃ­bete y recibe las Ãºltimas novedades, promociones exclusivas y recomendaciones de
                 licores directamente en tu bandeja de entrada!"</p>
             </div>
           </div>
@@ -831,100 +663,7 @@
   </section>
 
   <!--Secction footer-->
-  <footer id="footer" class="overflow-hidden bg-black" style="padding-top: 25px;">
-    <div class="container">
-      <div class="row">
-        <div class="footer-top-area">
-          <div class="row d-flex flex-wrap justify-content-between">
-            <div class="col-lg-3 col-sm-6 pb-3">
-              <div class="footer-menu">
-                <img src="img/logo.png" style="width: 50%;" alt="logo">
-                <p>"Calidad y variedad en licores a un clic de distancia. ¡Haz tu pedido hoy y
-                  disfruta
-                  en casa!"</p>
-                <div class="social-links">
-                  <ul class="d-flex list-unstyled">
-                    <li>
-                      <a href="#">
-                        <i class="bi bi-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="bi bi-instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="bi bi-youtube"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 pb-3">
-              <div class="footer-menu text-uppercase">
-                <h5 class="widget-title pb-2">Informacion</h5>
-                <ul class="menu-list list-unstyled">
-                  <li class="menu-item pb-2">
-                    <a href="#">¿Por que? La Canasteri?a?</a>
-                  </li>
-                  <li class="menu-item pb-2">
-                    <a href="#">Ventas Corporativas</a>
-                  </li>
-                  <li class="menu-item pb-2">
-                    <a href="#">Tiendas</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-sm-6 pb-3">
-              <div class="footer-menu text-uppercase">
-                <h5 class="widget-title pb-2">Ayuda</h5>
-                <ul class="menu-list list-unstyled text-uppercase">
-                  <li class="menu-item pb-2">
-                    <a href="#">Medios de pago</a>
-                  </li>
-                  <li class="menu-item pb-2">
-                    <a href="#">Seguimiento de mi pedido</a>
-                  </li>
-                  <li class="menu-item pb-2">
-                    <a href="#">Libro de reclamaciones
-                    </a>
-                  </li>
-                  <li class="menu-item pb-2">
-                    <a href="#">Te?rminos y condiciones</a>
-                  </li>
-                  <li class="menu-item pb-2">
-                    <a href="#">Entregas y devoluciones</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 pb-3">
-              <div class="footer-menu contact-item">
-                <h5 class="widget-title text-uppercase pb-2">Contactanos</h5>
-                <p><a href="mailto:">yourinfo@gmail.com</a>
-                </p>
-                <p>necesita ayuda? solo llamanos. <a href="">+55 111 222 333 44</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
-  </footer>
-
-
-  <script src="js/ocultacionDeLogo.js"></script>
-  <script src="js/jquery-1.11.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="js/plugins.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+  <jsp:include page="../components/footer.jsp"/>
 </body>
 
 </html>
