@@ -1,77 +1,19 @@
-<<<<<<< HEAD
-<!DOCTYPE  html>
-=======
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
 <html>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Don Botellas</title>
-<<<<<<< HEAD
   <!-- CSS INDEX -->
-=======
-  <!-- CSS -->
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
   <link rel="stylesheet" href="../../assets/style/sass/main.css">
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<<<<<<< HEAD
-  <style>
-    .carousel {
-      margin-top: 10px;
-    }
-    
-    .related-products {
-            margin-top: 40px;
-        }
-        .product-card {
-            margin: 10px;
-            text-align: center;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: white;
-            transition: box-shadow 0.3s;
-        }
-
-
-        .product-card img {
-            width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
-            height: 300px; /* Altura fija para todas las im�genes */
-            object-fit: cover; /* Recortar la imagen para llenar el contenedor sin deformar */
-        }
-
-        .product-card:hover {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        /* Estilos para botones de carrusel */
-        .carousel_prod_rel .carousel-control-prev,
-        .carousel_prod_rel .carousel-control-next {
-            width: 40px;
-            height: 40px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: rgb(0, 0, 0);
-            border-radius: 50%;
-            border: none;
-        }
-        
-        .carousel_prod_rel .carousel-control-prev-icon,
-        .carousel_prod_rel .carousel-control-next-icon {
-            background-color: transparent;
-        }
-
-        .carousel_prod_rel .carousel-control-prev-icon:focus,
-        .carousel_prod_rel .carousel-control-next-icon:focus {
-            outline: none;
-        }
-  </style>
-=======
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
 </head>
 
 <body>
@@ -79,35 +21,6 @@
    <%@include file="../components/header_sin_registrar.jsp" %>
   <!--Secccion del carrusel de promociones-->
 
-<<<<<<< HEAD
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-      
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DA�INO</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DA�INO</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DA�INO</h5>
-=======
     <symbol xmlns="http://www.w3.org/2000/svg" id="user" viewBox="0 0 16 16">
       <path fill="#FFFFFF" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
     </symbol>
@@ -223,7 +136,7 @@
             </div>
           </div>
 
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
         </div>
       </div>
     </div>
@@ -252,16 +165,14 @@
                     <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
-<<<<<<< HEAD
-=======
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Delivery gratuito</h3>
-              <p>Ãnete a nuestro programa de fidelidad y obtÃ©n envÃ­o gratuito
+              <p>ÃÂnete a nuestro programa de fidelidad y obtÃÂ©n envÃÂ­o gratuito
                 en todas tus compras.
-                Â¡Porque valoramos tu lealtad!</p>
+                ÃÂ¡Porque valoramos tu lealtad!</p>
             </div>
           </div>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
         </div>
 
        <div class="col-lg-3 col-md-6 pb-3">
@@ -274,16 +185,14 @@
                     <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
-<<<<<<< HEAD
-=======
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Descubre nuestros licores premium</h3>
-              <p>Destilados Ãºnicos hasta vinos exquisitos, ofrecemos lo mejor en
-                licores para cada ocasiÃ³n
+              <p>Destilados ÃÂºnicos hasta vinos exquisitos, ofrecemos lo mejor en
+                licores para cada ocasiÃÂ³n
               </p>
             </div>
           </div>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
         </div>
           
        <div class="col-lg-3 col-md-6 pb-3">
@@ -291,17 +200,13 @@
             <div class="me-3" > <!-- Ajuste manual con margin-top -->
                 <i class="bi bi-cart3" style="font-size: 2rem; color: black;"></i>
             </div>
-<<<<<<< HEAD
-            <div>
-                <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
-                <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
-=======
+
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Ofertas especiales en licores seleccionados </h3>
               <p>Cada semana, destacamos Pages seleccionados para que puedas disfrutar
                 de precios especiales en tus bebidas favoritas.
-                Â¡No te pierdas la oportunidad de ahorrar en lo que mÃ¡s te gusta!</p>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+                ÃÂ¡No te pierdas la oportunidad de ahorrar en lo que mÃÂ¡s te gusta!</p>
+
             </div>
         </div>
     </div>
@@ -311,16 +216,12 @@
             <div class="me-3" > <!-- Ajuste manual con margin-top -->
                 <i class="bi bi-cart3" style="font-size: 2rem; color: black;"></i>
             </div>
-<<<<<<< HEAD
-            <div>
-                <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
-                <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
-=======
+
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">100% de seguridad en tu compra</h3>
-              <p>Realiza tus compras con total confianza. Utilizamos tecnologÃ­as de encriptaciÃ³n
-                avanzadas para proteger tu informaciÃ³n personal y de pago.</p>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+              <p>Realiza tus compras con total confianza. Utilizamos tecnologÃÂ­as de encriptaciÃÂ³n
+                avanzadas para proteger tu informaciÃÂ³n personal y de pago.</p>
+
             </div>
         </div>
     </div>      
@@ -342,7 +243,7 @@
           </div>
         </div>
           
-        <section class="container related-products" style="background: :red;" >
+        <section class="container related-products" style="background: red;" >
           <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -358,10 +259,7 @@
                         <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
                         <p class="card-text">S/. 950.00</p>
 
-<<<<<<< HEAD
-                      </div>
-                    </div>
-=======
+
         <div class="swiper product-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -371,10 +269,9 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
                   </div>
                     
                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
@@ -421,71 +318,7 @@
                  
                     
                 </div>
-<<<<<<< HEAD
-              </div>
-                
-              <div class="carousel-item">
-                <div class="row">
-                  
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
-                        <p class="card-text">S/. 950.00</p>
 
-                      </div>
-                    </div>
-                  </div>
-                    
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
-                        <p class="card-text">S/. 950.00</p>
-
-                      </div>
-                    </div>
-                  </div>
-                    
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
-                        <p class="card-text">S/. 950.00</p>
-
-                      </div>
-                    </div>
-                  </div>
-                    
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
-                        <p class="card-text">S/. 950.00</p>
-
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <!-- A�ade m�s productos aqu� -->
-=======
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
                     <a href="#">Blue Label</a>
@@ -501,7 +334,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -521,7 +354,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -541,7 +374,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -561,7 +394,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -571,12 +404,12 @@
                     <a href="#">Blue label</a>
                   </h3>
                   <span class="item-price text-primary">precio</span>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegaci�n -->
+            <!-- Controles de navegación -->
             <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -610,27 +443,7 @@
               class="btn btn-medium btn-normal text-uppercase">Ir a comprar</a>
           </div>
         </div>
-<<<<<<< HEAD
-          
-        <section class="container related-products" style="background: :red;" >
-          <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                    
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                          <img src="../../assets/img/cerveza/heineken_img/heineken-botella.png" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 style="font-size: 15px;font-weight: bold">Cerveza HEINEKEN 350ml</h3>
-                        <p class="card-text">S/ 6.00</p>
 
-                      </div>
-                    </div>
-=======
         <div class="swiper product-watch-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -640,10 +453,10 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
                   </div>
                   
                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
@@ -689,70 +502,7 @@
                   </div>
                   
                 </div>
-<<<<<<< HEAD
-              </div>
-                
-              <div class="carousel-item">
-                <div class="row">
-                  
-                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
 
-                      </div>
-                    </div>
-                  </div>
-                    
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
-                        
-                    
-                      </div>
-                    </div>
-                  </div>
-                    
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
-                      </div>
-                    </div>
-                  </div>
-                    
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <!-- A�ade m�s productos aqu� -->
-=======
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
                     <a href="#">vino</a>
@@ -768,7 +518,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -788,7 +538,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -808,7 +558,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -828,7 +578,7 @@
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Aï¿½adir al carrito<svg class="cart-outline">
+                    <a href="#" class="btn btn-medium btn-black">AÃ¯Â¿Â½adir al carrito<svg class="cart-outline">
                         <use xlink:href="#cart-outline"></use>
                       </svg></a>
                   </div>
@@ -838,12 +588,12 @@
                     <a href="#">black watch</a>
                   </h3>
                   <span class="item-price text-primary">$750</span>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegaci�n -->
+            <!-- Controles de navegación -->
             <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -871,11 +621,9 @@
       <div class="row">
           
         <div class="display-header d-flex justify-content-between pb-3">
-<<<<<<< HEAD
-          <h2 class="display-7 text-dark text-uppercase">LO �LTIMO DE LOS LICORES DEL MUNDO</h2>
-=======
-          <h2 class="display-7 text-dark text-uppercase">LO ÃLTIMO DE LOS LICORES DEL MUNDO</h2>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
+          <h2 class="display-7 text-dark text-uppercase">LO ÃÂLTIMO DE LOS LICORES DEL MUNDO</h2>
+
           <div class="btn-right">
             <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Leer blog</a>
           </div>
@@ -898,13 +646,10 @@
                 <span class="meta-date"></span>
                 <span class="meta-category"></span>
               </div>
-<<<<<<< HEAD
-              <h3 class="card-title" >
-                <a href="#" style="color: black;">El Macallan: Un Viaje por la Excelencia del Whisky Escoc�s</a>
-=======
+
               <h3 class="card-title">
-                <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky EscocÃ©s</a>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+                <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky EscocÃÂ©s</a>
+
               </h3>
             </div>
           </div>
@@ -921,11 +666,9 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-<<<<<<< HEAD
-                <a href="#" style="color: black">J�germeister: Un Viaje por el Mundo de un Licor Legendario</a>
-=======
-                <a href="#">JÃ¤germeister: Un Viaje por el Mundo de un Licor Legendario</a>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
+                <a href="#">JÃÂ¤germeister: Un Viaje por el Mundo de un Licor Legendario</a>
+
               </h3>
             </div>
           </div>
@@ -942,121 +685,16 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-<<<<<<< HEAD
-                <a href="#" style="color:black">C�mo un Buen Calzado Mejora Tu Experiencia de Cata</a>
-=======
-                <a href="#">CÃ³mo un Buen Calzado Mejora Tu Experiencia de Cata</a>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
+                <a href="#">CÃÂ³mo un Buen Calzado Mejora Tu Experiencia de Cata</a>
+
               </h3>
             </div>
           </div>
         </div>
       </div>
     </div>
-<<<<<<< HEAD
-  </section> 
 
-  <!--Secction footer-->
-  <footer class="overflow-hidden bg-black" id="footer" >
-		<div class="container"  >
-			<div class="row">
-				<div class="footer-top-area">
-					<div class="row d-flex flex-wrap justify-content-between">
-						<div class="col-lg-3 col-sm-6 pb-3">
-							<div class="footer-menu">
-								<img src="../../assets/img/logos/logo-superior.png" alt="logo">
-								<p>"Calidad y variedad en licores a un clic de distancia. �Haz tu pedido hoy y disfruta
-									en casa!"</p>
-								<div class="social-links">
-									<ul class="d-flex list-unstyled">
-										<li>
-											<a href="#">
-												<i class="bi bi-facebook"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i class="bi bi-instagram"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i class="bi bi-youtube"></i>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-sm-6 pb-3">
-							<div class="footer-menu text-uppercase">
-								<h5 class="widget-title pb-2">Informacion</h5>
-								<ul class="menu-list list-unstyled">
-									<li class="menu-item pb-2">
-										<a href="#">�Por que? La Canasteri?a?</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Ventas Corporativas</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Tiendas</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-2 col-sm-6 pb-3">
-							<div class="footer-menu text-uppercase">
-								<h5 class="widget-title pb-2">Ayuda</h5>
-								<ul class="menu-list list-unstyled text-uppercase">
-									<li class="menu-item pb-2">
-										<a href="#">Medios de pago</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Seguimiento de mi pedido</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Libro de reclamaciones
-										</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Te?rminos y condiciones</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Entregas y devoluciones</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-sm-6 pb-3">
-							<div class="footer-menu contact-item">
-								<h5 class="widget-title text-uppercase pb-2">Contactanos</h5>
-								<a href="">yourinfo@gmail.com</a>
-								<p>�Necesita ayuda? solo llamanos. <a href="">+55 111 222 333 44</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<hr>
-	</footer>
-
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-  <script src="../../assets/js/javaScript.js"></script>
-  <script src="../../assets/js/jquery-1.11.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script type="text/javascript" src="../../assets/js/plugins.js"></script>
-  <script type="text/javascript" src="../../assets/js/script.js"></script>
-  <script src="../../assets/js/ocultacionDeLogo.js"></script>
-  <script src="../../assets/js/carrito-common.js"></script>
-  <script src="../../assets/js/carritoCliente.js"></script>
-  <script src="../../assets/js/carrito.js"></script>
-=======
   </section>
 
   <!--Testimonios de los clientes -->
@@ -1079,10 +717,10 @@
               <div class="swiper-slide text-center d-flex justify-content-center">
                 <div class="review-item col-md-10">
                   <i class="icon icon-review"></i>
-                  <blockquote>"Â¡Estoy muy satisfecho con mi compra en DonBotella!
-                    La selecciÃ³n de licores es excelente y el proceso de compra
-                    fue fÃ¡cil. Mi pedido llegÃ³ rÃ¡pidamente y en perfectas condiciones.
-                    Sin duda, volverÃ© a comprar aquÃ­. Â¡Altamente recomendado!"
+                  <blockquote>"ÃÂ¡Estoy muy satisfecho con mi compra en DonBotella!
+                    La selecciÃÂ³n de licores es excelente y el proceso de compra
+                    fue fÃÂ¡cil. Mi pedido llegÃÂ³ rÃÂ¡pidamente y en perfectas condiciones.
+                    Sin duda, volverÃÂ© a comprar aquÃÂ­. ÃÂ¡Altamente recomendado!"
                   </blockquote>
                   <div class="rating">
                     <svg class="star star-fill">
@@ -1110,10 +748,10 @@
                 <div class="review-item col-md-10">
                   <i class="icon icon-review"></i>
                   <blockquote>
-                    "Â¡Excelente experiencia de compra! EncontrÃ©
-                    licores Ãºnicos que no habÃ­a visto en otros sitios. La entrega
-                    fue rÃ¡pida y todo llegÃ³ en perfectas condiciones.
-                    Definitivamente volverÃ© a comprar. Â¡Lo recomiendo a todos!"
+                    "ÃÂ¡Excelente experiencia de compra! EncontrÃÂ©
+                    licores ÃÂºnicos que no habÃÂ­a visto en otros sitios. La entrega
+                    fue rÃÂ¡pida y todo llegÃÂ³ en perfectas condiciones.
+                    Definitivamente volverÃÂ© a comprar. ÃÂ¡Lo recomiendo a todos!"
                   </blockquote>
                   <div class="rating">
                     <svg class="star star-fill">
@@ -1158,7 +796,7 @@
           <div class="col-md-6 col-sm-12">
             <div class="display-header pe-3">
               <h2 class="display-7 text-uppercase text-light">Subscrite </h2>
-              <p>"Â¡SuscrÃ­bete y recibe las Ãºltimas novedades, promociones exclusivas y recomendaciones de
+              <p>"ÃÂ¡SuscrÃÂ­bete y recibe las ÃÂºltimas novedades, promociones exclusivas y recomendaciones de
                 licores directamente en tu bandeja de entrada!"</p>
             </div>
           </div>
@@ -1179,7 +817,7 @@
 
   <!--Secction footer-->
   <jsp:include page="../components/footer.jsp"/>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
 </body>
 
 </html>
