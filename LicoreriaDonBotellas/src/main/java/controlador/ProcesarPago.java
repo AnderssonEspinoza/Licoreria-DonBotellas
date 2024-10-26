@@ -4,12 +4,18 @@
  */
 package controlador;
 
+import com.mercadopago.exceptions.MPException;
+import com.mercadopago.resources.Preference;
+import com.mercadopago.resources.datastructures.preference.Item;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import servicios.MercadoPagoConfig;
 
 /**
  *
@@ -34,7 +40,7 @@ public class ProcesarPago extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet ProcesarPago</title>");            
+            out.println("<title>Servlet ProcesarPago</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet ProcesarPago at " + request.getContextPath() + "</h1>");
@@ -69,16 +75,43 @@ public class ProcesarPago extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        try {
+            // Inicializar Mercado Pago
+            MercadoPagoConfig.initialize();
+
+            // Obtener datos del formulario
+            String cardNumber = request.getParameter("cardNumber");
+            String cardName = request.getParameter("cardName");
+            String expiryDate = request.getParameter("expiryDate");
+            String cvv = request.getParameter("cvv");
+
+            // Crear una preferencia de pago
+            Preference preference = new Preference();
+
+            Item item = new Item();
+            item.setTitle("Producto de prueba")
+                    .setQuantity(1)
+                    .setUnitPrice((float) 100.0);
+
+            preference.appendItem(item);
+            preference.save();
+
+            // Enviar respuesta al cliente
+            response.setContentType("application/json");
+            response.getWriter().write("{\"preferenceId\": \"" + preference.getId() + "\"}");
+        } catch (MPException e) {
+            throw new ServletException(e);
+        }
     }
 
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
-    @Override
-    public String getServletInfo() {
+
+/**
+ * Returns a short description of the servlet.
+ *
+ * @return a String containing servlet description
+ */
+@Override
+public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
 
