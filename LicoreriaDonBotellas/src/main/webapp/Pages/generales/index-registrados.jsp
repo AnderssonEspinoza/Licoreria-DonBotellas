@@ -64,12 +64,9 @@
 </head>
 
 <body>
-<<<<<<< HEAD
+
    <!--Secccion del header-->
    <%@include file="../components/header_registrado.jsp" %>
-=======
-    <jsp:include page="../components/header_registrado.jsp"/>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
   <!--Secccion del carrusel de promociones-->
 
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -111,7 +108,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
+  <!--Seccion servicios -->
   <section id="company-services">
     <div class="container mt-5">
       <div class="row">

@@ -15,7 +15,7 @@
 <%@include file="../../components/header_sin_registrar.jsp" %>
 
 	<div class="cuerpo">
-		<!-- Filtro de categorías -->
+		<!-- Filtro de categoría -->
 		<div class="col-lg-2 category_list">
 			<!-- Filtro de precios -->
 			<nav class="navbar navbar-expand-lg ">

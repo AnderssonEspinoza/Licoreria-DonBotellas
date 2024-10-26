@@ -33,7 +33,7 @@
 							<h5>Filtrar por precio</h5>
 							<input type="range" id="filtro-precio" min="0" max="300" step="5" value="300"
 								oninput="actualizarPrecio(this.value)">
-							<p>Precio mÃ¡ximo: S/<span id="precio-actual">300</span></p>
+							<p>Precio maximo: S/<span id="precio-actual">300</span></p>
 						</div>
 
 						<ul class="list-group">
@@ -70,165 +70,49 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Chivas 12 AÃ±os</p>
+						<p href="#">Chivas 12 Años</p>
 						<p>750ml</p>
-						<p>S/88</p>
-					</div>
+						<p>S/88.00</p>
+					</div>`
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<a href="#">AÑADIR</a>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item g-col-3" data-precio="105">
+                        
+                        <div class="card product-item g-col-3" data-precio="88">
 				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Jack Daniels.jpg" alt="...">
+                                    <img src="../../../assets/img/bebidas_alcoholicas/whisky_img/Chivas 12 Años.avif" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Jack Daniels</p>
+						<p href="#">Chivas 12 Años</p>
 						<p>750ml</p>
-						<p>S/105</p>
-					</div>
+						<p>S/88.00</p>
+					</div>`
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<a href="#">AÑADIR</a>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item g-col-3" data-precio="105">
+                    
+                        <div class="card product-item g-col-3" data-precio="88">
 				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Johnnie Walker.webp" alt="...">
+                                    <img src="../../../assets/img/bebidas_alcoholicas/whisky_img/Chivas 12 Años.avif" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Johnnie Walker Black</p>
+						<p href="#">Chivas 12 Años</p>
 						<p>750ml</p>
-						<p>S/155</p>
-					</div>
+						<p>S/88.00</p>
+					</div>`
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<a href="#">AÑADIR</a>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item g-col-3" data-precio="250">
-				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Johnnie Walker.webp" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Johnnie Walker</p>
-						<p>750ml</p>
-						<p>S/250</p>
-					</div>
-					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item g-col-3" data-precio="55">
-				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Johnnie Walker.webp" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Johnnie Walker</p>
-						<p>750ml</p>
-						<p>S/55</p>
-					</div>
-					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item g-col-3" data-precio="33">
-				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Old Times Black.jpeg" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Old Times Black</p>
-						<p>1Lt</p>
-						<p>S/33</p>
-					</div>
-					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item g-col-3" data-precio="29">
-				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Old Times Black.jpeg" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Old Times Black</p>
-						<p>750ml</p>
-						<p>S/29</p>
-					</div>
-					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item g-col-3" data-precio="30">
-				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Old Times Red.jpeg" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Old Times Red</p>
-						<p>1Lt</p>
-						<p>S/30</p>
-					</div>
-					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item g-col-3" data-precio="26">
-				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Old Times Red.jpeg" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Old Times Red</p>
-						<p>750ml</p>
-						<p>S/26</p>
-					</div>
-					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item g-col-3" data-precio="25">
-				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Vat 69 Rojo.jpeg" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Vat 69 Rojo</p>
-						<p>700ml</p>
-						<p>S/25</p>
-					</div>
-					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item g-col-3" data-precio="33">
-				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/whisky_img/Vat 69 Manzana.webp" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Vat 69 Manzana</p>
-						<p>700ml</p>
-						<p>S/33</p>
-					</div>
-					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
-					</div>
-				</section>
-			</div>
+			
+			
 		</section>
 	</div>
 <%@include file="../../components/footer.jsp" %>
