@@ -86,19 +86,19 @@
       <div class="carousel-item active">
         <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAÑINO</h5>
+            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAï¿½INO</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAÑINO</h5>
+            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAï¿½INO</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAÑINO</h5>
+          <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAï¿½INO</h5>
         </div>
       </div>
     </div>
@@ -528,13 +528,10 @@
                 <span class="meta-date"></span>
                 <span class="meta-category"></span>
               </div>
-<<<<<<< HEAD
+
               <h3 class="card-title" >
-                <a href="#" style="color: black;">El Macallan: Un Viaje por la Excelencia del Whisky Escocés</a>
-=======
-              <h3 class="card-title">
-                <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky EscocÃ©s</a>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+                <a href="#" style="color: black;">El Macallan: Un Viaje por la Excelencia del Whisky Escoces</a>
+
               </h3>
             </div>
           </div>
@@ -551,11 +548,9 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-<<<<<<< HEAD
-                <a href="#" style="color: black">Jägermeister: Un Viaje por el Mundo de un Licor Legendario</a>
-=======
-                <a href="#">JÃ¤germeister: Un Viaje por el Mundo de un Licor Legendario</a>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
+                <a href="#" style="color: black">Jagermeister: Un Viaje por el Mundo de un Licor Legendario</a>
+
               </h3>
             </div>
           </div>
@@ -572,11 +567,8 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-<<<<<<< HEAD
-                <a href="#" style="color:black">Cómo un Buen Calzado Mejora Tu Experiencia de Cata</a>
-=======
-                <a href="#">CÃ³mo un Buen Calzado Mejora Tu Experiencia de Cata</a>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
+                <a href="#" style="color:black">Como un Buen Calzado Mejora Tu Experiencia de Cata</a>
               </h3>
             </div>
           </div>
@@ -585,95 +577,8 @@
     </div>
   </section> 
 
-  <!--Secction footer-->
-<<<<<<< HEAD
-  <footer class="overflow-hidden bg-black" id="footer" >
-		<div class="container"  >
-			<div class="row">
-				<div class="footer-top-area">
-					<div class="row d-flex flex-wrap justify-content-between">
-						<div class="col-lg-3 col-sm-6 pb-3">
-							<div class="footer-menu">
-								<img src="../../assets/img/logos/logo-superior.png" alt="logo">
-								<p>"Calidad y variedad en licores a un clic de distancia. ¡Haz tu pedido hoy y disfruta
-									en casa!"</p>
-								<div class="social-links">
-									<ul class="d-flex list-unstyled">
-										<li>
-											<a href="#">
-												<i class="bi bi-facebook"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i class="bi bi-instagram"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i class="bi bi-youtube"></i>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-sm-6 pb-3">
-							<div class="footer-menu text-uppercase">
-								<h5 class="widget-title pb-2">Informacion</h5>
-								<ul class="menu-list list-unstyled">
-									<li class="menu-item pb-2">
-										<a href="#">¿Por que? La Canasteri?a?</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Ventas Corporativas</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Tiendas</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-2 col-sm-6 pb-3">
-							<div class="footer-menu text-uppercase">
-								<h5 class="widget-title pb-2">Ayuda</h5>
-								<ul class="menu-list list-unstyled text-uppercase">
-									<li class="menu-item pb-2">
-										<a href="#">Medios de pago</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Seguimiento de mi pedido</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Libro de reclamaciones
-										</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Te?rminos y condiciones</a>
-									</li>
-									<li class="menu-item pb-2">
-										<a href="#">Entregas y devoluciones</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-sm-6 pb-3">
-							<div class="footer-menu contact-item">
-								<h5 class="widget-title text-uppercase pb-2">Contactanos</h5>
-								<a href="">yourinfo@gmail.com</a>
-								<p>¿Necesita ayuda? solo llamanos. <a href="">+55 111 222 333 44</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<hr>
-	</footer>
-=======
  <jsp:include page="../components/footer.jsp"/>
->>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
+
 
 </body>
 
