@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <style>
     .carousel {
-      margin-top: 100px;
+      margin-top: 10px;
     }
     
     .related-products {
@@ -63,183 +63,8 @@
 </head>
 
 <body>
-  <header class="main-header grid">
-    <nav class="navbar navbar-expand-lg navbar-black bg-black">
-      <div class="container-fluid">
-        <!-- Logo -->
-        <div> </div>
-        <div class="image-container col">
-          <div class="grid text-center" style="row-gap: 0;">
-            <div class="imagen">
-              <a href="index-registrados.html" class="logo-superior">
-                <img src="../../assets/img/logos/logo-superior.png" id="imagen-ocultar">
-              </a>
-            </div>
-            <div class="imagen">
-              <a href="index-registrados.html" class="logo-inferior">
-                <img src="../../assets/img/logos/logo-inferior.png">
-              </a>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Hamburger Menu (and other icons like search, profile, cart) -->
-        <div class="d-flex align-items-center">
-          <ul class="nav justify-content-end me-3">
-            <li class="nav-item search-item">
-              <a href="#" class="search-button nav-link ">
-                <i class="bi bi-search"></i>
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle palabra-color img-login" href="#" role="button"
-                data-bs-toggle="dropdown"><img src="../../assets/img/logos/img_login.png" alt=""></a>
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="../registrados/usuario/index.html">Mi Cuenta</a></li>
-                <li><a class="dropdown-item">Mis Compras</a></li>
-                <li><a class="dropdown-item">Cerrar Sesión</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="../../Pages/registrados/carritoCliente.html">
-                <i class="bi bi-cart-fill"></i>
-              </a>
-            </li>
-          </ul>
-          <!-- Hamburger button in the same row palabra-color-->
-          <button class="boton-superior navbar-toggler nav-link" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#menuLateral">
-            <i class="bi bi-list"></i>
-          </button>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Offcanvas Menu -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-black">
-      <div class="container-fluid">
-        <section class="offcanvas offcanvas-end pt-5 pt-lg-0" id="menuLateral" tabindex="-1">
-          <div class="offcanvas-header">
-            <button class="btn-close" type="button" aria-label="close" data-bs-dismiss="offcanvas"></button>
-          </div>
-          <ul class="navbar-nav justify-content mx-auto mb-2  mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
-                Alcoholicas</a>
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="../../Pages/registrados/bebidas_alcoholicas/vino.html">Vino</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/bebidas_alcoholicas/ron.html">Ron</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_alcoholicas/whisky.html">Whisky</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_alcoholicas/espumante.html">Espumante</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/bebidas_alcoholicas/vodka.html">Vodka</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/bebidas_alcoholicas/Pisco.html">Pisco</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas
-                No Alcoholicas</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/gaseosas.html">Gaseosa</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/agua.html">Aguas</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/energizante.html">Energizante
-                  </a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/jugo.html">Jugos</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/bebidas_no_alcoholicas/Rehidratante.html">Rehidratante
-                  </a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cerveza</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/pilsen.html">Pilsen</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/Cusqueña.html">Cusqueña</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/cistral.html">Cristal</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/heineken.html">Heineken</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/cerveza/godlen.html">Godlen </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cigarros y Vapes</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/cigarros_y_vapes/cigarros_regulare.html">Cigarros
-                    Regulares</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/cigarros_y_vapes/cigarros_electricos.html">Cigarros
-                    Electronicos</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/cigarros_y_vapes/complementos.html">Complementos</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Listos
-                Para Tomar</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/listo_para_tomar/smirnoff.html">Smirnoff</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/listo_para_tomar/four_loko.html">Four
-                    Loko</a>
-                </li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/listo_para_tomar/tabernero.html">Tabernero</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/listo_para_tomar/mikes.html">Mikes</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/listo_para_tomar/piscano.html">Piscano
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Piqueos
-                y Snacks</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../../Pages/registrados/Piqueos_y_Snacks/papa.html">Papas</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/Piqueos_y_Snacks/piqueos.html">Piqueos</a>
-                </li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/Piqueos_y_Snacks/habas_y_mani.html">Habas
-                    y
-                    Mani</a></li>
-                <li><a class="dropdown-item" href="../../Pages/registrados/Piqueos_y_Snacks/frutos_secos.html">Frutos
-                    Secos</a></li>
-                <li><a class="dropdown-item"
-                    href="../../Pages/registrados/Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-      </div>
-    </nav>
-  </header>
+   <!--Secccion del header-->
+   <%@include file="../components/header_registrado.jsp" %>
   <!--Secccion del carrusel de promociones-->
 
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -256,22 +81,19 @@
       <div class="carousel-item active">
         <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAÑINO</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+            <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAÑINO</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../../assets/img/index/flayer-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h5>TOMAR BEBIDAS ALCOHOLICAS EN EXCESO ES DAÑINO</h5>
         </div>
       </div>
     </div>
@@ -296,7 +118,7 @@
                     <i class="bi bi-cart3" style="font-size: 2rem; color: black;"></i>
                 </div>
                 <div>
-                    <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
+                    <h5 class="mb-2" style="margin-top: 10px;">DELIVERY GRATUITO</h5>
                     <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
@@ -308,7 +130,7 @@
                     <i class="bi bi-shield-plus" style="font-size: 2rem; color: black;"></i>
                 </div>
                 <div>
-                    <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
+                    <h5 class="mb-2" style="margin-top: 10px;">SEGURIDAD</h5>
                     <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
@@ -336,36 +158,26 @@
                 <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
             </div>
         </div>
-    </div>
-
-
-          
-        
-          
-          
-          
-          
-          
-        
+    </div>      
       </div>
     </div>
   </section>
   
-  <!--Secciton de carrusel Pages Vinos-->
+  <!--Seccion de carrusel Pages whiskies-->
   <section id="mobile-products" class="product-store position-relative padding-large no-padding-top">
-    <div class="container">
+    <div class="container" style="padding-top: 20px">
         
       <div class="row">
           
-        <div class="display-header d-flex justify-content-between pb-3">
+        <div class="display-header d-flex justify-content-between pb-">
           <h2 class="display-7 text-dark text-uppercase">Wiskies</h2>
           <div class="btn-right">
-            <a href="../../Pages/registrados/bebidas_alcoholicas/whisky.html"
+              <a href="../../Pages/registrados/bebidas_alcoholicas/whisky.jsp"
               class="btn btn-medium btn-normal text-uppercase">Ir a comprar</a>
           </div>
         </div>
           
-        <section class="container related-products">
+        <section class="container related-products" style="background: :red;" >
           <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -378,8 +190,8 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
 
                       </div>
                     </div>
@@ -392,10 +204,9 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
-                        
-                    
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
                       </div>
                     </div>
                   </div>
@@ -407,8 +218,9 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
                       </div>
                     </div>
                   </div>
@@ -420,26 +232,29 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
                       </div>
                     </div>
                   </div>
+                 
+                    
                 </div>
               </div>
                 
               <div class="carousel-item">
                 <div class="row">
                   
-                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
+                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
                     <div class="product-card card">
                       <div class="image position-relative overflow-hidden clickeable">
                         <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
 
                       </div>
                     </div>
@@ -452,10 +267,9 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
-                        
-                    
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
                       </div>
                     </div>
                   </div>
@@ -467,8 +281,9 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
                       </div>
                     </div>
                   </div>
@@ -480,8 +295,9 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
                       </div>
                     </div>
                   </div>
@@ -506,6 +322,7 @@
           </div>
 
         </section>
+      
       </div>
     </div>
       
@@ -513,20 +330,20 @@
   </section>
  
   <!--Secciton de carrusel Pages Cervezas-->
-  <section id="mobile-products" class="product-store position-relative  no-padding-top">
-    <div class="container">
+ <section id="mobile-products" class="product-store position-relative padding-large no-padding-top">
+    <div class="container" style="padding-top: 40px">
         
       <div class="row">
           
-        <div class="display-header d-flex justify-content-between pb-3">
-          <h2 class="display-7 text-dark text-uppercase">Cerveza</h2>
+        <div class="display-header d-flex justify-content-between pb-">
+          <h2 class="display-7 text-dark text-uppercase">Cervezas</h2>
           <div class="btn-right">
-            <a href="../../Pages/registrados/bebidas_alcoholicas/whisky.html"
+              <a href="../../Pages/registrados/cerveza/heineken.jsp"
               class="btn btn-medium btn-normal text-uppercase">Ir a comprar</a>
           </div>
         </div>
           
-        <section class="container related-products">
+        <section class="container related-products" style="background: :red;" >
           <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -535,12 +352,26 @@
                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
                     <div class="product-card card">
                       <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
+                          <img src="../../assets/img/cerveza/heineken_img/heineken-botella.png" alt="Essential Cropped Tees" class="img-fluid product-img"
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Cerveza HEINEKEN 350ml</h3>
+                        <p class="card-text">S/ 6.00</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
+                    <div class="product-card card">
+                      <div class="image position-relative overflow-hidden clickeable">
+                          <img src="../../assets/img/cerveza/heineken_img/heineken-botella.png" alt="Essential Cropped Tees" class="img-fluid product-img"
+                          data-id="4018">
+                      </div>
+                      <div class="product-info card-body">
+                        <h3 style="font-size: 15px;font-weight: bold">Cerveza HEINEKEN 350ml</h3>
+                        <p class="card-text">S/ 6.00</p>
 
                       </div>
                     </div>
@@ -549,14 +380,13 @@
                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
                     <div class="product-card card">
                       <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
+                          <img src="../../assets/img/cerveza/heineken_img/heineken-botella.png" alt="Essential Cropped Tees" class="img-fluid product-img"
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
-                        
-                    
+                        <h3 style="font-size: 15px;font-weight: bold">Cerveza HEINEKEN 350ml</h3>
+                        <p class="card-text">S/ 6.00</p>
+
                       </div>
                     </div>
                   </div>
@@ -564,28 +394,17 @@
                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
                     <div class="product-card card">
                       <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
+                          <img src="../../assets/img/cerveza/heineken_img/heineken-botella.png" alt="Essential Cropped Tees" class="img-fluid product-img"
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Cerveza HEINEKEN 350ml</h3>
+                        <p class="card-text">S/ 6.00</p>
+
                       </div>
                     </div>
                   </div>
-                    
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
                 
@@ -667,6 +486,7 @@
           </div>
 
         </section>
+      
       </div>
     </div>
       
@@ -675,32 +495,36 @@
   
   
   <!--Section of notice-->
-  <!--<section id="latest-blog" class="padding-large">
-    <div class="container">
+  <section id="latest-blog" class="padding-large">
+    <div class="container" style="padding-top: 100px;padding-bottom: 80px">
       <div class="row">
+          
         <div class="display-header d-flex justify-content-between pb-3">
           <h2 class="display-7 text-dark text-uppercase">LO ÚLTIMO DE LOS LICORES DEL MUNDO</h2>
           <div class="btn-right">
             <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Leer blog</a>
           </div>
+          
         </div>
-        <div class="post-grid d-flex flex-wrap justify-content-between">
+          
+        <div class="post-grid d-flex flex-wrap justify-content-between" style="padding-top: 30px">
+          
           <div class="col-lg-4 col-sm-12">
 
             <div class="card border-none me-3">
 
               <div class="card-image">
-                <img src="img/index/img-notice-one.webp" alt="" class="img-fluid">
+                  <img src="../../assets/img/index/img-notice-one.webp" alt="" class="img-fluid">
               </div>
             </div>
 
-            <div class="card-body text-uppercase">
+            <div class="card-body text-uppercase" style="padding-top: 20px">
               <div class="card-meta text-muted">
                 <span class="meta-date"></span>
                 <span class="meta-category"></span>
               </div>
-              <h3 class="card-title">
-                <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky Escocés</a>
+              <h3 class="card-title" >
+                <a href="#" style="color: black;">El Macallan: Un Viaje por la Excelencia del Whisky Escocés</a>
               </h3>
             </div>
           </div>
@@ -708,7 +532,7 @@
           <div class="col-lg-4 col-sm-12">
             <div class="card border-none me-3">
               <div class="card-image">
-                <img src="img/index/img-notice-two.webp" alt="" class="img-fluid">
+                  <img src="../../assets/img/index/img-notice-two.webp" alt="" class="img-fluid">
               </div>
             </div>
             <div class="card-body text-uppercase">
@@ -717,14 +541,15 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-                <a href="#">Jägermeister: Un Viaje por el Mundo de un Licor Legendario</a>
+                <a href="#" style="color: black">Jägermeister: Un Viaje por el Mundo de un Licor Legendario</a>
               </h3>
             </div>
           </div>
+            
           <div class="col-lg-4 col-sm-12">
             <div class="card border-none me-3">
               <div class="card-image">
-                <img src="img/index/img-notice-thre.webp" alt="" class="img-fluid">
+                  <img src="../../assets/img/index/img-notice-thre.webp" alt="" class="img-fluid">
               </div>
             </div>
             <div class="card-body text-uppercase">
@@ -733,18 +558,18 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
-                <a href="#">Cómo un Buen Calzado Mejora Tu Experiencia de Cata</a>
+                <a href="#" style="color:black">Cómo un Buen Calzado Mejora Tu Experiencia de Cata</a>
               </h3>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section> -->
+  </section> 
 
   <!--Secction footer-->
-  <footer class="overflow-hidden bg-black" id="footer">
-		<div class="container">
+  <footer class="overflow-hidden bg-black" id="footer" >
+		<div class="container"  >
 			<div class="row">
 				<div class="footer-top-area">
 					<div class="row d-flex flex-wrap justify-content-between">

@@ -1037,7 +1037,8 @@
   --------------------------------------------------------------*/
   /*------------ Sidebar -----------*/
   .sidebar-post-item h4.card-title {
-      font-size: 12px;
+      font-size: 1
+          px;
   }
   
   /* 13. Sibgle Post Page
