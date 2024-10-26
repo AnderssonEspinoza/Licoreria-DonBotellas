@@ -1,4 +1,8 @@
+com\mycompany\licoreriadonbotellas\JakartaEE8Resource.class
 controlador\ControladorRegistro.class
 servicios\ConectorDB.class
 modelo\dto\DetalleCarrito.class
+servicios\MercadoPagoConfig.class
+controlador\ProcesarPago.class
+com\mycompany\licoreriadonbotellas\MainApp.class
 com\mycompany\licoreriadonbotellas\JakartaRestConfiguration.class

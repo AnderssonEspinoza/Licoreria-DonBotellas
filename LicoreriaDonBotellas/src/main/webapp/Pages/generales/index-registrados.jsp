@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
@@ -31,7 +32,7 @@
 
         .product-card img {
             width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
-            height: 300px; /* Altura fija para todas las imágenes */
+            height: 300px; /* Altura fija para todas las imÃ¡genes */
             object-fit: cover; /* Recortar la imagen para llenar el contenedor sin deformar */
         }
 
@@ -63,8 +64,12 @@
 </head>
 
 <body>
+<<<<<<< HEAD
    <!--Secccion del header-->
    <%@include file="../components/header_registrado.jsp" %>
+=======
+    <jsp:include page="../components/header_registrado.jsp"/>
+>>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
   <!--Secccion del carrusel de promociones-->
 
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -303,12 +308,12 @@
                   </div>
                   
                   
-                  <!-- Añade más productos aquí -->
+                  <!-- AÃ±ade mÃ¡s productos aquÃ­ -->
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegación -->
+            <!-- Controles de navegaciÃ³n -->
             <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -467,12 +472,12 @@
                   </div>
                   
                   
-                  <!-- Añade más productos aquí -->
+                  <!-- AÃ±ade mÃ¡s productos aquÃ­ -->
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegación -->
+            <!-- Controles de navegaciÃ³n -->
             <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -500,7 +505,7 @@
       <div class="row">
           
         <div class="display-header d-flex justify-content-between pb-3">
-          <h2 class="display-7 text-dark text-uppercase">LO ÚLTIMO DE LOS LICORES DEL MUNDO</h2>
+          <h2 class="display-7 text-dark text-uppercase">LO ÃšLTIMO DE LOS LICORES DEL MUNDO</h2>
           <div class="btn-right">
             <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Leer blog</a>
           </div>
@@ -523,8 +528,13 @@
                 <span class="meta-date"></span>
                 <span class="meta-category"></span>
               </div>
+<<<<<<< HEAD
               <h3 class="card-title" >
                 <a href="#" style="color: black;">El Macallan: Un Viaje por la Excelencia del Whisky Escocés</a>
+=======
+              <h3 class="card-title">
+                <a href="#">El Macallan: Un Viaje por la Excelencia del Whisky EscocÃ©s</a>
+>>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
               </h3>
             </div>
           </div>
@@ -541,7 +551,11 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
+<<<<<<< HEAD
                 <a href="#" style="color: black">Jägermeister: Un Viaje por el Mundo de un Licor Legendario</a>
+=======
+                <a href="#">JÃ¤germeister: Un Viaje por el Mundo de un Licor Legendario</a>
+>>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
               </h3>
             </div>
           </div>
@@ -558,7 +572,11 @@
                 <span class="meta-category"></span>
               </div>
               <h3 class="card-title">
+<<<<<<< HEAD
                 <a href="#" style="color:black">Cómo un Buen Calzado Mejora Tu Experiencia de Cata</a>
+=======
+                <a href="#">CÃ³mo un Buen Calzado Mejora Tu Experiencia de Cata</a>
+>>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
               </h3>
             </div>
           </div>
@@ -568,6 +586,7 @@
   </section> 
 
   <!--Secction footer-->
+<<<<<<< HEAD
   <footer class="overflow-hidden bg-black" id="footer" >
 		<div class="container"  >
 			<div class="row">
@@ -652,21 +671,10 @@
 		</div>
 		<hr>
 	</footer>
+=======
+ <jsp:include page="../components/footer.jsp"/>
+>>>>>>> 104e4a031e9ebfc6afca704d7d09b31582e5a9bb
 
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-  <script src="../../assets/js/javaScript.js"></script>
-  <script src="../../assets/js/jquery-1.11.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script type="text/javascript" src="../../assets/js/plugins.js"></script>
-  <script type="text/javascript" src="../../assets/js/script.js"></script>
-  <script src="../../assets/js/ocultacionDeLogo.js"></script>
-  <script src="../../assets/js/carrito-common.js"></script>
-  <script src="../../assets/js/carritoCliente.js"></script>
-  <script src="../../assets/js/carrito.js"></script>
 </body>
 
 </html>
