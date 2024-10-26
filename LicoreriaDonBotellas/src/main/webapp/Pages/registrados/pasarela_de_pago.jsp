@@ -52,7 +52,10 @@
                 <div class="total-summary"><label>Total:</label><span id="total">$0.00</span></div>
             </div>
         </div>
-                <jsp:include page="../components/footer.jsp"/>
+        <jsp:include page="../components/footer.jsp"/>
+        <!-- Mercado Pago SDK -->
+        <script src="https://sdk.mercadopago.com/js/v2"></script>
+        
     </body>
 </html>
 

@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> f709af23df1879d1ae7976fd1e347bb3f884d85e
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

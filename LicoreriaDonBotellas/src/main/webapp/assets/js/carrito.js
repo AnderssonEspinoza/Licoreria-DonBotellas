@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Función para cargar los productos del carrito desde localStorage
     function loadCartItems() {
         let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        console.log(cartItemsContainer); 
         cartItemsContainer.innerHTML = ''; // Limpiar el contenedor de items
 
         if (cart.length === 0) {

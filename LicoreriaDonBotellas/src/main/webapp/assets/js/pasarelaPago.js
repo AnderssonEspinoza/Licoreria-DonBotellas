@@ -37,13 +37,37 @@ document.addEventListener('DOMContentLoaded', function() {
         taxElement.textContent = `S/${igv.toFixed(2)}`;
         totalElement.textContent = `S/${total.toFixed(2)}`;
     }
-    // Escuchar cambios en la selección de la dirección
-    differentAddressRadio.addEventListener('click', function() {
-        addressForm.style.display = 'block';
-    });
+  
 
-    sameAddressRadio.addEventListener('click', function() {
-        addressForm.style.display = 'none';
-    });
+    
     loadCartItems();
 });
+
+    const mp = new MercadoPago('APP_USR-6bb9772e-5a32-4dda-8c71-e43e643b45e7', {
+        locale: 'es-PE'
+    });
+
+    document.getElementById("paymentForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        // Realiza la solicitud al servidor para obtener el preferenceId
+        fetch('<%= request.getContextPath() %>/ProcesarPago', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: new URLSearchParams(new FormData(this))
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Inicializar el checkout con el preferenceId recibido
+            mp.checkout({
+                preference: {
+                    id: data.preferenceId // Preference ID generado por tu servlet
+                },
+                autoOpen: true // Abre automáticamente el checkout
+            });
+        })
+        .catch(error => console.error('Error:', error));
+    });
+
