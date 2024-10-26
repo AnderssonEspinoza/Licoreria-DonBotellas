@@ -1,3 +1,10 @@
+<%-- 
+    Document   : carritoCliente
+    Created on : 25 oct 2024, 6:36:28 p.m.
+    Author     : vegac
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="en">
 <head>
@@ -350,3 +357,4 @@
 	<script src="../../../js/carritoCliente.js"></script>
 </body>
 </html>
+

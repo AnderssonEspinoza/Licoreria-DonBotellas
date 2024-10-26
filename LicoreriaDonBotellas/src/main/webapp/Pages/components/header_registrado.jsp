@@ -1,7 +1,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<body>
-     
+
 <header class="main-header grid">
     <nav class="navbar navbar-expand-lg navbar-black bg-black">
             <div class="container-fluid">
@@ -10,13 +9,13 @@
                     <div class="image-container col">
                             <div class="grid text-center" style="row-gap: 0;">
                                     <div class="imagen">
-                                            <a href="../../generales/index-registrados.jsp" class="logo-superior">
-                                                    <img src="../../../assets/img/logos/logo-superior.png" id="imagen-ocultar">
+                                        <a href="../../../Pages/generales/index-registrados.jsp" class="logo-superior">
+                                                <img src="../../../assets/img/logos/logo-superior.png" id="imagen-ocultar">
                                             </a>
                                     </div>
                                     <div class="imagen">
-                                            <a href="../../generales/index-registrados.jsp" class="logo-inferior">
-                                                    <img src="../../../assets/img/logos/logo-inferior.png">
+                                        <a href="../../../Pages/generales/index-registrados.jsp" class="logo-inferior">
+                                            <img src="../../../assets/img/logos/logo-inferior.png">
                                             </a>
                                     </div>
 
@@ -37,11 +36,11 @@
                                             <ul class="dropdown-menu ">
                                                     <li><a class="dropdown-item"></a>Mi Cuenta</li>
                                                     <li><a class="dropdown-item"></a>Mis Compras</li>
-                                                    <li><a class="dropdown-item"></a>Cerrar Sesión</li>
+                                                    <li><a class="dropdown-item" href="../../../Pages/generales/index-sin-registrados.jsp"></a>Cerrar Sesión</li>
                                             </ul>
                                     </li>
                                     <li class="nav-item">
-                                            <a class="nav-link " href="../../../Pages/registrados/carritoCliente.html">
+                                        <a class="nav-link " href="../../../Pages/registrados/carritoCliente.jsp">
                                                     <i class="bi bi-cart-fill"></i>
                                             </a>
                                     </li>
@@ -68,21 +67,21 @@
                                                     data-bs-toggle="dropdown">Bebidas Alcoholicas</a>
                                             <ul class="dropdown-menu ">
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/vino.html">Vino</a></li>
+                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/vino.jsp">Vino</a></li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/ron.html">Ron</a>
+                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/ron.jsp">Ron</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/whisky.html">Whisky</a>
+                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/whisky.jsp">Whisky</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/espumante.html">Espumante</a>
+                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/espumante.jsp">Espumante</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/vodka.html">Vodka</a>
+                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/vodka.jsp">Vodka</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/Pisco.html">Pisco</a>
+                                                                    href="../../../Pages/registrados/bebidas_alcoholicas/Pisco.jsp">Pisco</a>
                                                     </li>
                                             </ul>
                                     </li>
@@ -91,20 +90,20 @@
                                                     No Alcoholicas</a>
                                             <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/gaseosas.html">Gaseosa</a>
+                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/gaseosas.jsp">Gaseosa</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/agua.html">Aguas</a>
+                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/agua.jsp">Aguas</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/energizante.html">Energizante
+                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/energizante.jsp">Energizante
                                                             </a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/jugo.html">Jugos</a>
+                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/jugo.jsp">Jugos</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/Rehidratante.html">Rehidratante
+                                                                    href="../../../Pages/registrados/bebidas_no_alcoholicas/Rehidratante.jsp">Rehidratante
                                                             </a></li>
                                             </ul>
                                     </li>
@@ -113,19 +112,19 @@
                                                     data-bs-toggle="dropdown">Cerveza</a>
                                             <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/cerveza/pilsen.html">Pilsen</a>
+                                                                    href="../../../Pages/registrados/cerveza/pilsen.jsp">Pilsen</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/cerveza/Cusqueña.html">Cusqueña</a>
+                                                                    href="../../../Pages/registrados/cerveza/Cusqueña.jsp">Cusqueña</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/cerveza/cistral.html">Cristal</a>
+                                                                    href="../../../Pages/registrados/cerveza/cistral.jsp">Cristal</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/cerveza/heineken.html">Heineken</a>
+                                                                    href="../../../Pages/registrados/cerveza/heineken.jsp">Heineken</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/cerveza/godlen.html">Godlen </a>
+                                                                    href="../../../Pages/registrados/cerveza/godlen.jsp">Godlen </a>
                                                     </li>
                                             </ul>
                                     </li>
@@ -134,15 +133,15 @@
                                                     data-bs-toggle="dropdown">Cigarros y Vapes</a>
                                             <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/cigarros_y_vapes/cigarros_regulare.html">Cigarros
+                                                                    href="../../../Pages/registrados/cigarros_y_vapes/cigarros_regulare.jsp">Cigarros
                                                                     Regulares</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/cigarros_y_vapes/cigarros_electricos.html">Cigarros
+                                                                    href="../../../Pages/registrados/cigarros_y_vapes/cigarros_electricos.jsp">Cigarros
                                                                     Electronicos</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/cigarros_y_vapes/complementos.html">Complementos</a>
+                                                                    href="../../../Pages/registrados/cigarros_y_vapes/complementos.jsp">Complementos</a>
                                                     </li>
                                             </ul>
                                     </li>
@@ -151,20 +150,20 @@
                                                     Para Tomar</a>
                                             <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/listo_para_tomar/smirnoff.html">Smirnoff</a>
+                                                                    href="../../../Pages/registrados/listo_para_tomar/smirnoff.jsp">Smirnoff</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/listo_para_tomar/four_loko.html">Four
+                                                                    href="../../../Pages/registrados/listo_para_tomar/four_loko.jsp">Four
                                                                     Loko</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/listo_para_tomar/tabernero.html">Tabernero</a>
+                                                                    href="../../../Pages/registrados/listo_para_tomar/tabernero.jsp">Tabernero</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/listo_para_tomar/mikes.html">Mikes</a>
+                                                                    href="../../../Pages/registrados/listo_para_tomar/mikes.jsp">Mikes</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/listo_para_tomar/piscano.html">Piscano
+                                                                    href="../../../Pages/registrados/listo_para_tomar/piscano.jsp">Piscano
                                                             </a>
                                                     </li>
                                             </ul>
@@ -174,19 +173,19 @@
                                                     y Snacks</a>
                                             <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item"
-                                                           href="../../../Pages/sin-registrados/Piqueos_y_Snacks/papa.html">Papas</a>
+                                                           href="../../../Pages/sin-registrados/Piqueos_y_Snacks/papa.jsp">Papas</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/Piqueos_y_Snacks/piqueos.html">Piqueos</a>
+                                                                    href="../../../Pages/registrados/Piqueos_y_Snacks/piqueos.jsp">Piqueos</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/Piqueos_y_Snacks/habas_y_mani.html">Habas y
+                                                                    href="../../../Pages/registrados/Piqueos_y_Snacks/habas_y_mani.jsp">Habas y
                                                                     Mani</a></li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/Piqueos_y_Snacks/frutos_secos.html">Frutos
+                                                                    href="../../../Pages/registrados/Piqueos_y_Snacks/frutos_secos.jsp">Frutos
                                                                     Secos</a></li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
+                                                                    href="../../../Pages/registrados/Piqueos_y_Snacks/chifles_camotes_yukas.jsp">Chifles/Camotes/Yucas</a>
                                                     </li>
                                             </ul>
                                     </li>

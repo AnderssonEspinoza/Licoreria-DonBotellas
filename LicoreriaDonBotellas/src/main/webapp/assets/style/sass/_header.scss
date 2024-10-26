@@ -1,12 +1,13 @@
 // Header
+@import'_variable.scss';
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: $background-white;
-  transition: top 0.3s;     
+  background-color: $background-black;
+  transition: top 0.3s;  
   .main-header{
       text-align: left;
     }
@@ -16,7 +17,7 @@ header {
                 margin-left: 250px;
                 .logo-superior img {
                     object-fit: cover;
-                    max-width: 30px
+                    max-width: 50px
                 }
                 .logo-inferior img{
                     max-width: 250px;
