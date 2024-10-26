@@ -1,4 +1,4 @@
-package com.mycompany.licoreriadonbotellas.resources;
+package com.mycompany.licoreriadonbotellas;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
