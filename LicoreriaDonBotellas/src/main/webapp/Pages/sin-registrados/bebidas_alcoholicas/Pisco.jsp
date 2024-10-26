@@ -1,21 +1,36 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<%@include file="../../components/head.jsp" %>
-<%@include file="../../components/header.jsp" %>
-<div class="cuerpo">
-		<!-- Filtro de categorÃ­as-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Don Botellas</title>
+	<!-- CSS -->
+        <link rel="stylesheet" href="../../../assets/style/sass/main.css">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <jsp:include page="../../components/header_sin_registrar.jsp"/>
+	<div class="cuerpo">
+		<!-- Filtro de categorÃ­as -->
 		<div class="col-lg-2 category_list">
 			<!-- Filtro de precios -->
 			<nav class="navbar navbar-expand-lg ">
-				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+					aria-label="Toggle navigation">
 					<i class="bi bi-filter-left">Filtrar</i>
 				</button>
 				<div class="col">
-					<div class="offcanvas offcanvas-start" style="background-color: white;" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+					<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar"
+						aria-labelledby="offcanvasDarkNavbarLabel">
 						<div class="offcanvas-header">
 							<br>
-							<button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-								aria-label="Close">
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
 							</button>
 						</div>
 						<div class="price-filter">
@@ -54,7 +69,7 @@
 		<section class="products-list grid text-center">
 			<div class="card product-item" data-precio="44">
 				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
@@ -62,13 +77,16 @@
 						<p>S/44</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<button class="btn add-to-cart" data-producto-id="9"
+							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÃADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="44">
 				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/pisco_img/pisco_cuatro_gallos_quebranta.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/pisco_img/pisco_cuatro_gallos_quebranta.webp"
+						alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
@@ -76,13 +94,15 @@
 						<p>S/44</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<button class="btn btn-primary add-to-cart" data-producto-id="9"
+							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="120">
 				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/pisco_img/pisco_porton.jpg">
+					<img src="../../../assets/img/bebidas_alcoholicas/pisco_img/pisco_porton.jpg">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
@@ -90,13 +110,16 @@
 						<p>S/120</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<button class="btn btn-primary add-to-cart" data-producto-id="9"
+							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="29">
 				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/pisco_img/santiago_queirolo_acholado.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/pisco_img/santiago_queirolo_acholado.webp"
+						alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
@@ -104,13 +127,16 @@
 						<p>S/29</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<button class="btn btn-primary add-to-cart" data-producto-id="9"
+							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="29">
 				<section class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/pisco_img/santiago_queirolo_quebranta.jpg" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/pisco_img/santiago_queirolo_quebranta.jpg"
+						alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
@@ -118,13 +144,15 @@
 						<p>S/29</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<button class="btn btn-primary add-to-cart" data-producto-id="9"
+							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="34">
 				<div class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/pisco_img/tabernero_acholado.jpg" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_acholado.jpg" alt="...">
 				</div>
 				<section class="card-body">
 					<div class="card-text">
@@ -132,13 +160,15 @@
 						<p>S/34</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<button class="btn btn-primary add-to-cart" data-producto-id="9"
+							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="34">
 				<div class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">
+					<img src="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">
 				</div>
 				<section class="card-body">
 					<div class="card-text">
@@ -146,13 +176,16 @@
 						<p>S/34</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<button class="btn btn-primary add-to-cart" data-producto-id="9"
+							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="29">
 				<div class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/pisco_img/santiago_queirolo_quebranta.jpg" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/pisco_img/santiago_queirolo_quebranta.jpg"
+						alt="...">
 				</div>
 				<section class="card-body">
 					<div class="card-text">
@@ -160,13 +193,15 @@
 						<p>S/29</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<button class="btn btn-primary add-to-cart" data-producto-id="9"
+							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="26">
 				<div class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/pisco_img/vargas_acholado.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/pisco_img/vargas_acholado.webp" alt="...">
 				</div>
 				<section class="card-body">
 					<div class="card-text">
@@ -174,12 +209,17 @@
 						<p>S/26</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÃADIR</a>
+						<button class="btn btn-primary add-to-cart" data-producto-id="9"
+							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
 					</div>
 				</section>
 			</div>
 		</section>
-	</div>   
-<%@include file="../../components/footer.jsp" %>
-        
+	</div>
+    
+    <jsp:include page="../../components/footer.jsp"/>
+</body>
+
+</html>
 	

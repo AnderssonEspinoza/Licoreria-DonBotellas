@@ -30,7 +30,7 @@
                                             <a class="nav-link dropdown-toggle palabra-color img-login" href="#" role="button"
                                                     data-bs-toggle="dropdown"><img src="../../../assets/img/logos/img_login.png" alt=""></a>
                                             <ul class="dropdown-menu ">
-                                                    <li><a class="dropdown-item">Mi Cuenta</a></li>
+                                                <li><a class="dropdown-item" href="../../../Pages/registrados/usuario/usuario.jsp">Mi Cuenta</a></li>
                                                     <li><a class="dropdown-item">Mis Compras</a></li>
                                                     <li><a class="dropdown-item" href="../../../Pages/generales/index-sin-registrados.jsp">Cerrar Sesión</a></li>
                                             </ul>
@@ -181,7 +181,7 @@
                                                                     href="../../../Pages/registrados/Piqueos_y_Snacks/frutos_secos.jsp">Frutos
                                                                     Secos</a></li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/Piqueos_y_Snacks/chifles_camotes_yukas.jsp">Chifles/Camotes/Yucas</a>
+                                                           href="../../../Pages/registrados/Piqueos_y_Snacks/salados.jsp">salado</a>
                                                     </li>
                                             </ul>
                                     </li>
