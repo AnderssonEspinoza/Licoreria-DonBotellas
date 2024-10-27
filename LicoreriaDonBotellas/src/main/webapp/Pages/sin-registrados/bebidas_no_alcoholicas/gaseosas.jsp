@@ -1,307 +1,216 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Filtro de Categorías y Precio</title>
-	<link rel="stylesheet" href="/style.css">
-	<link rel="stylesheet" href="/styleNavbar.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+	<title>Don Botellas</title>
+	<!-- CSS -->
+        <link rel="stylesheet" href="../../../assets/style/sass/main.css">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-
 <body>
-	<header id="header" class="header">
-        <!--Segundo menu navegacion-->
-        <nav>
-			<ul class="nav-links-second">
-				<li><a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown">Cerveza</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/cerveza/pilsen.html">Pilsen</a></li>
-						<li><a class="dropdown-item" href="/cerveza/Cusqueña.html">Cusqueña</a></li>
-						<li><a class="dropdown-item" href="/cerveza/cistral.html">Cristal</a></li>
-						<li><a class="dropdown-item" href="/cerveza/heineken.html">Heineken</a></li>
-						<li><a class="dropdown-item" href="/cerveza/godlen.html">Godlen </a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link ">Pack y Licores</a></li>
-	
-				<li><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown">Bebidas Alcohólicas</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/vino.html">Vino</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/ron.html">Ron</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/whisky.html">Whisky</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/espumante.html">Espumante</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/vodka.html">Vodka</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/Pisco.html">Pisco</a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown">Listos para Tomar</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/listo_para_tomar/smirnoff.html">Smirnoff</a></li>
-						<li><a class="dropdown-item" href="/listo_para_tomar/four_loko.html">Four Loko</a></li>
-						<li><a class="dropdown-item" href="/listo_para_tomar/tabernero.html">Tabernero </a></li>
-						<li><a class="dropdown-item" href="/listo_para_tomar/mikes.html">Mikes</a></li>
-						<li><a class="dropdown-item" href="/listo_para_tomar/piscano.html">Piscano </a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas No Alcohólicas</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/gaseosas.html">Gaseosas</a></li>
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/agua.html">Agua</a></li>
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/energizante.html">Energizante</a></li>
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/jugo.html">Jugo</a></li>
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/Rehidratante.html">Rehidratante</a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cigarros y Vapes</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/cigarros_y_vapes/cigarros_regulare.html">Cigarros Regulares</a></li>
-						<li><a class="dropdown-item" href="/cigarros_y_vapes/cigarros_electricos.html">Cigarros Electronicos</a></li>
-						<li><a class="dropdown-item" href="/cigarros_y_vapes/complementos.html">Complementos</a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Piqueos y Snacks</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/papa.html">Papas</a></li>
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/piqueos.html">Piqueos</a></li>
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/habas_y_mani.html">Habas y Mani</a></li>
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/frutos_secos.html">Frutos Secos</a></li>
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a></li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
-    </header>
-	<div class="container-fluid">
-		<div class="productos">
-			<!-- Filtro de categorías-->
-			<div class="col-lg-3 category_list">
-				<!-- Filtro de precios -->
-				<nav class="navbar navbar-expand-lg navbar-white bg-white">
-					<div class="container-fluid">
-						<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-							data-bs-target="#menuLateral">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="col">
-							<section class="offcanvas offcanvas-start pt-5 pt-lg-0" id="menuLateral" tabindex="-1">
-								<div class="price-filter">
-									<h5>Filtrar por precio</h5>
-									<input type="range" id="filtro-precio" min="0" max="300" step="5" value="300"
-										oninput="actualizarPrecio(this.value)">
-									<p>Precio máximo: S/<span id="precio-actual">300</span></p>
-								</div>
+    <jsp:include page="../../components/header_sin_registrar.jsp"/>
+	<div class="cuerpo">
+		<!-- Filtro de categorÃ­as -->
+		<div class="col-lg-2 category_list">
+			<!-- Filtro de precios -->
+			<nav class="navbar navbar-expand-lg ">
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+					aria-label="Toggle navigation">
+					<i class="bi bi-filter-left">Filtrar</i>
+				</button>
+				<div class="col">
+					<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar"
+						aria-labelledby="offcanvasDarkNavbarLabel">
+						<div class="offcanvas-header">
+							<br>
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+							</button>
+						</div>
+						<div class="price-filter">
+							<h5>Filtrar por precio</h5>
+							<input type="range" id="filtro-precio" min="0" max="300" step="5" value="300"
+								oninput="actualizarPrecio(this.value)">
+							<p>Precio maximo: S/<span id="precio-actual">300</span></p>
+						</div>
 
-								<ul class="list-group">
-									<h5>Filtrar por Marcas</h5>
-									<div class="form-check">
-										<a class="form-check-label" href="/cerveza/pilsen.html"
-											for="flexCheckChecked">
-											Pilsen
-										</a>
-									</div>
-									<div class="form-check">
-										<a class="form-check-label" href="/cerveza/Cusqueña.html"
-											for="flexCheckDefault">
-											Cusqueña
-										</a>
-									</div>
-									<div class="form-check">
-										<a class="form-check-label" href="/cerveza/cistral.html"
-											for="flexCheckDefault">
-											Cristal
-										</a>
-									</div>
-									<div class="form-check">
-										<a class="form-check-label" href="/cerveza/heineken.html"
-											for="flexCheckDefault">
-											Heineken
-										</a>
-									</div>
-									<div class="form-check">
-										<a class="form-check-label" href="/cerveza/godlen.html"
-											for="flexCheckDefault">
-											Godlen
-										</a>
-									</div>
-								</ul>
-							</section>
-						</div>
+						<ul class="list-group">
+							<h5>Pages</h5>
+							<li>
+                                                            <a href="Rehidratante.jsp">Rehidratante</a>
+							</li>
+							<li>
+                                                            <a href="agua.jsp">Agua</a>
+							</li>
+							<li>
+                                                            <a href="energizante.jsp">Energizante</a>
+							</li>
+							<li>
+                                                            <a class="palabra-color" href="gaseosas.jsp">Gaseosas</a>
+							</li>
+							<li>
+                                                            <a href="jugo.jsp">Jugo</a>
+							</li>
+						</ul>
 					</div>
-				</nav>
-			</div>
-			<!--Lista de Productos-->
-			<div>
-				<section class="products-list grid text-center">
-
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="1.50">
-						<img src="/img/riccadonnaAsti.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Coca Cola</p>
-								<p>296ml</p>
-								<p>S/1.50</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
+				</div>
+			</nav>
+		</div>
+		<!--Lista de Pages-->
+		<section class="products-list grid text-center">
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Inca Kola</p>
+						<p>S/2.50</p>
 					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="3">
-						<img src="/img/riccadonnaRuby.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Coca Cola</p>
-								<p>600ml</p>
-								<p>S/3</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="304"
+							data-producto-name="Inca Kola" data-producto-price="2.50"
+							data-producto-image="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp">AÑADIR</button>
 					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="7.50">
-						<img src="/img/riccadonnaProsecco.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Coca Cola</p>
-								<p>1.5Lt</p>
-								<p>S/7.50</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="8">
-						<img src="/img/riccadonnaAsti.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Coca Cola</p>
-								<p>2.25Lt</p>
-								<p>S/8</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="12">
-						<img src="/img/riccadonnaRuby.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Coca Cola</p>
-								<p>3Lt</p>
-								<p>S/12</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="5.50">
-						<img src="/img/riccadonnaProsecco.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Coca Cola Retornable</p>
-								<p>1.5Lt</p>
-								<p>S/5.50</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="7">
-						<img src="/img/SIX-PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Coca Cola Retornable</p>
-								<p>2.5Lt</p>
-								<p>S/7</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="1.50">
-						<img src="/img/riccadonnaAsti.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Inka Cola</p>
-								<p>296ml</p>
-								<p>S/1.50</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="3">
-						<img src="/img/riccadonnaRuby.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Inka Cola</p>
-								<p>600ml</p>
-								<p>S/3</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="7.50">
-						<img src="/img/riccadonnaProsecco.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Inka Cola</p>
-								<p>1.5Lt</p>
-								<p>S/7.50</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="8">
-						<img src="/img/riccadonnaAsti.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Inka Cola</p>
-								<p>2.25Lt</p>
-								<p>S/8</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="12">
-						<img src="/img/riccadonnaRuby.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Inka Cola</p>
-								<p>3Lt</p>
-								<p>S/12</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="5.50">
-						<img src="/img/riccadonnaProsecco.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Inka Cola Retornable</p>
-								<p>1.5Lt</p>
-								<p>S/5.50</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="7">
-						<img src="/img/SIX-PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Inka Cola Retornable</p>
-								<p>2.5Lt</p>
-								<p>S/7</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-
 				</section>
 			</div>
-		</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Inca Kola</p>
+						<p>S/2.50</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="304"
+							data-producto-name="Inca Kola" data-producto-price="2.50"
+							data-producto-image="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Inca Kola</p>
+						<p>S/2.50</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="304"
+							data-producto-name="Inca Kola" data-producto-price="2.50"
+							data-producto-image="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Inca Kola</p>
+						<p>S/2.50</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="304"
+							data-producto-name="Inca Kola" data-producto-price="2.50"
+							data-producto-image="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Inca Kola</p>
+						<p>S/2.50</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="304"
+							data-producto-name="Inca Kola" data-producto-price="2.50"
+							data-producto-image="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Inca Kola</p>
+						<p>S/2.50</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="304"
+							data-producto-name="Inca Kola" data-producto-price="2.50"
+							data-producto-image="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Inca Kola</p>
+						<p>S/2.50</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="304"
+							data-producto-name="Inca Kola" data-producto-price="2.50"
+							data-producto-image="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Inca Kola</p>
+						<p>S/2.50</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="304"
+							data-producto-name="Inca Kola" data-producto-price="2.50"
+							data-producto-image="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Inca Kola</p>
+						<p>S/2.50</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="304"
+							data-producto-name="Inca Kola" data-producto-price="2.50"
+							data-producto-image="../../../assets/img/bebidas_no_alcoholicas/gaseosa_img/gaseosa inca kola.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+		</section>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-		crossorigin="anonymous"></script>
-	<script src="/javaScript.js"></script>
+	<jsp:include page="../../components/footer.jsp"/>
 </body>
 
-</html>
+</html>	

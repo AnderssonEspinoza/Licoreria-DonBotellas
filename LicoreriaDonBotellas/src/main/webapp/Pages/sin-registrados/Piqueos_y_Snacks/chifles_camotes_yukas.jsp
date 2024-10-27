@@ -15,7 +15,7 @@
 <%@include file="../../components/header_sin_registrar.jsp" %>
 
 	<div class="cuerpo">
-		<!-- Filtro de categoría -->
+		<!-- Filtro de categorías -->
 		<div class="col-lg-2 category_list">
 			<!-- Filtro de precios -->
 			<nav class="navbar navbar-expand-lg ">
@@ -42,22 +42,19 @@
 						<ul class="list-group">
 							<h5>Productos</h5>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/papa.html">Papas</a>
+                                                            <a href="papa.jsp">Papas</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/piqueos.html">Piqueos</a>
+                                                            <a href="piqueos.jsp">Piqueos</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/habas_y_mani.html">Habas y mani</a>
+                                                            <a href="habas_y_mani.jsp">Habas y mani</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/frutos_secos.html">Frutos Secos</a>
+                                                            <a href="frutos_secos.jsp">Frutos Secos</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
-							</li>
-							<li>
-                                                            <a href="../Piqueos_y_Snacks/dulce.html">Dulce</a>
+                                                            <a class="palabra-color" href="chifles_camotes_yukas.jsp">Chifles/Camotes/Yucas</a>
 							</li>
 						</ul>
 					</div>
@@ -72,13 +69,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Camote Salado TIYAPUY Bolsa 142g</p>
+						<p>Camote Salado TIYAPUY Bolsa 142g</p>
 						<p>S/6.20</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="101"
+							data-producto-name="Camote Salado TIYAPUY Bolsa 142g" data-producto-price="6.20"
+							data-producto-image="../../../assets/img/camote-yuca-chifle/camote-tiyapui.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -94,9 +91,9 @@
 						<p>S/7.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="102"
+							data-producto-name="Chips de Camote NATUCHIPS Bolsa 135g" data-producto-price="7.00"
+							data-producto-image="../../../assets/img/camote-yuca-chifle/camote.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -107,13 +104,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Piqueo BELL'S Chifles Salados Táper 100g</p>
+						<p>Piqueo BELL'S Chifles Salados Táper 100g</p>
 						<p>S/3.79</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="103"
+							data-producto-name="Piqueo BELL'S Chifles Salados Táper 100g" data-producto-price="3.79"
+							data-producto-image="../../../assets/img/camote-yuca-chifle/chifel taper.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -125,13 +122,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Chifles Dulces VILLA NATURA Bolsa 150g</p>
+						<p>Chifles Dulces VILLA NATURA Bolsa 150g</p>
 						<p>S/ 5.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="104"
+							data-producto-name="Chifles Dulces VILLA NATURA Bolsa 150g" data-producto-price="5.00"
+							data-producto-image="../../../assets/img/camote-yuca-chifle/chilfe-dulce.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -143,13 +140,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Chifles KARINTO Salado Bolsa 150g</p>
+						<p>Chifles KARINTO Salado Bolsa 150g</p>
 						<p>S/ 8.50</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="105"
+							data-producto-name="Chifles KARINTO Salado Bolsa 150g" data-producto-price="8.50"
+							data-producto-image="../../../assets/img/camote-yuca-chifle/chilfe.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -160,13 +157,13 @@
 				</div>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Piqueo INKA CHIPS Yucas fritas en hojuelas Bolsa 130Grl</p>
+						<p>Piqueo INKA CHIPS Yucas fritas en hojuelas Bolsa 130Grl</p>
 						<p>S/ 8.50</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="106"
+							data-producto-name="Piqueo INKA CHIPS Yucas fritas en hojuelas Bolsa 130Grl" data-producto-price="8.50"
+							data-producto-image="../../../assets/img/camote-yuca-chifle/yuca.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -175,6 +172,7 @@
 		</section>
 	</div>
     
-<%@include file="../../components/footer.jsp" %> 
-    
-	
+    <jsp:include page="../../components/footer.jsp"/>
+</body>
+
+</html>

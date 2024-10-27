@@ -43,22 +43,22 @@
 						<ul class="list-group">
 							<h5>Pages</h5>
 							<li>
-								<a href="../bebidas_alcoholicas/vino.html">Vino</a>
+                                                            <a href="vino.jsp">Vino</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/ron.html">Ron</a>
+                                                            <a href="ron.jsp">Ron</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/whisky.html">whisky</a>
+                                                            <a href="whisky.jsp">whisky</a>
 							</li>
 							<li>
-								<a class="palabra-color" href="../bebidas_alcoholicas/espumante.html">Espumante</a>
+                                                            <a class="palabra-color" href="espumante.jsp">Espumante</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/vodka.html">Vodka</a>
+                                                            <a href="vodka.jsp">Vodka</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/Pisco.html">Pisco</a>
+                                                            <a href="Pisco.jsp">Pisco</a>
 							</li>
 						</ul>
 					</div>
@@ -68,89 +68,89 @@
 		<!--Lista de Pages/sin-registrados-->
 		<section class="products-list grid text-center">
 			<div class="card product-item" data-precio="25">
-				<selection class="card-img-top">
+				<section class="card-img-top">
                                     <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg" class="card-img-top"
 						alt="...">
-				</selection>
-				<selection class="card-body">
+				</section>
+				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Riccardonna Asti 750ml</p>
+						<p>Riccardonna Asti 750ml</p>
 						<p>S/58</p>
 					</div>
 					<div class="card-inferior"> 
-						<button class="btn add-to-cart" data-producto-id="1"
-							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
+						<button class="btn add-to-cart" data-producto-id="210"
+							data-producto-name="Riccardonna 750ml" data-producto-price="58.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
 					</div>
-				</selection>
+				</section>
 			</div>
 			<div class="card product-item" data-precio="40">
-				<selection class="card-img-top">
+				<section class="card-img-top">
                                     <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaRuby.jpg" class="card-img-top"
 						alt="...">
-				</selection>
-				<selection class="card-body">
+				</section>
+				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Riccardonna Ruby 750ml</p>
+						<p>Riccardonna Ruby 750ml</p>
 						<p>S/58</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="1"
-							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="211"
+							data-producto-name="Riccardonna Ruby 750ml" data-producto-price="58.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaRuby.jpg">AÑADIR</button>
 					</div>
-				</selection>
+				</section>
 			</div>
 			<div class="card product-item" data-precio="50">
-				<selection class="card-img-top">
+				<section class="card-img-top">
                                     <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaProsecco.jpg" class="card-img-top"
 						alt="...">
-				</selection>
-				<selection class="card-body">
+				</section>
+				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Riccardonna Prosecco 750ml</p>
+						<p>Riccardonna Prosecco 750ml</p>
 						<p>S/58</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="1"
-							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="212"
+							data-producto-name="Riccardonna Prosecco 750ml" data-producto-price="58.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaProsecco.jpg">AÑADIR</button>
 					</div>
-				</selection>
+				</section>
 			</div>
 			<div class="card product-item" data-precio="65">
-				<selection class="card-img-top">
+				<section class="card-img-top">
                                     <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaRose.jpg" class="card-img-top"
 						alt="...">
-				</selection>
-				<selection class="card-body">
+				</section>
+				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Riccardonna Rose 750ml</p>
+						<p >Riccardonna Rose 750ml</p>
 						<p>S/18</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="1"
-							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="213"
+							data-producto-name="Riccardonna Rose 750ml" data-producto-price="18"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaRose.jpg">AÑADIR</button>
 					</div>
-				</selection>
+				</section>
 			</div>
 			<div class="card product-item" data-precio="75">
-				<selection class="card-img-top">
+				<section class="card-img-top">
                                     <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg"
 						class="card-img-top" alt="...">
-				</selection>
-				<selection class="card-body">
+				</section>
+				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Riccardonna Espumante 750ml</p>
+						<p>Riccardonna Espumante 750ml</p>
 						<p>S/75</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="1"
-							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
+						<button class="btn add-to-cart" data-producto-id="214"
+							data-producto-name="Riccardonna Espumante 750ml" data-producto-price="75.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
 					</div>
-				</selection>
+				</section>
 			</div>
 		</section>
 	</div>

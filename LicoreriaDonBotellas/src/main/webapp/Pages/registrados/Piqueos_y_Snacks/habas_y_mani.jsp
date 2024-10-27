@@ -43,22 +43,19 @@
 						<ul class="list-group">
 							<h5>Productos</h5>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/papa.html">Papas</a>
+                                                            <a href="papa.jsp">Papas</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/piqueos.html">Piqueos</a>
+                                                            <a href="piqueos.jsp">Piqueos</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/habas_y_mani.html">Habas y mani</a>
+                                                            <a class="palabra-color" href="habas_y_mani.jsp">Habas y mani</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/frutos_secos.html">Frutos Secos</a>
+                                                            <a href="frutos_secos.jsp">Frutos Secos</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
-							</li>
-							<li>
-                                                            <a href="../Piqueos_y_Snacks/dulce.html">Dulce</a>
+                                                            <a href="chifles_camotes_yukas.jsp">Chifles/Camotes/Yucas</a>
 							</li>
 						</ul>
 					</div>
@@ -74,13 +71,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Habas Saladas BELL'S TÃ¡per 140g</p>
+						<p>Habas Saladas BELL'S Taper 140g</p>
 						<p>S/4.40</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="130"
+							data-producto-name="Habas Saladas BELL'S Taper 140g" data-producto-price="4.40"
+							data-producto-image="../../../assets/img/mani-habas/habas-taper.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -96,9 +93,9 @@
 						<p>S/5.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="131"
+							data-producto-name="Habas Saladas VILLA NATURA Bolsas 150g" data-producto-price="5.00"
+							data-producto-image="../../../assets/img/mani-habas/habas.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -109,13 +106,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">ManÃ­ KARINTO Engalletado Salado Bolsa 200g</p>
+						<p>Mani­ KARINTO Engalletado Salado Bolsa 200g</p>
 						<p>S/7.99</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="132"
+							data-producto-name="Mani­ KARINTO Engalletado Salado Bolsa 200g" data-producto-price="7.99"
+							data-producto-image="../../../assets/img/mani-habas/mani-celeste.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -127,13 +124,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">ManÃ­ KARINTO Engalletado Picante Bolsa 200g</p>
+						<p>Mani­ KARINTO Engalletado Picante Bolsa 200g</p>
 						<p>S/7.99</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="133"
+							data-producto-name="Mani­ KARINTO Engalletado Picante Bolsa 200g" data-producto-price="7.99"
+							data-producto-image="../../../assets/img/mani-habas/mani-pink.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -145,13 +142,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">ManÃ­ Tostado y Pelado TOÃA Bolsa 98g</p>
+						<p>Mani­ Tostado y Pelado TOÑA Bolsa 98g</p>
 						<p>S/4.80</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="134"
+							data-producto-name="Mani­ Tostado y Pelado TOÑA Bolsa 98g" data-producto-price="4.80"
+							data-producto-image="../../../assets/img/mani-habas/mani-tonia.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -162,20 +159,20 @@
 				</div>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">ManÃ­ KARINTO Engalletado Salado Bolsa 200g</p>
+						<p>Mani­ KARINTO Engalletado Salado Bolsa 200g</p>
 						<p>S/7.99</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="135"
+							data-producto-name="Mani­ KARINTO Engalletado Salado Bolsa 200g" data-producto-price="7.99"
+							data-producto-image="../../../assets/img/mani-habas/mani.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
 			
 		</section>
 	</div>
-	<jsp:include pag="../../components/footer.jsp" %>
+	<jsp:include page="../../components/footer.jsp"/>
 	</body>
 	
 	</html>

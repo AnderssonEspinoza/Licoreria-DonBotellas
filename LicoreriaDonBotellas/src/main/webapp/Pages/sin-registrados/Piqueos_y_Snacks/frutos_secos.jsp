@@ -5,10 +5,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Frutos secos</title>
-	<link rel="stylesheet" href="../../../assets/style/sass/main.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<title>Don Botellas</title>
+	<!-- CSS -->
+        <link rel="stylesheet" href="../../../assets/style/sass/main.css">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <%@include file="../../components/header_sin_registrar.jsp" %>
 <div class="cuerpo">
@@ -39,19 +43,19 @@
 						<ul class="list-group">
 							<h5>Productos</h5>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/papa.html">Papas</a>
+                                                            <a href="papa.jsp">Papas</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/piqueos.html">Piqueos</a>
+                                                            <a href="piqueos.jsp">Piqueos</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/habas_y_mani.html">Habas y mani</a>
+                                                            <a href="habas_y_mani.jsp">Habas y mani</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/frutos_secos.html">Frutos Secos</a>
+                                                            <a class="palabra-color" href="frutos_secos.jsp">Frutos Secos</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
+                                                            <a href="chifles_camotes_yukas.jsp">Chifles/Camotes/Yucas</a>
 							</li>
 						</ul>
 					</div>
@@ -67,13 +71,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Frutos Secos VILLA NATURA Cocktail Premium Bolsa 150gl</p>
+						<p>Frutos Secos VILLA NATURA Cocktail Premium Bolsa 150gl</p>
 						<p>S/8.90</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÃADIR</button>
+						<button class="btn add-to-cart" data-producto-id="120"
+							data-producto-name="Frutos Secos VILLA NATURA Cocktail Premium Bolsa 150gl" data-producto-price="8.90"
+							data-producto-image="../../../assets/img/frutos-secos/frutas-villa-natura.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -89,9 +93,9 @@
 						<p>S/7.90</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="121"
+							data-producto-name="Guindones sin Pepa VILLA NATURA Bolsa 150g" data-producto-price="7.90"
+							data-producto-image="../../../assets/img/frutos-secos/guindones.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -102,13 +106,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Mix de Nueces y Frutas BELL'S TÃ¡per 200g</p>
+						<p>Mix de Nueces y Frutas BELL'S Taper 200g</p>
 						<p>S/ 9.99</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="122"
+							data-producto-name="Mix de Nueces y Frutas BELL'S Taper 200g" data-producto-price="9.99"
+							data-producto-image="../../../assets/img/frutos-secos/mix-nueces-bells.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -120,13 +124,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Pasas Morenas BELL'S Bolsa 180g</p>
+						<p>Pasas Morenas BELL'S Bolsa 180g</p>
 						<p>S/ 4.50</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="123"
+							data-producto-name="Pasas Morenas BELL'S Bolsa 180g" data-producto-price="4.50"
+							data-producto-image="../../../assets/img/frutos-secos/pasas-morena.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -138,13 +142,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Pecana Pelada VILLA NATURA Bolsa 60g</p>
+						<p>Pecana Pelada VILLA NATURA Bolsa 60g</p>
 						<p>S/ 7.90</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="124"
+							data-producto-name="Pecana Pelada VILLA NATURA Bolsa 60g" data-producto-price="7.90"
+							data-producto-image="./../../assets/img/frutos-secos/pecana-pelada.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -152,7 +156,7 @@
 			
 		</section>
 	</div>
-<%@include file="../../components/footer.jsp" %>
+    <jsp:include page="../../components/footer.jsp"/>
 </body>
 
 </html>

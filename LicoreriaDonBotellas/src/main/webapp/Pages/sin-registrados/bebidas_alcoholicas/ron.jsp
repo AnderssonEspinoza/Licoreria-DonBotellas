@@ -13,7 +13,8 @@
 		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<jsp:include page="../../components/header_sin_registrar.jsp" %>
+<body>
+    <jsp:include page="../../components/header_sin_registrar.jsp"/>
 	<div class="cuerpo">
 		<!-- Filtro de categorÃ­as-->
 		<div class="col-lg-2 category_list">
@@ -40,22 +41,22 @@
 						<ul class="list-group">
 							<h5>Pages</h5>
 							<li>
-								<a href="../bebidas_alcoholicas/vino.html">Vino</a>
+                                                            <a href="vino.jsp">Vino</a>
 							</li>
 							<li>
-								<a class="palabra-color" href="../bebidas_alcoholicas/ron.html">Ron</a>
+                                                            <a class="palabra-color" href="ron.jsp">Ron</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/whisky.html">whisky</a>
+                                                            <a href="whisky.jsp">whisky</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/espumante.html">Espumante</a>
+                                                            <a href="espumante.jsp">Espumante</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/vodka.html">Vodka</a>
+                                                            <a href="vodka.jsp">Vodka</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/Pisco.html">Pisco</a>
+                                                            <a href="Pisco.jsp">Pisco</a>
 							</li>
 						</ul>
 					</div>
@@ -71,14 +72,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Bacardi Blanco</p>
-						<p>1Lt</p>
+						<p>Bacardi Blanco 1Lt</p>
 						<p>S/48</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="220"
+							data-producto-name="Bacardi Blanco 1LT" data-producto-price="10.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/bacardi-blanca-1lt.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -88,14 +88,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Bacardi Blanco</p>
-						<p>750ml</p>
+						<p>Bacardi Blanco 750ml</p>
 						<p>S/40</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="221"
+							data-producto-name="Cartavio Black 250ml" data-producto-price="40.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/bacardi-blanca-x-750-ml-superior4121.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -105,14 +104,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Bacardi oro</p>
-						<p>1Lt</p>
+						<p>Bacardi oro 1Lt</p>
 						<p>S/48</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="222"
+							data-producto-name="Bacardi oro 1Lt" data-producto-price="48.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/bacardi-oro-1lt.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -122,48 +120,45 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Bacardi oro</p>
-						<p>750ml</p>
+						<p>Bacardi oro 750ml</p>
 						<p>S/40</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="223"
+							data-producto-name="Bacardi oro 750ml" data-producto-price="40.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/bacardi-oro-750ml.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="44">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/ron_img/barcelo-aÃ±ejo-750ml.webp" alt="...">
+                                    <img src="../../../assets/img/bebidas_alcoholicas/ron_img/barcelo-añejo-750ml.webp" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Barcelo AÃ±ejo</p>
-						<p>750ml</p>
+						<p>Barcelo Añejo 750ml</p>
 						<p>S/44</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="224"
+							data-producto-name="Barcelo Añejo 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/barcelo-añejo-750ml.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
 			<div class="card product-item" data-precio="58">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/ron_img/barcelo-gran-aÃ±ejo-750ml.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/ron_img/barcelo-gran-añejo-750ml.webp" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Barcelo Gran AÃ±ejo</p>
-						<p>750ml</p>
+						<p>Barcelo Gran Añejo 750ml</p>
 						<p>S/58</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="225"
+							data-producto-name="Barcelo Gran Añejo 750ml" data-producto-price="58.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/barcelo-gran-añejo-750ml.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -173,14 +168,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Barcelo Imperial</p>
-						<p>750ml</p>
+						<p>Barcelo Imperial 750ml</p>
 						<p>S/120</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="226"
+							data-producto-name="Barcelo Imperial 750ml" data-producto-price="120.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/bacardi-imperial-750ml.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -190,358 +184,19 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Capitan Morgan</p>
-						<p>750ml</p>
+						<p>Capitan Morgan 750ml</p>
 						<p>S/44</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="227"
+							data-producto-name="Capitan Morgan 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/Captain-morgan.jpg">AÑADIR</button>
 					</div>
 				</section>
-			</div>
-			<div class="card product-item" data-precio="33">
-				<section class="card-img-top">
-					<img src="../../../assets/assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Black</p>
-						<p>1Lt</p>
-						<p>S/33</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="10">
-				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-250ml.webp" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Black</p>
-						<p>250ml</p>
-						<p>S/10</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="18">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Black</p>
-						<p>500ml</p>
-						<p>S/18</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="10">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Black</p>
-						<p>750ml</p>
-						<p>S/10</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="6.50">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Black</p>
-						<p>125ml</p>
-						<p>S/6.50</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="33">
-				<section class="card-img-top">
-					<img src="/img/riccassets/adonnaRuby.jpg" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Superior</p>
-						<p>1Lt</p>
-						<p>S/33</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="10">
-				<section class="card-img-top">
-					<img src="/img/riccassets/adonnaProsecco.jpg" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Superior</p>
-						<p>250ml</p>
-						<p>S/10</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="18">
-				<section class="card-img-top">
-					<img src="/img/riccassets/adonnaRose.jpg" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Superior</p>
-						<p>500ml</p>
-						<p>S/18</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="10">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Superior</p>
-						<p>750ml</p>
-						<p>S/10</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="6.50">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Superior</p>
-						<p>125ml</p>
-						<p>S/6.50</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="6.50">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Blanco</p>
-						<p>125ml</p>
-						<p>S/6.50</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="10">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Blanco</p>
-						<p>250ml</p>
-						<p>S/10</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="18">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Blanco</p>
-						<p>500ml</p>
-						<p>S/18</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="10">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Blanco</p>
-						<p>750ml</p>
-						<p>S/10</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="33">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Cartavio Blanco</p>
-						<p>1Lt</p>
-						<p>S/33</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="95">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Disarono</p>
-						<p>700ml</p>
-						<p>S/95</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="50">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Flor de CaÃ±a 4 aÃ±os</p>
-						<p>700ml</p>
-						<p>S/50</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="60">
-				<section class="card-imassets/g-top">
-					<img src="/img/SIX-PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Flor de CaÃ±a 5 aÃ±os 700ml</p>
-						<p>S/60</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-
-			<div class="card product-item" data-precio="84">
-				<section class="card-img-top">
-					<img src="/img/SIX-assets/PACK-RICCADONNA-ASTI.png" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Flor de CaÃ±a 7 aÃ±os</p>
-						<p>700ml</p>
-						<p>S/84</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="2"
-							data-producto-name="Cartavio Black 250ml" data-producto-price="10.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="40">
-				<section class="card-img-top">
-					<img src="/img/SIX-PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Habana Club</p>
-						<p>700ml</p>
-						<p>S/40</p>
-					</div class="card-inferior">
-					<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-naCartavio Black 250mlLAIN" data-producto-pri1e="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/ron_img/cartavio-black-1lt.webp">AÑADIR</button>
-				</section>
-			</div>
+			</div>			
 		</section>
 	</div>
-<jsp:include page="../../components/footer.jsp" %>
+<jsp:include page="../../components/footer.jsp"/>
 </body>
 
 </html>

@@ -179,7 +179,7 @@
           </div>
         </div>
           
-        <section class="container related-products" style="background: red;" >
+        <section class="container related-products" >
           <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -345,7 +345,7 @@
           </div>
         </div>
           
-        <section class="container related-products" style="background: red;" >
+        <section class="container related-products">
           <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">

@@ -41,22 +41,22 @@
 						<ul class="list-group">
 							<h5>Pages</h5>
 							<li>
-								<a href="../bebidas_alcoholicas/vino.html">Vino</a>
+                                                            <a href="vino.jsp">Vino</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/ron.html">Ron</a>
+                                                            <a href="ron.jsp">Ron</a>
 							</li>
 							<li>
-								<a class="palabra-color" href="../bebidas_alcoholicas/whisky.html">whisky</a>
+                                                            <a class="palabra-color" href="whisky.jsp">whisky</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/espumante.html">Espumante</a>
+                                                            <a href="espumante.jsp">Espumante</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/vodka.html">Vodka</a>
+                                                            <a href="vodka.jsp">Vodka</a>
 							</li>
 							<li>
-								<a  href="../bebidas_alcoholicas/Pisco.html">Pisco</a>
+                                                            <a href="Pisco.jsp">Pisco</a>
 							</li>
 						</ul>
 					</div>
@@ -72,12 +72,11 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Chivas 12 Años</p>
-						<p>750ml</p>
+						<p>Chivas 12 Años 750ml</p>
 						<p>S/88.00</p>
 					</div>`
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="7"
+						<button class="btn add-to-cart" data-producto-id="250"
 							data-producto-name="Chivas 12 Años" data-producto-price="88.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/whisky_img/Chivas 12 Años.avif">AÑADIR</button>
 					</div>
@@ -90,12 +89,11 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Chivas 12 Años</p>
-						<p>750ml</p>
+						<p>Chivas 12 Años 750ml</p>
 						<p>S/88.00</p>
 					</div>`
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="7"
+						<button class="btn add-to-cart" data-producto-id="251"
 							data-producto-name="Chivas 12 Años" data-producto-price="88.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/whisky_img/Chivas 12 Años.avif">AÑADIR</button>
 					</div>
@@ -108,12 +106,11 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Chivas 12 Años</p>
-						<p>750ml</p>
+						<p>Chivas 12 Años 750ml</p>
 						<p>S/88.00</p>
 					</div>`
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="7"
+						<button class="btn add-to-cart" data-producto-id="252"
 							data-producto-name="Chivas 12 Años" data-producto-price="88.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/whisky_img/Chivas 12 Años.avif">AÑADIR</button>
 					</div>

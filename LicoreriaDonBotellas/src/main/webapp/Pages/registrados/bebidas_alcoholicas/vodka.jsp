@@ -42,22 +42,22 @@
 						<ul class="list-group">
 							<h5>Pages</h5>
 							<li>
-								<a href="../bebidas_alcoholicas/vino.html">Vino</a>
+                                                            <a href="vino.jsp">Vino</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/ron.html">Ron</a>
+                                                            <a href="ron.jsp">Ron</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/whisky.html">whisky</a>
+                                                            <a href="whisky.jsp">whisky</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/espumante.html">Espumante</a>
+                                                            <a href="espumante.jsp">Espumante</a>
 							</li>
 							<li>
-								<a class="palabra-color" href="../bebidas_alcoholicas/vodka.html">Vodka</a>
+                                                            <a class="palabra-color" href="vodka.jsp">Vodka</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/Pisco.html">Pisco</a>
+                                                            <a href="Pisco.jsp">Pisco</a>
 							</li>
 						</ul>
 					</div>
@@ -72,12 +72,11 @@
 					</section>
 					<section class="card-body">
 						<div class="card-text">
-							<p href="#">Absolut</p>
-							<p>750ml</p>
+							<p>Absolut 750ml</p>
 							<p>S/55</p>
 						</div>
 						<div class="card-inferior">
-							<button class="btn add-to-cart" data-producto-id="4"
+							<button class="btn add-to-cart" data-producto-id="240"
 							data-producto-name="Absolut 750ml" data-producto-price="55.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vodka_img/Absolut.jpg">AÑADIR</button>
 						</div>
@@ -89,14 +88,13 @@
 					</section>
 					<section class="card-body">
 						<div class="card-text">
-							<p href="#">Russkaya</p>
-							<p>750ml</p>
+							<p>Russkaya 750ml</p>
 							<p>S/25</p>
 						</div>
 						<div class="card-inferior">
-							<button class="btn add-to-cart" data-producto-id="5"
+							<button class="btn add-to-cart" data-producto-id="241"
 							data-producto-name="Russkaya 750ml" data-producto-price="25.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vodka_img/Russkaya.webp">AÑADIR</button>
+							data-producto-image=".../../../assets/img/bebidas_alcoholicas/vodka_img/Russkaya.webp">AÑADIR</button>
 						</div>
 					</section>
 				</div>

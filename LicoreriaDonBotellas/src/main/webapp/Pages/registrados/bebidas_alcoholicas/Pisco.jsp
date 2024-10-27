@@ -43,22 +43,22 @@
 						<ul class="list-group">
 							<h5>Pages</h5>
 							<li>
-								<a href="../bebidas_alcoholicas/vino.html">Vino</a>
+                                                            <a href="vino.jsp">Vino</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/ron.html">Ron</a>
+                                                            <a href="ron.jsp">Ron</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/whisky.html">whisky</a>
+                                                            <a href="whisky.jsp">whisky</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/espumante.html">Espumante</a>
+                                                            <a href="espumante.jsp">Espumante</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/vodka.html">Vodka</a>
+                                                            <a href="vodka.jsp">Vodka</a>
 							</li>
 							<li>
-								<a class="palabra-color" href="../bebidas_alcoholicas/Pisco.html">Pisco</a>
+                                                            <a class="palabra-color" href="Pisco.jsp">Pisco</a>
 							</li>
 						</ul>
 					</div>
@@ -73,11 +73,11 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Cuatro Gallos Acholado 750ml</p>
+						<p>Cuatro Gallos Acholado 750ml</p>
 						<p>S/44</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
+						<button class="btn add-to-cart" data-producto-id="200"
 							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
@@ -94,9 +94,9 @@
 						<p>S/44</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="201"
+							data-producto-name="Cuatro Gallos Quebranta 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/pisco_cuatro_gallos_quebranta.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -106,13 +106,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Pisco Porton 750ml</p>
+						<p>Pisco Porton 750ml</p>
 						<p>S/120</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="202"
+							data-producto-name="Pisco Porton 750ml" data-producto-price="120.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/pisco_porton.jpg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -123,13 +123,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Santigo Queirolo Acholado 750ml</p>
+						<p>Santigo Queirolo Acholado 750ml</p>
 						<p>S/29</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="203"
+							data-producto-name="Santigo Queirolo Acholado 750ml" data-producto-price="29.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/santiago_queirolo_acholado.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -140,13 +140,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Santiago Queirolo Quebranta 750ml</p>
+						<p>Santiago Queirolo Quebranta 750ml</p>
 						<p>S/29</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="204"
+							data-producto-name="Santiago Queirolo Quebranta 750ml" data-producto-price="29.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/santiago_queirolo_quebranta.jpg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -156,13 +156,13 @@
 				</div>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tabernero Acholado 750ml</p>
+						<p >Tabernero Acholado 750ml</p>
 						<p>S/34</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="205"
+							data-producto-name="Tabernero Acholado 750ml" data-producto-price="34.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_acholado.jpg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -172,13 +172,13 @@
 				</div>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tabernero Quebranta 750ml</p>
+						<p>Tabernero Quebranta 750ml</p>
 						<p>S/34</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="206"
+							data-producto-name="Tabernero Quebranta 750ml" data-producto-price="34.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -189,13 +189,13 @@
 				</div>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Santiago Queirolo Quebranta 750ml</p>
+						<p >Santiago Queirolo Quebranta 750ml</p>
 						<p>S/29</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="207"
+							data-producto-name="Santiago Queirolo Quebranta 750ml" data-producto-price="29.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/santiago_queirolo_quebranta.jpg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -209,9 +209,9 @@
 						<p>S/26</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="208"
+							data-producto-name="Pisco Vargas Acholado 750ml" data-producto-price="26.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/vargas_acholado.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>

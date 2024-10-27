@@ -40,24 +40,24 @@
 						</div>
 
 						<ul class="list-group">
-							<h5>Pages/registrados</h5>
+							<h5>Pages</h5>
 							<li>
-								<a class="palabra-color" href="../bebidas_alcoholicas/vino.html">Vino</a>
+                                                            <a class="palabra-color" href="vino.jsp">Vino</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/ron.html">Ron</a>
+                                                            <a href="ron.jsp">Ron</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/whisky.html">whisky</a>
+                                                            <a href="whisky.jsp">whisky</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/espumante.html">Espumante</a>
+                                                            <a href="espumante.jsp">Espumante</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/vodka.html">Vodka</a>
+                                                            <a href="vodka.jsp">Vodka</a>
 							</li>
 							<li>
-								<a href="../bebidas_alcoholicas/Pisco.html">Pisco</a>
+                                                            <a href="Pisco.jsp">Pisco</a>
 							</li>
 						</ul>
 					</div>
@@ -74,12 +74,11 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Casillero del Diablo</p>
-						<p>700ml</p>
+						<p>Casillero del Diablo 700ml</p>
 						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
@@ -91,12 +90,11 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Casillero del Diablo</p>
-						<p>700ml</p>
+						<p>Casillero del Diablo 700ml</p>
 						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
@@ -108,12 +106,11 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Casillero del Diablo</p>
-						<p>700ml</p>
+						<p>Casillero del Diablo 700ml</p>
 						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
@@ -125,267 +122,235 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Casillero del Diablo</p>
-						<p>700ml</p>
+						<p>Casillero del Diablo 700ml</p>
 						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="60">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Navarro Correa.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Navarro Correa</p>
-						<p>700ml</p>
-						<p>S/60</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="60">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Navarro Correa.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Navarro Correa</p>
-						<p>700ml</p>
-						<p>S/60</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="16">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/assets/img/bebidas_alcoholicas/vino_img/Santiago Queirolo.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Santiago Queirolo</p>
-						<p>700ml</p>
-						<p>S/16</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="16">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/assets/img/bebidas_alcoholicas/vino_img/Santiago Queirolo.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Santiago Queirolo</p>
-						<p>700ml</p>
-						<p>S/16</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="16">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/assets/img/bebidas_alcoholicas/vino_img/Santiago Queirolo.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Santiago Queirolo</p>
-						<p>700ml</p>
-						<p>S/16</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="16">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/assets/img/bebidas_alcoholicas/vino_img/Santiago Queirolo.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Santiago Queirolo</p>
-						<p>700ml</p>
-						<p>S/16</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="17">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Tabernero Blanco.png" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tabernero Blanco</p>
-						<p>700ml</p>
-						<p>S/17</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="17">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Tabernero Borgoña.png" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tabernero Borgoña</p>
-						<p>700ml</p>
-						<p>S/17</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="17">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Tabernero Rose.png" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tabernero Rose</p>
-						<p>700ml</p>
-						<p>S/17</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="22">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Tabernero Gran Rose.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tabernero Gran Rose</p>
-						<p>750ml</p>
-						<p>S/22</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="22">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Tabernero Gran Blanco.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tabernero Gran Blanco</p>
-						<p>750ml</p>
-						<p>S/22</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="38">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Tacama Borgoño.png" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tabernero Pasa</p>
-						<p>750ml</p>
-						<p>S/38</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="26">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Tacama Rose.webp" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tacama Rose</p>
-						<p>700ml</p>
-						<p>S/26</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			<div class="card product-item" data-precio="26">
+			<div class="card product-item" data-precio="42">
 				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Tacama Borgoño.png" alt="...">
+					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg" alt="...">
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tacama Borgoño</p>
-						<p>700ml</p>
-						<p>S/26</p>
+						<p>Casillero del Diablo 700ml</p>
+						<p>S/42</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
-							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
-					</div>
-				</section>
-			</div>
-			<div class="card product-item" data-precio="29">
-				<section class="card-img-top">
-					<img src="../../../assets/img/bebidas_alcoholicas/vino_img/Tacama Tres cepas.jpeg" alt="...">
-				</section>
-				<section class="card-body">
-					<div class="card-text">
-						<p href="#">Tacama Tres Sepas</p>
-						<p>700ml</p>
-						<p>S/29</p>
-					</div>
-					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="3"
+						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
 							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
 					</div>

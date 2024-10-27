@@ -5,11 +5,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Piqueos</title>
+	<title>Don Botellas</title>
+	<!-- CSS -->
         <link rel="stylesheet" href="../../../assets/style/sass/main.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <%@include file="../../components/header_sin_registrar.jsp" %>
 <div class="cuerpo">
@@ -40,22 +43,19 @@
 						<ul class="list-group">
 							<h5>Productos</h5>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/papa.html">Papas</a>
+                                                            <a href="papa.jsp">Papas</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/piqueos.html">Piqueos</a>
+                                                            <a class="palabra-color" href="piqueos.jsp">Piqueos</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/habas_y_mani.html">Habas y mani</a>
+                                                            <a href="habas_y_mani.jsp">Habas y mani</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/frutos_secos.html">Frutos Secos</a>
+                                                            <a href="frutos_secos.jsp">Frutos Secos</a>
 							</li>
 							<li>
-                                                            <a href="../Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
-							</li>
-							<li>
-                                                            <a href="../Piqueos_y_Snacks/dulce.html">Dulce</a>
+                                                            <a href="chifles_camotes_yukas.jsp">Chifles/Camotes/Yucas</a>
 							</li>
 						</ul>
 					</div>
@@ -71,13 +71,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Piqueos CHEETOS Mega Queso Bolsa 90g</p>
+						<p>Piqueos CHEETOS Mega Queso Bolsa 90g</p>
 						<p>S/5.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn add-to-cart" data-producto-id="9"
-							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
+						<button class="btn add-to-cart" data-producto-id="150"
+							data-producto-name="Piqueos CHEETOS Mega Queso Bolsa 90g" data-producto-price="5.00"
+							data-producto-image="../../../assets/img/piqueos/cheetos-mega-queso.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -89,13 +89,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Piqueos CHEETOS Queso Picante Bolsa 180g</p>
+						<p>Piqueos CHEETOS Queso Picante Bolsa 180g</p>
 						<p>S/7.99</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="151"
+							data-producto-name="Piqueos CHEETOS Queso Picante Bolsa 180g" data-producto-price="7.99"
+							data-producto-image="../../../assets/img/piqueos/cheetos.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -107,13 +107,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Tortillas de MaÃ­z DORITOS Queso Atrevido Bolsa 90g</p>
+						<p>Tortillas de MaÃ­z DORITOS Queso Atrevido Bolsa 90g</p>
 						<p>S/4.99</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="152"
+							data-producto-name="Tortillas de MaÃ­z DORITOS Queso Atrevido Bolsa 90g" data-producto-price="4.99"
+							data-producto-image="../../../assets/img/piqueos/doritos.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -125,13 +125,13 @@
 				</section>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Snacks de Papa MaÃ­z y Trigo PIQUEO SNAX Bolsa 260g</p>
+						<p>Snacks de Papa Mai­z y Trigo PIQUEO SNAX Bolsa 260g</p>
 						<p>S/11.10</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="153"
+							data-producto-name="Snacks de Papa Mai­z y Trigo PIQUEO SNAX Bolsa 260g" data-producto-price="11.10"
+							data-producto-image="../../../assets/img/piqueos/piqueos.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -142,13 +142,13 @@
 				</div>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Snacks de Papa MaÃ­z y Trigo PIQUEO SNAX Bolsa 260g</p>
+						<p>Snacks de Papa Mai­z y Trigo PIQUEO SNAX Bolsa 260g</p>
 						<p>S/8.90</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="154"
+							data-producto-name="Snacks de Papa Mai­z y Trigo PIQUEO SNAX Bolsa 260g" data-producto-price="78.90"
+							data-producto-image="../../../assets/img/piqueos/pringles.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -159,13 +159,13 @@
 				</div>
 				<section class="card-body">
 					<div class="card-text">
-						<p href="#">Piqueos TORTEES Picante Bolsa 71g</p>
+						<p>Piqueos TORTEES Picante Bolsa 71g</p>
 						<p>S/2.50</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="155"
+							data-producto-name="Piqueos TORTEES Picante Bolsa 71g" data-producto-price="2.50"
+							data-producto-image=".../../../assets/img/piqueos/tor-tees.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>

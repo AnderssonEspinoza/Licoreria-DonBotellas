@@ -43,19 +43,19 @@
 						<ul class="list-group" style="list-style: none">
 							<h5>Cervezas</h5>
 							<li>
-                                                            <a href="../cerveza/cistral.jsp">Cristal</a>
+                                                            <a href="cistral.jsp">Cristal</a>
 							</li>
 							<li>
-                                                            <a href="../cerveza/cusqueña.jsp">Cusqueña</a>
+                                                            <a href="cusqueña.jsp">Cusqueña</a>
 							</li>
 							<li>
-                                                            <a href="../cerveza/godlen.jsp">Godlen</a>
+                                                            <a href="godlen.jsp">Godlen</a>
 							</li>
 							<li>
-                                                            <a href="../cerveza/heineken.jsp">Heineken</a>
+                                                            <a class="palabra-color" href="heineken.jsp">Heineken</a>
 							</li>
 							<li>
-                                                            <a href="../cerveza/pilsen.jsp">Pilsen</a>
+                                                            <a href="pilsen.jsp">Pilsen</a>
 							</li>
 							
 						</ul>
@@ -77,7 +77,7 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="12"
+						<button class="btn btn-primary add-to-cart" data-producto-id="430"
 							data-producto-name="Heineken" data-producto-price="8.00"
 							data-producto-image="../../../assets/img/cerveza/heineken_img/heineken-botella.png">AÑADIR</button>
 					</div>
@@ -94,7 +94,7 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="12"
+						<button class="btn btn-primary add-to-cart" data-producto-id="430"
 							data-producto-name="Heineken" data-producto-price="8.00"
 							data-producto-image="../../../assets/img/cerveza/heineken_img/heineken-botella.png">AÑADIR</button>
 					</div>
@@ -111,15 +111,12 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="12"
+						<button class="btn btn-primary add-to-cart" data-producto-id="430"
 							data-producto-name="Heineken" data-producto-price="8.00"
 							data-producto-image="../../../assets/img/cerveza/heineken_img/heineken-botella.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-			
-			
-			
 		</section>
 	</div>
     

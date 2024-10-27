@@ -15,130 +15,200 @@
 </head>
 <body>
     <jsp:include page="../../components/header_registrado.jsp"/>
-	<div class="container-fluid">
-		<div class="productos">
-			<!-- Filtro de categorías-->
-			<div class="col-lg-3 category_list">
-				<!-- Filtro de precios -->
-				<nav class="navbar navbar-expand-lg navbar-white bg-white">
-					<div class="container-fluid">
-						<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-							data-bs-target="#menuLateral">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="col">
-							<section class="offcanvas offcanvas-start pt-5 pt-lg-0" id="menuLateral" tabindex="-1">
-								<img class="gif"
-									src="/img/Logo Animado Academia Creación Diseño Marketing Publicidad Moderno Profesional Blanco y Negro.gif"
-									alt="">
-								<div class="price-filter">
-									<h5>Filtrar por precio</h5>
-									<input type="range" id="filtro-precio" min="0" max="300" step="5" value="300"
-										oninput="actualizarPrecio(this.value)">
-									<p>Precio máximo: S/<span id="precio-actual">300</span></p>
-								</div>
+	<div class="cuerpo">
+		<!-- Filtro de categorÃ­as -->
+		<div class="col-lg-2 category_list">
+			<!-- Filtro de precios -->
+			<nav class="navbar navbar-expand-lg ">
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+					aria-label="Toggle navigation">
+					<i class="bi bi-filter-left">Filtrar</i>
+				</button>
+				<div class="col">
+					<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar"
+						aria-labelledby="offcanvasDarkNavbarLabel">
+						<div class="offcanvas-header">
+							<br>
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+							</button>
+						</div>
+						<div class="price-filter">
+							<h5>Filtrar por precio</h5>
+							<input type="range" id="filtro-precio" min="0" max="300" step="5" value="300"
+								oninput="actualizarPrecio(this.value)">
+							<p>Precio mÃ¡ximo: S/<span id="precio-actual">300</span></p>
+						</div>
 
-								<ul class="list-group">
-									<h5>Filtrar por Marcas</h5>
-									<div class="form-check">
-										<a class="form-check-label" href="/listo_para_tomar/smirnoff.html"
-											for="flexCheckChecked">
-											Smirnoff
-										</a>
-									</div>
-									<div class="form-check">
-										<a class="form-check-label" href="/listo_para_tomar/four_loko.html"
-											for="flexCheckDefault">
-											Four Loko
-										</a>
-									</div>
-									<div class="form-check">
-										<a class="form-check-label" href="/listo_para_tomar/tabernero.html"
-											for="flexCheckDefault">
-											Tabernero
-										</a>
-									</div>
-									<div class="form-check">
-										<a class="form-check-label" href="/listo_para_tomar/mikes.html"
-											for="flexCheckDefault">
-											Mikes
-										</a>
-									</div>
-									<div class="form-check">
-										<a class="form-check-label" href="/listo_para_tomar/piscano.html"
-											for="flexCheckDefault">
-											Piscano
-										</a>
-									</div>
-								</ul>
-							</section>
-						</div>
+						<ul class="list-group">
+							<h5>Pages</h5>
+							<li>
+                                                            <a class="palabra-color" href="four_loko.jsp">Four Loko</a>
+							</li>
+							<li>
+                                                            <a href="mikes.jsp">Mikes</a>
+							</li>
+							<li>
+                                                            <a href="piscano.jsp">Piscano</a>
+							</li>
+							<li>
+                                                            <a href="smirnoff.jsp">Smimoff</a>
+							</li>
+							<li>
+                                                            <a href="tabernero.jsp">Tabernero</a>
+							</li>
+						</ul>
 					</div>
-				</nav>
-			</div>
-			<!--Lista de Productos-->
-			<div>
-				<section class="products-list grid text-center">
-
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="25">
-						<img src="/img/riccadonnaAsti.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Riccardonna Asti</p>
-								<p>750ml</p>
-								<p>S/58</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
+				</div>
+			</nav>
+		</div>
+		<!--Lista de Pages-->
+		<section class="products-list grid text-center">
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Four loko</p>
+						<p>S/9.90</p>
 					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="40">
-						<img src="/img/riccadonnaRuby.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Riccardonna Ruby</p>
-								<p>750ml</p>
-								<p>S/58</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="601"
+							data-producto-name="Four loko" data-producto-price="9.90"
+							data-producto-image="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp">AÑADIR</button>
 					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="50">
-						<img src="/img/riccadonnaProsecco.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Riccardonna Prosecco</p>
-								<p>750ml</p>
-								<p>S/58</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="65">
-						<img src="/img/riccadonnaRose.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Riccardonna Rose</p>
-								<p>750ml</p>
-								<p>S/18</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-					<div class="card product-item g-col-3" style="width: 11rem;" data-precio="75">
-						<img src="/img/SIX-PACK-RICCADONNA-ASTI.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<div class="separacion">
-								<p href="#">Riccardonna Espumante</p>
-								<p>750ml</p>
-								<p>S/750</p>
-							</div>
-							<a href="#">AÑADIR</a>
-						</div>
-					</div>
-
 				</section>
 			</div>
-		</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Four loko</p>
+						<p>S/9.90</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="601"
+							data-producto-name="Four loko" data-producto-price="9.90"
+							data-producto-image="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Four loko</p>
+						<p>S/9.90</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="601"
+							data-producto-name="Four loko" data-producto-price="9.90"
+							data-producto-image="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Four loko</p>
+						<p>S/9.90</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="601"
+							data-producto-name="Four loko" data-producto-price="9.90"
+							data-producto-image="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Four loko</p>
+						<p>S/9.90</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="601"
+							data-producto-name="Four loko" data-producto-price="9.90"
+							data-producto-image="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Four loko</p>
+						<p>S/9.90</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="601"
+							data-producto-name="Four loko" data-producto-price="9.90"
+							data-producto-image="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Four loko</p>
+						<p>S/9.90</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="601"
+							data-producto-name="Four loko" data-producto-price="9.90"
+							data-producto-image="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Four loko</p>
+						<p>S/9.90</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="601"
+							data-producto-name="Four loko" data-producto-price="9.90"
+							data-producto-image="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+			<div class="card product-item" data-precio="44">
+				<section class="card-img-top">
+                                    <img src="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp" alt="...">
+				</section>
+				<section class="card-body">
+					<div class="card-text">
+						<p>Four loko</p>
+						<p>S/9.90</p>
+					</div>
+					<div class="card-inferior">
+						<button class="btn add-to-cart" data-producto-id="601"
+							data-producto-name="Four loko" data-producto-price="9.90"
+							data-producto-image="../../../assets/img/listo_para_tomar/fout_loco_img/four_loko.webp">AÑADIR</button>
+					</div>
+				</section>
+			</div>
+		</section>
 	</div>
 	<jsp:include page="../../components/footer.jsp"/>
 </body>
