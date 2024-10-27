@@ -59,7 +59,7 @@
                             </div>
                             <ul class="navbar-nav justify-content mx-auto mb-2  mb-lg-0">
                                     <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle palabra-color" href="#" role="button"
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
                                                     data-bs-toggle="dropdown">Bebidas Alcoholicas</a>
                                             <ul class="dropdown-menu ">
                                                     <li><a class="dropdown-item" 
@@ -182,7 +182,7 @@
                                                                     href="../../../Pages/sin-registrados/Piqueos_y_Snacks/frutos_secos.jsp">Frutos
                                                                     Secos</a></li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/sin-registrados/Piqueos_y_Snacks/salados.jsp">Salado</a>
+                                                           href="../../../Pages/sin-registrados/Piqueos_y_Snacks/chifles_camotes_yukas.jsp">Chifles/Camotes/Yukas</a>
                                                     </li>
                                             </ul>
                                     </li>

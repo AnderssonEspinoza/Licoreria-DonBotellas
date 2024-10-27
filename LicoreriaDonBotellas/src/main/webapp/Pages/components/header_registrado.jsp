@@ -59,7 +59,7 @@
                             </div>
                             <ul class="navbar-nav justify-content mx-auto mb-2  mb-lg-0">
                                     <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle palabra-color" href="#" role="button"
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
                                                     data-bs-toggle="dropdown">Bebidas Alcoholicas</a>
                                             <ul class="dropdown-menu ">
                                                     <li><a class="dropdown-item"
@@ -111,7 +111,7 @@
                                                                     href="../../../Pages/registrados/cerveza/pilsen.jsp">Pilsen</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/registrados/cerveza/Cusqueña.jsp">Cusqueña</a>
+                                                           href="../../Pages/registrados/cerveza/cusqueña.jsp">Cusqueña</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
                                                                     href="../../../Pages/registrados/cerveza/cistral.jsp">Cristal</a>
