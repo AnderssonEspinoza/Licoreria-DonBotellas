@@ -181,7 +181,7 @@
                                                                     href="../../../Pages/registrados/Piqueos_y_Snacks/frutos_secos.jsp">Frutos
                                                                     Secos</a></li>
                                                     <li><a class="dropdown-item"
-                                                           href="../../../Pages/registrados/Piqueos_y_Snacks/salados.jsp">salado</a>
+                                                           href="../../../Pages/registrados/Piqueos_y_Snacks/chifles_camotes_yukas.jsp">chifles_camotes_yukas</a>
                                                     </li>
                                             </ul>
                                     </li>

@@ -1,23 +1,20 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Espumante</title>
+	<title>Don Botellas</title>
 	<!-- CSS -->
         <link rel="stylesheet" href="../../../assets/style/sass/main.css">
-	<link rel="stylesheet" type="text/css" href="../../../assets/css/styleIndex.css">
 
 	<!-- Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-
 <body>
-    <%@include file="../../components/header_registrado.jsp" %>
+    <jsp:include page="../../components/header_registrado.jsp"/>
 <div class="cuerpo">
 		<!-- Filtro de categorÃ­as-->
 		<div class="col-lg-2 category_list">
@@ -72,7 +69,7 @@
 		<section class="products-list grid text-center">
 			<div class="card product-item" data-precio="25">
 				<selection class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg" class="card-img-top"
+                                    <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg" class="card-img-top"
 						alt="...">
 				</selection>
 				<selection class="card-body">
@@ -80,14 +77,16 @@
 						<p href="#">Riccardonna Asti 750ml</p>
 						<p>S/58</p>
 					</div>
-					<div class="card-inferior">
-						<a href="#">AÑADIR</a>
+					<div class="card-inferior"> 
+						<button class="btn add-to-cart" data-producto-id="1"
+							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
 					</div>
 				</selection>
 			</div>
 			<div class="card product-item" data-precio="40">
 				<selection class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/espumante_img/riccadonnaRuby.jpg" class="card-img-top"
+                                    <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaRuby.jpg" class="card-img-top"
 						alt="...">
 				</selection>
 				<selection class="card-body">
@@ -96,13 +95,15 @@
 						<p>S/58</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÑADIR</a>
+						<button class="btn add-to-cart" data-producto-id="1"
+							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
 					</div>
 				</selection>
 			</div>
 			<div class="card product-item" data-precio="50">
 				<selection class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/espumante_img/riccadonnaProsecco.jpg" class="card-img-top"
+                                    <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaProsecco.jpg" class="card-img-top"
 						alt="...">
 				</selection>
 				<selection class="card-body">
@@ -111,13 +112,15 @@
 						<p>S/58</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÑADIR</a>
+						<button class="btn add-to-cart" data-producto-id="1"
+							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
 					</div>
 				</selection>
 			</div>
 			<div class="card product-item" data-precio="65">
 				<selection class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/espumante_img/riccadonnaRose.jpg" class="card-img-top"
+                                    <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaRose.jpg" class="card-img-top"
 						alt="...">
 				</selection>
 				<selection class="card-body">
@@ -126,13 +129,15 @@
 						<p>S/18</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÑADIR</a>
+						<button class="btn add-to-cart" data-producto-id="1"
+							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
 					</div>
 				</selection>
 			</div>
 			<div class="card product-item" data-precio="75">
 				<selection class="card-img-top">
-					<img src="../../../img/bebidas_alcoholicas/espumante_img/SIX-PACK-RICCADONNA-ASTI.png"
+                                    <img src="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg"
 						class="card-img-top" alt="...">
 				</selection>
 				<selection class="card-body">
@@ -141,15 +146,15 @@
 						<p>S/75</p>
 					</div>
 					<div class="card-inferior">
-						<a href="#">AÑADIR</a>
+						<button class="btn add-to-cart" data-producto-id="1"
+							data-producto-name="Riccardonna 750ml" data-producto-price="75.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/espumante_img/riccadonnaAsti.jpg">AÑADIR</button>
 					</div>
 				</selection>
 			</div>
 		</section>
 	</div>
-<%@include file="../../components/footer.jsp" %>
+<jsp:include page="../../components/footer.jsp"/>
 </body>
-
-</html>
 
 </html>

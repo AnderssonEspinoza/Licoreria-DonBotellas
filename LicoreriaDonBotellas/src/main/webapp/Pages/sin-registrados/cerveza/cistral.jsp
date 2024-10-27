@@ -77,9 +77,9 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="8"
+							data-producto-name="Cristal" data-producto-price="8.00"
+							data-producto-image="../../../assets/img/cerveza/cristal_img/Cristal_botella.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -95,9 +95,9 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="8"
+							data-producto-name="Cristal" data-producto-price="8.00"
+							data-producto-image="../../../assets/img/cerveza/cristal_img/Cristal_botella.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -113,9 +113,9 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="8"
+							data-producto-name="Cristal" data-producto-price="8.00"
+							data-producto-image="../../../assets/img/cerveza/cristal_img/Cristal_botella.webp">AÑADIR</button>
 					</div>
 				</section>
 			</div>

@@ -1,8 +1,21 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<%@include file="../../components/head.jsp" %>
-<%@include file="../../components/header.jsp" %>
-<div class="cuerpo">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Don Botellas</title>
+	<!-- CSS -->
+        <link rel="stylesheet" href="../../../assets/style/sass/main.css">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <jsp:include page="../../components/header_sin_registrar.jsp"/>
+	<div class="cuerpo">
 		<!-- Filtro de categorÃ­as-->
 		<div class="col-lg-2 category_list">
 			<!-- Filtro de precios -->
@@ -54,7 +67,7 @@
 			<section class="products-list grid text-center">
 				<div class="card product-item g-col-3" data-precio="55">
 					<section class="card-img-top">
-						<img src="../../../img//bebidas_alcoholicas/vodka_img/Absolut.jpg" alt="...">
+						<img src="../../../assets/img/bebidas_alcoholicas/vodka_img/Absolut.jpg" alt="...">
 					</section>
 					<section class="card-body">
 						<div class="card-text">
@@ -63,13 +76,15 @@
 							<p>S/55</p>
 						</div>
 						<div class="card-inferior">
-							<a href="#">AÃADIR</a>
+							<button class="btn add-to-cart" data-producto-id="4"
+							data-producto-name="Absolut 750ml" data-producto-price="55.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vodka_img/Absolut.jpg">AÑADIR</button>
 						</div>
 					</section>
 				</div>
 				<div class="card product-item g-col-3" data-precio="25">
 					<section class="card-img-top">
-						<img src="../../../img//bebidas_alcoholicas/vodka_img/Russkaya.webp" alt="...">
+						<img src="../../../assets/img/bebidas_alcoholicas/vodka_img/Russkaya.webp" alt="...">
 					</section>
 					<section class="card-body">
 						<div class="card-text">
@@ -78,11 +93,16 @@
 							<p>S/25</p>
 						</div>
 						<div class="card-inferior">
-							<a href="#">AÃADIR</a>
+							<button class="btn add-to-cart" data-producto-id="5"
+							data-producto-name="Russkaya 750ml" data-producto-price="25.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vodka_img/Russkaya.webp">AÑADIR</button>
 						</div>
 					</section>
 				</div>
 			</section>
 		</div>
-<%@include file="../../components/footer.jsp" %>
+		<jsp:include page="../../components/footer.jsp"/>
+	</body>
+	
+	</html>
 		

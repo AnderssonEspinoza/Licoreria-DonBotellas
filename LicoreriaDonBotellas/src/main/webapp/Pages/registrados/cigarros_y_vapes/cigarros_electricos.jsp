@@ -1,80 +1,20 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Filtro de Categorías y Precio</title>
-	<link rel="stylesheet" href="/style.css">
-	<link rel="stylesheet" href="/styleNavbar.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-</head>
+	<title>Don Botellas</title>
+	<!-- CSS -->
+        <link rel="stylesheet" href="../../../assets/style/sass/main.css">
 
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
 <body>
-	<header id="header" class="header">
-        <!--Segundo menu navegacion-->
-        <nav>
-			<ul class="nav-links-second">
-				<li><a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown">Cerveza</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/cerveza/pilsen.html">Pilsen</a></li>
-						<li><a class="dropdown-item" href="/cerveza/Cusqueña.html">Cusqueña</a></li>
-						<li><a class="dropdown-item" href="/cerveza/cistral.html">Cristal</a></li>
-						<li><a class="dropdown-item" href="/cerveza/heineken.html">Heineken</a></li>
-						<li><a class="dropdown-item" href="/cerveza/godlen.html">Godlen </a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link ">Pack y Licores</a></li>
-	
-				<li><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown">Bebidas Alcohólicas</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/vino.html">Vino</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/ron.html">Ron</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/whisky.html">Whisky</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/espumante.html">Espumante</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/vodka.html">Vodka</a></li>
-						<li><a class="dropdown-item" href="/bebidas_alcoholicas/Pisco.html">Pisco</a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown">Listos para Tomar</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/listo_para_tomar/smirnoff.html">Smirnoff</a></li>
-						<li><a class="dropdown-item" href="/listo_para_tomar/four_loko.html">Four Loko</a></li>
-						<li><a class="dropdown-item" href="/listo_para_tomar/tabernero.html">Tabernero </a></li>
-						<li><a class="dropdown-item" href="/listo_para_tomar/mikes.html">Mikes</a></li>
-						<li><a class="dropdown-item" href="/listo_para_tomar/piscano.html">Piscano </a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Bebidas No Alcohólicas</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/gaseosas.html">Gaseosas</a></li>
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/agua.html">Agua</a></li>
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/energizante.html">Energizante</a></li>
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/jugo.html">Jugo</a></li>
-						<li><a class="dropdown-item" href="/bebidas_no_alcoholicas/Rehidratante.html">Rehidratante</a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cigarros y Vapes</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/cigarros_y_vapes/cigarros_regulare.html">Cigarros Regulares</a></li>
-						<li><a class="dropdown-item" href="/cigarros_y_vapes/cigarros_electricos.html">Cigarros Electronicos</a></li>
-						<li><a class="dropdown-item" href="/cigarros_y_vapes/complementos.html">Complementos</a></li>
-					</ul>
-				</li>
-				<li><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Piqueos y Snacks</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/papa.html">Papas</a></li>
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/piqueos.html">Piqueos</a></li>
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/habas_y_mani.html">Habas y Mani</a></li>
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/frutos_secos.html">Frutos Secos</a></li>
-						<li><a class="dropdown-item" href="/Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a></li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
-    </header>
+    <jsp:include page="../../components/header_registrado.jsp"/>
 	<div class="container-fluid">
 		<div class="productos">
 			<!-- Filtro de categorías-->
@@ -195,11 +135,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-		crossorigin="anonymous"></script>
-	<script src="/javaScript.js"></script>
+	<jsp:include page="../../components/footer.jsp"/>
 </body>
 
-</html>
+</html>	

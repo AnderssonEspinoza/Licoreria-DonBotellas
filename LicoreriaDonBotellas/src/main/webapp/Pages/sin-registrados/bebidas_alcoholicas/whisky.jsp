@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +13,8 @@
 		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<%@include file="../../components/header_sin_registrar.jsp" %>
-<div class="cuerpo">
+<jsp:include page="../../components/header_sin_registrar.jsp" %>
+	<div class="cuerpo">
 		<!-- Filtro de categorÃ­as-->
 		<div class="col-lg-2 category_list">
 			<!-- Filtro de precios -->
@@ -75,7 +76,9 @@
 						<p>S/88.00</p>
 					</div>`
 					<div class="card-inferior">
-						<a href="#">AÑADIR</a>
+						<button class="btn add-to-cart" data-producto-id="7"
+							data-producto-name="Chivas 12 Años" data-producto-price="88.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/whisky_img/Chivas 12 Años.avif">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -91,7 +94,9 @@
 						<p>S/88.00</p>
 					</div>`
 					<div class="card-inferior">
-						<a href="#">AÑADIR</a>
+						<button class="btn add-to-cart" data-producto-id="7"
+							data-producto-name="Chivas 12 Años" data-producto-price="88.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/whisky_img/Chivas 12 Años.avif">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -107,7 +112,9 @@
 						<p>S/88.00</p>
 					</div>`
 					<div class="card-inferior">
-						<a href="#">AÑADIR</a>
+						<button class="btn add-to-cart" data-producto-id="7"
+							data-producto-name="Chivas 12 Años" data-producto-price="88.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/whisky_img/Chivas 12 Años.avif">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -115,4 +122,7 @@
 			
 		</section>
 	</div>
-<%@include file="../../components/footer.jsp" %>
+<jsp:include page="../../components/footer.jsp" %>
+</body>
+
+</html>

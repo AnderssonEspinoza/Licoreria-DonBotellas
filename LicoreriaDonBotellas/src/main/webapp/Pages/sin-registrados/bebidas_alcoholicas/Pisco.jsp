@@ -79,7 +79,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="9"
 							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÃADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -94,9 +94,9 @@
 						<p>S/44</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn add-to-cart" data-producto-id="9"
+							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -110,9 +110,9 @@
 						<p>S/120</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn add-to-cart" data-producto-id="9"
+							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -127,9 +127,9 @@
 						<p>S/29</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn add-to-cart" data-producto-id="9"
+							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -144,9 +144,9 @@
 						<p>S/29</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn add-to-cart" data-producto-id="9"
+							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -160,9 +160,9 @@
 						<p>S/34</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn add-to-cart" data-producto-id="9"
+							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -176,9 +176,9 @@
 						<p>S/34</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn add-to-cart" data-producto-id="9"
+							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -193,9 +193,9 @@
 						<p>S/29</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn add-to-cart" data-producto-id="9"
+							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -209,9 +209,9 @@
 						<p>S/26</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÃADIR</button>
+						<button class="btn add-to-cart" data-producto-id="9"
+							data-producto-name="Cuatro Gallos Acholado 750ml" data-producto-price="44.00"
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/cuantro_gallos_acholado.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>

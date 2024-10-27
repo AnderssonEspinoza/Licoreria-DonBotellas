@@ -53,9 +53,6 @@
 							<li>
                                                             <a href="../Piqueos_y_Snacks/chifles_camotes_yukas.html">Chifles/Camotes/Yucas</a>
 							</li>
-							<li>
-                                                            <a href="../Piqueos_y_Snacks/dulce.html">Dulce</a>
-							</li>
 						</ul>
 					</div>
 				</div>

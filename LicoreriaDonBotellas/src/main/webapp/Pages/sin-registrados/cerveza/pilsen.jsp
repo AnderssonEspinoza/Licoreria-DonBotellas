@@ -1,4 +1,4 @@
-
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +46,7 @@
                                                             <a href="../cerveza/cistral.jsp">Cristal</a>
 							</li>
 							<li>
-                                                            <a href="../cerveza/cusqueña.jsp">Cusqueña</a>
+                                                            <a href="../cerveza/cusqueï¿½a.jsp">Cusqueï¿½a</a>
 							</li>
 							<li>
                                                             <a href="../cerveza/godlen.jsp">Godlen</a>
@@ -77,9 +77,9 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="13"
+							data-producto-name="Pilsen 630ml" data-producto-price="8.00"
+							data-producto-image="../../../assets/img/cerveza/pilsen_img/pilsen-630ML.jpg">AÃ‘ADIR</button>
 					</div>
 				</section>
 			</div>
@@ -95,9 +95,9 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="13"
+							data-producto-name="Pilsen 630ml" data-producto-price="8.00"
+							data-producto-image="../../../assets/img/cerveza/pilsen_img/pilsen-630ML.jpg">AÃ‘ADIR</button>
 					</div>
 				</section>
 			</div>
@@ -113,9 +113,9 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="13"
+							data-producto-name="Pilsen 630ml" data-producto-price="8.00"
+							data-producto-image="../../../assets/img/cerveza/pilsen_img/pilsen-630ML.jpg">AÃ‘ADIR</button>
 					</div>
 				</section>
 			</div>

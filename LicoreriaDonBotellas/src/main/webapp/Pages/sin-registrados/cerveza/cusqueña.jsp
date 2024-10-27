@@ -77,9 +77,9 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="10"
+							data-producto-name="Cusqueña" data-producto-price="8.00"
+							data-producto-image="../../../assets/img/cerveza/cusqueña_img/cusqueña_negra.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -95,9 +95,9 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="10"
+							data-producto-name="Cusqueña" data-producto-price="8.00"
+							data-producto-image="../../../assets/img/cerveza/cusqueña_img/cusqueña_negra.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -113,17 +113,12 @@
 						<p>S/ 8.00</p>
 					</div>
 					<div class="card-inferior">
-						<button class="btn btn-primary add-to-cart" data-producto-id="9"
-							data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/pisco_img/tabernero_quebranta.jpg">AÑADIR</button>
+						<button class="btn btn-primary add-to-cart" data-producto-id="10"
+							data-producto-name="Cusqueña" data-producto-price="8.00"
+							data-producto-image="../../../assets/img/cerveza/cusqueña_img/cusqueña_negra.png">AÑADIR</button>
 					</div>
 				</section>
 			</div>
-                        
-			
-			
-			
-			
 		</section>
 	</div>
     
