@@ -18,7 +18,7 @@ public class ConectorDB {
         
         //autoReconnect=true
         //Habilita la reconexión automática en caso de que la conexión se pierda
-        String url = "jdbc:mysql://grupo5:3306/licoreria_db?useTimeZone=true&"
+        String url = "jdbc:mysql://localhost:3306/licoreria_db?useTimeZone=true&"
                 + "serverTimezone=UTC&autoReconnect=true";
         //String usuario = "root";
         //String clave = "kepler1321";

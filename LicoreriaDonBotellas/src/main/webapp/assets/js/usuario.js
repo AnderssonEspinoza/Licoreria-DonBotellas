@@ -4,11 +4,11 @@
  */
 
 
-fetch("http://localhost:8080/LicoreriaDonBotellas-1.0/InventarioController")
+fetch("http://localhost:8080/LicoreriaDonBotellas-1.0/UsuarioController")
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        const tabla = document.getElementById('TablaProductoz'); //Sample es la tabla
+        const tabla = document.getElementById('TablaUsuarioz');
         tabla.innerHTML = ''; // Limpiar la tabla antes de actualizar
 
         // Crear y agregar el encabezado
@@ -17,11 +17,12 @@ fetch("http://localhost:8080/LicoreriaDonBotellas-1.0/InventarioController")
             <tr>
                 <th>ID</th>
                 <th>Nombre</th>
-                <th>Descripción</th>
-                <th>Precio</th>
-                <th>Stock</th>
-                <th>Categoría</th>
-                <th>Caducidad</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Direccion</th>
+                <th>Telefono</th>
+                <th>Rol</th>
+                <th>F.Creacion</th>
             </tr>
         `;
         tabla.appendChild(thead);
@@ -31,13 +32,14 @@ fetch("http://localhost:8080/LicoreriaDonBotellas-1.0/InventarioController")
         data.forEach(producto => {
             const fila = document.createElement('tr');
             fila.innerHTML =
-                `<td>${producto.producto_id}</td>` +
+                `<td>${producto.userId}</td>` +
                 `<td>${producto.nombre}</td>` +
-                `<td>${producto.descripcion}</td>` +
-                `<td>${producto.precio}</td>` +
-                `<td>${producto.stock}</td>` +
-                `<td>${producto.categoria_id}</td>` +
-                `<td>${producto.fecha_caducidad || 'N/A'}</td>`; // Agregar fecha_caducidad si existe
+                `<td>${producto.email}</td>` +
+                `<td>${producto.password}</td>` +
+                `<td>${producto.direccion}</td>` +
+                `<td>${producto.telefono}</td>` +
+                `<td>${producto.rol}</td>` +
+                `<td>${producto.fecha_creacion || 'N/A'}</td>`; // Agregar fecha_caducidad si existe
             tbody.appendChild(fila); // Añadir la fila a tbody
         });
         tabla.appendChild(tbody); // Añadir el cuerpo a la tabla

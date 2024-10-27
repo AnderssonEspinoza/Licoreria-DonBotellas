@@ -11,19 +11,21 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import modelo.dao.ProductosDAO;
-import modelo.dto.Productos;
 import com.google.gson.Gson;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.servlet.annotation.WebServlet;
+import modelo.dao.UsuariosDAO;
+import modelo.dto.Usuarios;
 
 
 /**
  *
  * @author Zephyr
  */
-public class InventarioController extends HttpServlet {
+@WebServlet("/UsuarioController")
+public class UsuarioController extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -66,12 +68,12 @@ public class InventarioController extends HttpServlet {
         response.setHeader("Access-Control-Allow-Origin", "*"); // Permitir todos los orígenes
         response.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
         response.setHeader("Access-Control-Allow-Headers", "Content-Type");
-        ProductosDAO dao;
+        UsuariosDAO dao;
         try {
-            dao = new ProductosDAO();
-            List<Productos> listaProductos = dao.getList();
+            dao = new UsuariosDAO();
+            List<Usuarios> listaUsuarios = dao.getList();
             Gson gson = new Gson();
-            String json = gson.toJson(listaProductos);
+            String json = gson.toJson(listaUsuarios);
 
             // Establecer el tipo de contenido como JSON
             response.setContentType("application/json");
@@ -82,7 +84,7 @@ public class InventarioController extends HttpServlet {
             out.print(json);
             out.flush();
         } catch (SQLException ex) {
-        Logger.getLogger(InventarioController.class.getName()).log(Level.SEVERE, null, ex);
+        Logger.getLogger(UsuarioController.class.getName()).log(Level.SEVERE, null, ex);
         response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error en la base de datos");
         }
     }
