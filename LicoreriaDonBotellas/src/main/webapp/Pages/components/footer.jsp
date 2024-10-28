@@ -35,7 +35,7 @@
                                                         <h5 class="widget-title pb-2">Informacion</h5>
                                                         <ul class="menu-list list-unstyled">
                                                                 <li class="menu-item pb-2">
-                                                                        <a href="#">¿Por que? La Canasteri?a?</a>
+                                                                        <a href="#">¿Por que? Don Botella?</a>
                                                                 </li>
                                                                 <li class="menu-item pb-2">
                                                                         <a href="#">Ventas Corporativas</a>
@@ -61,7 +61,7 @@
                                                                         </a>
                                                                 </li>
                                                                 <li class="menu-item pb-2">
-                                                                        <a href="#">Te?rminos y condiciones</a>
+                                                                        <a href="#">Terminos y condiciones</a>
                                                                 </li>
                                                                 <li class="menu-item pb-2">
                                                                         <a href="#">Entregas y devoluciones</a>
@@ -73,7 +73,7 @@
                                                 <div class="footer-menu contact-item">
                                                         <h5 class="widget-title text-uppercase pb-2">Contactanos</h5>
                                                         <a href="">yourinfo@gmail.com</a>
-                                                        <p>¿Necesita ayuda? solo llamanos. <a href="">+55 111 222 333 44</a>
+                                                        <p>¿Necesita ayuda? solo llamanos. <a href="">+51 981165377</a>
                                                         </p>
                                                 </div>
                                         </div>
@@ -89,9 +89,8 @@
 		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
 		crossorigin="anonymous"></script>
 <script src="../../../javaScript.js"></script>
-<script src="../../../assets/js/ocultacionDeLogo.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script src="../../../assets/js/carrito.js"></script>
+<script src="../../../assets/js/ocultacionDeLogo.js"></script>
 <script src="../../../assets/js/agregarProducto.js"></script>
 <script src="../../../assets/js/pasarelaPago.js"></script>
 

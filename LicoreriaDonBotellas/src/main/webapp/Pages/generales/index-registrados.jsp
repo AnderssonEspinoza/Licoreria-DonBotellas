@@ -12,55 +12,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <style>
-    .carousel {
-      margin-top: 10px;
-    }
-    
-    .related-products {
-            margin-top: 40px;
-        }
-        .product-card {
-            margin: 10px;
-            text-align: center;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: white;
-            transition: box-shadow 0.3s;
-        }
-
-
-        .product-card img {
-            width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
-            height: 300px; /* Altura fija para todas las imÃ¡genes */
-            object-fit: cover; /* Recortar la imagen para llenar el contenedor sin deformar */
-        }
-
-        .product-card:hover {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        /* Estilos para botones de carrusel */
-        .carousel_prod_rel .carousel-control-prev,
-        .carousel_prod_rel .carousel-control-next {
-            width: 40px;
-            height: 40px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: rgb(0, 0, 0);
-            border-radius: 50%;
-            border: none;
-        }
-        
-        .carousel_prod_rel .carousel-control-prev-icon,
-        .carousel_prod_rel .carousel-control-next-icon {
-            background-color: transparent;
-        }
-
-        .carousel_prod_rel .carousel-control-prev-icon:focus,
-        .carousel_prod_rel .carousel-control-next-icon:focus {
-            outline: none;
-        }
-  </style>
+  
 </head>
 
 <body>
@@ -141,10 +93,10 @@
        <div class="col-lg-3 col-md-6 pb-3">
         <div class="icon-box d-flex align-items-start">
             <div class="me-3" > <!-- Ajuste manual con margin-top -->
-                <i class="bi bi-cart3" style="font-size: 2rem; color: black;"></i>
+                <i class="bi bi-bookmark-check" style="font-size: 2rem; color: black;"></i>
             </div>
             <div>
-                <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
+                <h5 class="mb-2" style="margin-top: 10px;">CALIDAD DE PRODUCTOS</h5>
                 <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
             </div>
         </div>
@@ -153,10 +105,10 @@
        <div class="col-lg-3 col-md-6 pb-3">
         <div class="icon-box d-flex align-items-start">
             <div class="me-3" > <!-- Ajuste manual con margin-top -->
-                <i class="bi bi-cart3" style="font-size: 2rem; color: black;"></i>
+                <i  class="bi bi-fire" style="font-size: 2rem; color: black;"></i>
             </div>
             <div>
-                <h5 class="mb-2" style="margin-top: 10px;">FREE DELIVERY</h5>
+                <h5 class="mb-2" style="margin-top: 10px;">OFERTAS EXCLUSIVAS</h5>
                 <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
             </div>
         </div>
@@ -165,8 +117,8 @@
     </div>
   </section>
   
-  <!--Seccion de carrusel Pages whiskies-->
-  <section id="mobile-products" class="product-store position-relative padding-large no-padding-top">
+<!--Seccion de carrusel Pages whiskies-->
+ <section id="mobile-products" class="product-store position-relative padding-large no-padding-top">
     <div class="container" style="padding-top: 20px">
         
       <div class="row">
@@ -174,14 +126,15 @@
         <div class="display-header d-flex justify-content-between pb-">
           <h2 class="display-7 text-dark text-uppercase">Wiskies</h2>
           <div class="btn-right">
-              <a href="../../Pages/registrados/bebidas_alcoholicas/whisky.jsp"
+              <a href="../../Pages/sin-registrados/bebidas_alcoholicas/whisky.jsp"
               class="btn btn-medium btn-normal text-uppercase">Ir a comprar</a>
           </div>
         </div>
           
-        <section class="container related-products" >
+        <section class="container related-products">
           <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            
+              <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row">
                     
@@ -305,12 +258,12 @@
                   </div>
                   
                   
-                  <!-- AÃ±ade mÃ¡s productos aquÃ­ -->
+                  <!-- Añade más productos aquí -->
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegaciÃ³n -->
+            <!-- Controles de navegación -->
             <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -330,50 +283,39 @@
       
     <div class="swiper-pagination position-absolute text-center"></div>
   </section>
+
+
  
-  <!--Secciton de carrusel Pages Cervezas-->
- <section id="mobile-products" class="product-store position-relative padding-large no-padding-top">
-    <div class="container" style="padding-top: 40px">
+<!--Seccion de carrusel Pages Cervezas-->
+   <section id="mobile-products" class="product-store position-relative padding-large no-padding-top">
+    <div class="container" style="padding-top: 20px">
         
       <div class="row">
           
         <div class="display-header d-flex justify-content-between pb-">
-          <h2 class="display-7 text-dark text-uppercase">Cervezas</h2>
+          <h2 class="display-7 text-dark text-uppercase">Wiskies</h2>
           <div class="btn-right">
-              <a href="../../Pages/registrados/cerveza/heineken.jsp"
+              <a href="../../Pages/sin-registrados/bebidas_alcoholicas/whisky.jsp"
               class="btn btn-medium btn-normal text-uppercase">Ir a comprar</a>
           </div>
         </div>
           
         <section class="container related-products">
-          <div id="relatedProductsCarousel" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
-            <div class="carousel-inner">
+          <div id="relatedProductsCarouselDos" class="carousel slide carousel_prod_rel" data-bs-ride="carousel">
+            
+              <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row">
                     
                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
                     <div class="product-card card">
                       <div class="image position-relative overflow-hidden clickeable">
-                          <img src="../../assets/img/cerveza/heineken_img/heineken-botella.png" alt="Essential Cropped Tees" class="img-fluid product-img"
+                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 style="font-size: 15px;font-weight: bold">Cerveza HEINEKEN 350ml</h3>
-                        <p class="card-text">S/ 6.00</p>
-
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
-                    <div class="product-card card">
-                      <div class="image position-relative overflow-hidden clickeable">
-                          <img src="../../assets/img/cerveza/heineken_img/heineken-botella.png" alt="Essential Cropped Tees" class="img-fluid product-img"
-                          data-id="4018">
-                      </div>
-                      <div class="product-info card-body">
-                        <h3 style="font-size: 15px;font-weight: bold">Cerveza HEINEKEN 350ml</h3>
-                        <p class="card-text">S/ 6.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
 
                       </div>
                     </div>
@@ -382,12 +324,12 @@
                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
                     <div class="product-card card">
                       <div class="image position-relative overflow-hidden clickeable">
-                          <img src="../../assets/img/cerveza/heineken_img/heineken-botella.png" alt="Essential Cropped Tees" class="img-fluid product-img"
+                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 style="font-size: 15px;font-weight: bold">Cerveza HEINEKEN 350ml</h3>
-                        <p class="card-text">S/ 6.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
 
                       </div>
                     </div>
@@ -396,32 +338,47 @@
                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
                     <div class="product-card card">
                       <div class="image position-relative overflow-hidden clickeable">
-                          <img src="../../assets/img/cerveza/heineken_img/heineken-botella.png" alt="Essential Cropped Tees" class="img-fluid product-img"
+                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 style="font-size: 15px;font-weight: bold">Cerveza HEINEKEN 350ml</h3>
-                        <p class="card-text">S/ 6.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
 
                       </div>
                     </div>
                   </div>
-                  
+                    
+                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
+                    <div class="product-card card">
+                      <div class="image position-relative overflow-hidden clickeable">
+                        <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
+                          data-id="4018">
+                      </div>
+                      <div class="product-info card-body">
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
+                      </div>
+                    </div>
+                  </div>
+                 
+                    
                 </div>
               </div>
                 
               <div class="carousel-item">
                 <div class="row">
                   
-                   <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
+                  <div class="col-12 col-sm-6 col-sm-4 col-lg-3">
                     <div class="product-card card">
                       <div class="image position-relative overflow-hidden clickeable">
                         <img src="../../assets/img/index/blueLabel.webp" alt="Essential Cropped Tees" class="img-fluid product-img"
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
 
                       </div>
                     </div>
@@ -434,10 +391,9 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
-                        
-                    
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
                       </div>
                     </div>
                   </div>
@@ -449,8 +405,9 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
                       </div>
                     </div>
                   </div>
@@ -462,25 +419,26 @@
                           data-id="4018">
                       </div>
                       <div class="product-info card-body">
-                        <h3 class="card-title">Santiago Queirolo Quebranta 750ml</h3>
-                        <p class="card-text">$35.00</p>
+                        <h3 style="font-size: 15px;font-weight: bold">Whisky JOHNNIE WALKER Blue Label Botella 750ml</h3>
+                        <p class="card-text">S/. 950.00</p>
+
                       </div>
                     </div>
                   </div>
                   
                   
-                  <!-- AÃ±ade mÃ¡s productos aquÃ­ -->
+                  <!-- Añade más productos aquí -->
                 </div>
               </div>
             </div>
 
-            <!-- Controles de navegaciÃ³n -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarousel"
+            <!-- Controles de navegación -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#relatedProductsCarouselDos"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#relatedProductsCarousel"
+            <button class="carousel-control-next" type="button" data-bs-target="#relatedProductsCarouselDos"
               data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Siguiente</span>
@@ -496,13 +454,13 @@
   </section>
   
   
-  <!--Section of notice-->
+<!--Seccion of notice-->
   <section id="latest-blog" class="padding-large">
     <div class="container" style="padding-top: 100px;padding-bottom: 80px">
       <div class="row">
           
         <div class="display-header d-flex justify-content-between pb-3">
-          <h2 class="display-7 text-dark text-uppercase">LO ÃLTIMO DE LOS LICORES DEL MUNDO</h2>
+          <h2 class="display-7 text-dark text-uppercase">LO ÚLTIMO DE LOS LICORES DEL MUNDO</h2>
           <div class="btn-right">
             <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Leer blog</a>
           </div>
@@ -572,7 +530,7 @@
         </div>
       </div>
     </div>
-  </section> 
+  </section>
 
  <jsp:include page="../components/footer.jsp"/>
 

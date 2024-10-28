@@ -243,7 +243,7 @@ footer .footer-menu img {
 footer .footer-menu .menu-list .menu-item a,
 footer .footer-menu .list-unstyled li a {
   color: rgb(255, 255, 255);
-  margin-left: 10px;
+  margin-left: 0px;
   text-decoration: none;
 }
 
