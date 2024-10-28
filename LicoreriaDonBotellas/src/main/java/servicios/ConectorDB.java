@@ -21,7 +21,7 @@ public class ConectorDB {
         String url = "jdbc:mysql://localhost:3306/licoreria_db?useTimeZone=true&"
                 + "serverTimezone=UTC&autoReconnect=true";
         String usuario = "root";
-        String clave = "kepler1321";
+        String clave = "root";
         
         
         //Especificando el driver JDBC que se utilizará para la conexión a Mysql
