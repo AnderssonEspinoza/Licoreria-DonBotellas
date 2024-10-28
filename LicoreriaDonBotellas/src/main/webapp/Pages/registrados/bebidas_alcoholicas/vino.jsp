@@ -80,7 +80,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -96,7 +96,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -112,7 +112,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -128,7 +128,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -144,7 +144,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -160,7 +160,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -176,7 +176,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -192,7 +192,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -208,7 +208,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -224,7 +224,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -240,7 +240,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -256,7 +256,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -272,7 +272,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -288,7 +288,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -304,7 +304,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -320,7 +320,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -336,7 +336,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>
@@ -352,7 +352,7 @@
 					<div class="card-inferior">
 						<button class="btn add-to-cart" data-producto-id="230"
 							data-producto-name="Casillero del Diablo 700ml" data-producto-price="42.00"
-							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Castillero del Diablo.jpeg">AÑADIR</button>
+							data-producto-image="../../../assets/img/bebidas_alcoholicas/vino_img/Casillero del Diablo.jpeg">AÑADIR</button>
 					</div>
 				</section>
 			</div>

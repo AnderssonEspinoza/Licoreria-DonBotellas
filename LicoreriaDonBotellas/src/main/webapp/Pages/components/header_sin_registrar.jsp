@@ -112,7 +112,7 @@
                                                                     href="../../../Pages/sin-registrados/cerveza/pilsen.jsp">Pilsen</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                                    href="../../../Pages/sin-registrados/cerveza/Cusqueña.jsp">Cusqueña</a>
+                                                                    href="../../../Pages/sin-registrados/cerveza/cusqueña.jsp">Cusqueña</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
                                                                     href="../../../Pages/sin-registrados/cerveza/cistral.jsp">Cristal</a>

@@ -111,7 +111,7 @@
                                                                     href="../../../Pages/registrados/cerveza/pilsen.jsp">Pilsen</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                           href="../../Pages/registrados/cerveza/cusqueña.jsp">Cusqueña</a>
+                                                           href="../../../Pages/registrados/cerveza/cusqueña.jsp">Cusqueña</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
                                                                     href="../../../Pages/registrados/cerveza/cistral.jsp">Cristal</a>
@@ -169,7 +169,7 @@
                                                     y Snacks</a>
                                             <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item"
-                                                           href="../../../Pages/sin-registrados/Piqueos_y_Snacks/papa.jsp">Papas</a>
+                                                           href="../../../Pages/registrados/Piqueos_y_Snacks/papa.jsp">Papas</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
                                                                     href="../../../Pages/registrados/Piqueos_y_Snacks/piqueos.jsp">Piqueos</a>

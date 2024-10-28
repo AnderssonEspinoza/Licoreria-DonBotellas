@@ -7,7 +7,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Bootstrap CSS v5.2.1 -->
     <!-- CSS -->
     <link rel="stylesheet" href="../../assets/style/sass/main.css">
     <!-- Bootstrap -->
@@ -22,33 +21,6 @@
     object-fit: cover;
     border-radius: 0.375rem;
 }
-
-.product-name {
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.product-details {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.product-quantity {
-    display: flex;
-    align-items: center;
-}
-
-.product-total {
-    text-align: right;
-}
-
-.remove-producto {
-    color: red;
-    cursor: pointer;
-}
-
     </style>
 </head>
 <body>
