@@ -79,26 +79,28 @@ public class ProcesarPago extends HttpServlet {
             // Inicializar Mercado Pago
             MercadoPagoConfig.initialize();
 
-            // Obtener datos del formulario
-            String cardNumber = request.getParameter("cardNumber");
-            String cardName = request.getParameter("cardName");
-            String expiryDate = request.getParameter("expiryDate");
-            String cvv = request.getParameter("cvv");
 
             // Crear una preferencia de pago
             Preference preference = new Preference();
 
+            // Configurar el artículo
             Item item = new Item();
             item.setTitle("Producto de prueba")
-                    .setQuantity(1)
-                    .setUnitPrice((float) 100.0);
+                 .setQuantity(1)
+                 .setUnitPrice((float) 100.0);
 
             preference.appendItem(item);
+
+            // Establecer la URL de notificación
+            preference.setNotificationUrl("https://3510-190-12-77-20.ngrok-free.app/NotificacionPago");
+
+            // Guardar la preferencia
             preference.save();
 
-            // Enviar respuesta al cliente
+            // Enviar la URL de checkout como respuesta
+            String checkoutUrl = preference.getInitPoint();
             response.setContentType("application/json");
-            response.getWriter().write("{\"preferenceId\": \"" + preference.getId() + "\"}");
+            response.getWriter().write("{\"preferenceId\": \"" + preference.getId() + "\", \"checkoutUrl\": \"" + checkoutUrl + "\"}");
         } catch (MPException e) {
             throw new ServletException(e);
         }

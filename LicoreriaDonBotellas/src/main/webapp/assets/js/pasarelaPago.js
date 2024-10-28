@@ -1,14 +1,12 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const orderItemsContainer = document.getElementById('order-items');
     const shippingElement = document.getElementById('shipping');
     const taxElement = document.getElementById('tax');
     const totalElement = document.getElementById('total');
-    const differentAddressRadio = document.getElementById('different-address');
-    const sameAddressRadio = document.getElementById('same-address');
-    const addressForm = document.getElementById('address-form');
-
     const IGVRate = 0.18;
     let shippingCost = 5.00; // Valor del envío
+
+
 
     function loadCartItems() {
         let cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -18,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         let subtotal = 0;
-        cart.forEach(function(product) {
+        cart.forEach(function (product) {
             const productQuantity = product.quantity || 1;
             const productTotal = product.price * productQuantity;
             subtotal += productTotal;
@@ -37,37 +35,74 @@ document.addEventListener('DOMContentLoaded', function() {
         taxElement.textContent = `S/${igv.toFixed(2)}`;
         totalElement.textContent = `S/${total.toFixed(2)}`;
     }
-  
 
-    
+
+
     loadCartItems();
 });
 
-    const mp = new MercadoPago('APP_USR-6bb9772e-5a32-4dda-8c71-e43e643b45e7', {
-        locale: 'es-PE'
-    });
 
-    document.getElementById("paymentForm").addEventListener("submit", function(event) {
-        event.preventDefault();
+// Inicializa Mercado Pago
+const mp = new MercadoPago('APP_USR-05522a11-974b-4190-9887-f2c50d6ac628', {
+    locale: 'es-PE'
+});
 
-        // Realiza la solicitud al servidor para obtener el preferenceId
-        fetch('<%= request.getContextPath() %>/ProcesarPago', {
-            method: 'POST',
+document.getElementById("checkout-btn").addEventListener("click", async() => {
+    try {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        if (cart.length === 0) {
+            alert("Tu carrito está vacío.");
+            return;
+        }
+        // Crear un arreglo orderData con los detalles de cada producto
+        const orderData = cart.map(product => ({
+                title: product.name,
+                quanty: product.quantity || 1,
+                price: product.price
+            }));
+        console.log(orderData);
+
+        const response = await fetch("http://localhost:8081/PaymentController", {
+            method: "POST",
             headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'
+                "Content-type": "application/json",
             },
-            body: new URLSearchParams(new FormData(this))
-        })
-        .then(response => response.json())
-        .then(data => {
-            // Inicializar el checkout con el preferenceId recibido
-            mp.checkout({
-                preference: {
-                    id: data.preferenceId // Preference ID generado por tu servlet
-                },
-                autoOpen: true // Abre automáticamente el checkout
-            });
-        })
-        .catch(error => console.error('Error:', error));
-    });
+            body: JSON.stringify(orderData),
+        });
 
+        const preference = await response.json();
+        //window.location.href = preference.init_point;
+        createCheckoutButton(preference.id);
+
+    } catch (e) {
+        alert("error:(");
+
+    }
+});
+
+const createCheckoutButton = (preferenceId) => {
+    const bricksBuilder = mp.bricks();
+    const walletContainer = document.getElementById("wallet_container");
+
+    const renderComponent = async () => {
+        
+        //Limpiar el contenedor antes de crear un nuevo boton
+        walletContainer.innerHTML="";
+        if(window.checkoutButton) {
+            window.checkoutButton.unmount();
+        }
+        
+        window.checkoutButton= await bricksBuilder.create("wallet", "wallet_container", {
+            initialization: {
+                preferenceId: preferenceId,
+            },
+            customization: {
+                texts: {
+                    valueProp: 'smart_option',
+                },
+            },
+        });
+    }
+    
+    renderComponent();
+}

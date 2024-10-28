@@ -1,0 +1,42 @@
+@import'_variable.scss';
+footer {
+    padding: 20px 0;
+    margin-top: 50px;
+    padding-top: 25px;
+    .footer-menu {
+      align-items: center;
+      color: $color-white;
+      text-decoration: none;
+      a:hover {
+        color: #be9c2d;
+      }
+      a {
+        color: #fbc02d;
+        text-decoration: none;
+      }
+      .social-links{
+        i {
+          font-size: 24px;
+          color: #fbc02d;
+          margin-right: 10px;
+          transition: color 0.3s ease;
+        }
+        i:hover {
+          color: #ffd54f;
+        }
+      }
+      h5{
+        color: #fbc02d;
+        font-size: 18px;
+      }
+      img {
+        width: 80px;
+      }
+      .menu-list .menu-item a,
+      .list-unstyled li a {
+        color: $color-white;
+        margin-left: 10px;
+        text-decoration: none;
+      }
+    }
+  }

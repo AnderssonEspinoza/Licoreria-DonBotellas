@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const totalElement = document.getElementById('total');
     const IGVRate = 0.18; // 18% IGV
 
+
     // Función para cargar los productos del carrito desde localStorage
     function loadCartItems() {
         let cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -61,6 +62,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
             cartItemsContainer.appendChild(productRow);
         });
+        
+        
 
         // Calcular el IGV y el total
         const igv = subtotal * IGVRate;

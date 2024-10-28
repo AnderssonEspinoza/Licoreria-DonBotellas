@@ -5,16 +5,65 @@
         <servlet-class>controlador.LoginController</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>ControladorRegistro</servlet-name>
+        <servlet-class>controlador.ControladorRegistro</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>ProcesarPago</servlet-name>
         <servlet-class>controlador.ProcesarPago</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NotificacionPago</servlet-name>
+        <servlet-class>controlador.NotificacionPago</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PaymentController</servlet-name>
+        <servlet-class>controlador.PaymentController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SuccessController</servlet-name>
+        <servlet-class>controlador.SuccessController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FailureController</servlet-name>
+        <servlet-class>controlador.FailureController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PendingController</servlet-name>
+        <servlet-class>controlador.PendingController</servlet-class>
+    </servlet>
+    
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>
         <url-pattern>/LoginController</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+        <servlet-name>ControladorRegistro</servlet-name>
+        <url-pattern>/ControladorRegistro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
         <servlet-name>ProcesarPago</servlet-name>
         <url-pattern>/ProcesarPago</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NotificacionPago</servlet-name>
+        <url-pattern>/NotificacionPago</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PaymentController</servlet-name>
+        <url-pattern>/PaymentController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SuccessController</servlet-name>
+        <url-pattern>/SuccessController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FailureController</servlet-name>
+        <url-pattern>/FailureController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PendingController</servlet-name>
+        <url-pattern>/PendingController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

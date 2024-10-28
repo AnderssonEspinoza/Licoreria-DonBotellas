@@ -11,13 +11,17 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
               integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        // SDK MercadoPago.js
+        <script src="https://sdk.mercadopago.com/js/v2"></script>
 
     </head>
     <body>
         <jsp:include page="../components/header_registrado.jsp"/>
         <div class="container">
+            <!--
             <div class="payment-form">
                 <h2>Método de Pago</h2>
+                    
                 <form id="paymentForm" action="${pageContext.request.contextPath}/ProcesarPago" method="post">
                     <div class="mb-3">
                         <label for="cardNumber" class="form-label">Número de Tarjeta</label>
@@ -35,12 +39,13 @@
                         <label for="cvv" class="form-label">CVV</label>
                         <input type="password" class="form-control" id="cvv" name="cvv" required>
                     </div>
-                    <button type="submit" class="btn btn-primary">Pagar</button>
+                    
                 </form>
+                    
 
                 <a href="#" class="back-link">Retroceder</a>
             </div>
-
+-->
             <div class="order-summary">
                 <h2>Resumen</h2>
                 <div id="order-items">
@@ -50,6 +55,8 @@
                 <div class="summary-item"><label>IGV:</label><span id="tax">$0.00</span></div>
 
                 <div class="total-summary"><label>Total:</label><span id="total">$0.00</span></div>
+                <button type="submit" class="btn btn-primary" id="checkout-btn">Comprar</button>
+                 <div id="wallet_container"></div>
             </div>
         </div>
         <jsp:include page="../components/footer.jsp"/>
@@ -58,4 +65,3 @@
         
     </body>
 </html>
-

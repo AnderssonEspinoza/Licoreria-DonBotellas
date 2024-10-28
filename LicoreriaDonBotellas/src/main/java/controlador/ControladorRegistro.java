@@ -107,10 +107,9 @@ public class ControladorRegistro extends HttpServlet {
                 } else {
                     // Guardar el usuario en la base de datos
                     dao.registrarUsuario(usuario); // Método que guarda el usuario en la base de datos
-                    HttpSession session = request.getSession();
-                    session.setAttribute("nombreUsuario", usuario.getNombre());
-                    
-                    response.sendRedirect(request.getContextPath()+"/index-registrados.jsp");
+                    //HttpSession session = request.getSession();
+                    //session.setAttribute("nombreUsuario", usuario.getNombre());                   
+                    response.sendRedirect(request.getContextPath()+"/Pages/generales/index-registrados.jsp");
                 }
 
             } catch (NumberFormatException ex) {
