@@ -1,21 +1,27 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package controlador;
 
+import com.google.gson.Gson;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import modelo.dao.ProductosDAO;
+import modelo.dto.Productos;
 
 /**
  *
  * @author esola
  */
-public class FailureController extends HttpServlet {
+public class BuscarProducto extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -28,17 +34,16 @@ public class FailureController extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet FailureController</title>");            
+            out.println("<title>Servlet BuscarProducto</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet FailureController at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet BuscarProducto at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -56,8 +61,45 @@ public class FailureController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-         response.setContentType("text/html");
-        response.getWriter().write("<h1>Transaction Fallida!</h1>");
+        
+        
+  /*
+            // Configura la respuesta para que sea JSON
+            response.setContentType("application/json");
+            response.setCharacterEncoding("UTF-8");
+
+            // Respuesta estática
+            response.getWriter().write("[{\"producto_id\":1,\"nombre\":\"Producto1\",\"precio\":100}]");
+
+*/
+        
+        
+        
+        System.out.println("Llamada a doGet en BuscarProducto"); // Para depuración
+
+        try {
+            String termino = request.getParameter("termino");
+
+            // Asegúrate de que termino no sea nulo
+            if (termino == null || termino.isEmpty()) {
+                response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                return;
+            }
+
+            // Obtener productos coincidentes desde la base de datos
+            ProductosDAO productoDAO = new ProductosDAO();
+            List<Productos> productos = productoDAO.buscarProductos(termino);
+
+            // Convertir a JSON y enviar respuesta
+            response.setContentType("application/json");
+            response.setCharacterEncoding("UTF-8");
+            response.getWriter().write(new Gson().toJson(productos));
+        } catch (SQLException ex) {
+            Logger.getLogger(BuscarProducto.class.getName()).log(Level.SEVERE, null, ex);
+            response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR); // Manejar error
+        }
+        
+
     }
 
     /**

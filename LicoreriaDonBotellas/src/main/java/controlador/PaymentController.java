@@ -122,9 +122,9 @@ public class PaymentController extends HttpServlet {
 
             // Configurar URLs de retorno
             preference.setBackUrls(new BackUrls()
-                    .setSuccess("http://localhost:8081/success")
-                    .setFailure("http://localhost:8081/failure")
-                    .setPending("http://localhost:8081/pending")
+                    .setSuccess("http://localhost:8081/SuccessController")
+                    .setFailure("http://localhost:8081/FailureController")
+                    .setPending("http://localhost:8081/PendingController")
             );
 
             // Guardar la preferencia en Mercado Pago

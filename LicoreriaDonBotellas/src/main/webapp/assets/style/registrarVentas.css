@@ -1,0 +1,90 @@
+/* Contenedor Principal */
+.main-container {
+    display: flex;
+    flex-wrap: wrap; /* Esto permitirá que se ajuste en pantallas pequeñas */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+
+/* Estilos básicos para el formulario */
+.body__registroVentas{
+    margin-top: 220px;
+}
+.form-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.form-container h2 {
+    text-align: center;
+}
+.form-field {
+    margin-bottom: 15px;
+}
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-field input, .form-field select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #218838;
+}
+
+/* Contenedor y Estilos para la Tabla */
+.table-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#tablaProductos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tablaProductos th, #tablaProductos td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#tablaProductos th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#tablaProductos .btn-editar {
+    color: #007bff;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#tablaProductos .btn-eliminar {
+    color: #dc3545;
+    cursor: pointer;
+    background: none;
+    border: none;
+}

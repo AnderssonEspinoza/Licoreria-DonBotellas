@@ -8,8 +8,7 @@ import java.util.logging.Logger;
 
 public class ConectorDB {
     public Connection getConexion() throws SQLException{
-        Connection cnx =null;
-        
+        Connection cnx =null;        
         //useTimeZone=true:
         // Este parámetro indica que se debe utilizar la zona horaria del servidor de la base de datos.
         
@@ -21,9 +20,8 @@ public class ConectorDB {
         String url = "jdbc:mysql://localhost:3306/licoreria_db?useTimeZone=true&"
                 + "serverTimezone=UTC&autoReconnect=true";
         String usuario = "root";
-        String clave = "root";
-        
-        
+        String clave = "kepler1321";
+                
         //Especificando el driver JDBC que se utilizará para la conexión a Mysql
         String Driver = "com.mysql.cj.jdbc.Driver";
         
@@ -35,8 +33,7 @@ public class ConectorDB {
         } catch (SQLException ex) {
             Logger.getLogger(ConectorDB.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return cnx;
-        
+        return cnx;        
     }
     
     

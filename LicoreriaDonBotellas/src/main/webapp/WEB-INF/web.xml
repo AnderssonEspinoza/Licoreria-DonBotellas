@@ -32,7 +32,22 @@
         <servlet-name>PendingController</servlet-name>
         <servlet-class>controlador.PendingController</servlet-class>
     </servlet>
-    
+    <servlet>
+        <servlet-name>BuscarProducto</servlet-name>
+        <servlet-class>controlador.BuscarProducto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InventariadoController</servlet-name>
+        <servlet-class>controlador.InventariadoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VentasPrecencialesController</servlet-name>
+        <servlet-class>controlador.VentasPrecencialesController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BoletasController</servlet-name>
+        <servlet-class>controlador.BoletasController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>
         <url-pattern>/LoginController</url-pattern>
@@ -64,6 +79,22 @@
     <servlet-mapping>
         <servlet-name>PendingController</servlet-name>
         <url-pattern>/PendingController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuscarProducto</servlet-name>
+        <url-pattern>/BuscarProducto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InventariadoController</servlet-name>
+        <url-pattern>/InventariadoController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VentasPrecencialesController</servlet-name>
+        <url-pattern>/VentasPrecencialesController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BoletasController</servlet-name>
+        <url-pattern>/BoletasController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
