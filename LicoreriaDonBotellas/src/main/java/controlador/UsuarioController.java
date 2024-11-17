@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package controlador;
 
 import java.io.IOException;
@@ -18,56 +14,18 @@ import java.util.logging.Logger;
 import javax.servlet.annotation.WebServlet;
 import modelo.dao.UsuariosDAO;
 import modelo.dto.Usuarios;
+import org.mindrot.jbcrypt.BCrypt;
 
-
-/**
- *
- * @author Zephyr
- */
 @WebServlet("/UsuarioController")
 public class UsuarioController extends HttpServlet {
 
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet InventarioController</title>");
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet InventarioController at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
-        }
-    }
-
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
-    /**
-     * Handles the HTTP <code>GET</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setHeader("Access-Control-Allow-Origin", "*"); // Permitir todos los orígenes
         response.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
         response.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
         UsuariosDAO dao;
         try {
             dao = new UsuariosDAO();
@@ -77,15 +35,64 @@ public class UsuarioController extends HttpServlet {
 
             // Establecer el tipo de contenido como JSON
             response.setContentType("application/json");
-            response.setCharacterEncoding("UTF-8"); // Asegúrate de que se use UTF-8
+            response.setCharacterEncoding("UTF-8");
 
             // Escribir el JSON en la respuesta
             PrintWriter out = response.getWriter();
             out.print(json);
             out.flush();
         } catch (SQLException ex) {
-        Logger.getLogger(UsuarioController.class.getName()).log(Level.SEVERE, null, ex);
-        response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error en la base de datos");
+            Logger.getLogger(UsuarioController.class.getName()).log(Level.SEVERE, null, ex);
+            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error en la base de datos");
+        }
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.setHeader("Access-Control-Allow-Origin", "*");
+        response.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
+        response.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+        UsuariosDAO dao;
+        try {
+            dao = new UsuariosDAO();
+
+            // Obtener datos del usuario desde la solicitud
+            String nombreUsuario = request.getParameter("NombreUsuario");
+            String contrasena = request.getParameter("Contrasena");
+            String nombre = request.getParameter("Nombre");
+            String apellido = request.getParameter("Apellido");
+            String rol = request.getParameter("Rol"); // Por ejemplo: Administrador o Usuario
+
+            // Encriptar la contraseña con bcrypt
+            String hashedPassword = BCrypt.hashpw(contrasena, BCrypt.gensalt());
+
+            // Crear el objeto Usuario
+            Usuarios nuevoUsuario = new Usuarios();
+            nuevoUsuario.setNombreUsuario(nombreUsuario);
+            nuevoUsuario.setPassword(hashedPassword); // Guardar la contraseña encriptada
+            nuevoUsuario.setNombre(nombre);
+            nuevoUsuario.setApellido(apellido);
+            nuevoUsuario.setRol(rol);
+
+            // Guardar el usuario en la base de datos
+            boolean exito = dao.insertUsuario(nuevoUsuario);
+
+            // Respuesta según el resultado
+            response.setContentType("application/json");
+            PrintWriter out = response.getWriter();
+            if (exito) {
+                out.print("{\"success\": true, \"message\": \"Usuario registrado con éxito.\"}");
+            } else {
+                response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                out.print("{\"success\": false, \"message\": \"Error al registrar el usuario.\"}");
+            }
+            out.flush();
+
+        } catch (SQLException ex) {
+            Logger.getLogger(UsuarioController.class.getName()).log(Level.SEVERE, null, ex);
+            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error en la base de datos");
         }
     }
 }

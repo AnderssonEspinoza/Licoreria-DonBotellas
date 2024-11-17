@@ -2,8 +2,8 @@ package controlador;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.mindrot.jbcrypt.BCrypt; // Importa la librería bcrypt
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.SQLException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -12,12 +12,11 @@ import javax.servlet.http.HttpServletResponse;
 import modelo.dao.UsuariosDAO;
 import modelo.dto.Usuarios;
 
-
 public class LoginController extends HttpServlet {
 
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
     private UsuariosDAO usuariosDAO;
-    
+
     @Override
     public void init() {
         try {
@@ -30,29 +29,31 @@ public class LoginController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+
         String username = request.getParameter("NombreUsuario");
         String password = request.getParameter("Contrasena");
 
+        // Obtener el usuario de la base de datos
         Usuarios usuario = usuariosDAO.getUsuarioByUsername(username);
 
-        if (usuario != null && usuario.getPassword().equals(password) && "Administrador".equals(usuario.getRol())) {
+        // Verificar las credenciales
+        if (usuario != null && BCrypt.checkpw(password, usuario.getPassword()) && "Administrador".equals(usuario.getRol())) {
+            logger.info("Inicio de sesión exitoso para el usuario: {}", username);
             response.getWriter().write("{\"success\": true}");
-            response.sendRedirect(request.getContextPath()+"/index-registrados.jsp");
+            response.sendRedirect(request.getContextPath() + "/index-registrados.jsp");
         } else {
+            logger.warn("Inicio de sesión fallido para el usuario: {}", username);
             response.getWriter().write("{\"success\": false}");
         }
-        
     }
 
     /**
-     * Returns a short description of the servlet.
+     * Retorna una breve descripción del servlet.
      *
-     * @return a String containing servlet description
+     * @return una cadena que contiene la descripción del servlet
      */
     @Override
     public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
-
+        return "Controlador de login que utiliza bcrypt para la autenticación.";
+    }
 }
